@@ -7,5 +7,7 @@ syntax: glob
 *.pdf
 *.snm
 *.toc
+*.bbl
+*.blg
 # test code
 __test*
