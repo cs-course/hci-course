@@ -1,0 +1,11 @@
+syntax: glob
+# LaTeX intermediate files
+*.aux
+*.log
+*.nav
+*.out
+*.pdf
+*.snm
+*.toc
+# test code
+__test*

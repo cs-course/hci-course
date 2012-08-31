@@ -1,0 +1,108 @@
+\documentclass{beamer}
+\usepackage{fontspec,xunicode,xltxtra,beamerthemesplit}
+\usetheme{Luebeck}
+\setsansfont[Mapping=tex-text, BoldFont={微软雅黑 Bold}]{微软雅黑}
+
+% 中文环境自动换行
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+
+% 中文环境修正导航栏
+\makeatletter
+\def\beamer@linkspace#1{%
+  \begin{pgfpicture}{0pt}{-1.5pt}{#1}{5.5pt}
+    \pgfsetfillopacity{0}
+    \pgftext[x=0pt,y=-1.5pt]{.}
+    \pgftext[x=#1,y=5.5pt]{.}
+  \end{pgfpicture}}
+\makeatother
+
+\title{人机交互技术}
+\author{施展}
+\institute{华中科技大学~武汉光电国家实验室}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}
+	\frametitle{主要参考书}
+	\begin{itemize}[<+-|alert@+>]
+		\item 孟祥旭，李学庆，杨承磊等：《人机交互基础教程（第2版）》清华大学出版社，2010
+		\item （美）施奈德曼，（美）普莱萨特,《用户界面设计—有效的人机交互策略（第五版）（英文版）》,2010
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{教学目标}
+	\begin{itemize}[<+-|alert@+>]
+		\item 了解人机交互的含义，人机交互的研究内容及发展趋势；
+		\item 了解人机交互的一些新技术，如语音、手写识别、眼动跟踪等技术；
+		\item 掌握人机交互的表示模型，并能够进行形式化的描述；
+		\item 掌握人机交互界面构造的一般性方法，能够独自设计一个人机交互界面程序；
+		\item 了解并掌握认知心理学、人机工程学在人机界面的作用，并在此基础上能够进行人机交互界面给出评价；
+		\item 了解Web界面和移动界面设计的流行趋势，掌握Web界面和移动界面设计时需注意的特殊问题。
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{教学内容}
+	\begin{itemize}[<+-|alert@+>]
+		\item 人机交互概念
+		\item 感知和认知基础
+		\item 交互设备
+		\item 交互技术
+		\item 界面设计 
+		\item 人机交互的界面表示模型与实现
+		\item Web界面设计
+		\item 移动界面设计
+		\item 可用性分析与评估
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{摘要}
+	\tableofcontents
+\end{frame}
+  
+\section{What do we have}
+ 
+\begin{frame}
+	\frametitle{what do we have}
+	\begin{itemize}[<+-|alert@+>]
+		\item have 1
+		\item have 2
+		\item have 4
+		\item .......
+	\end{itemize}
+\end{frame}
+ 
+\section{what do we need}
+\subsection{need}
+\begin{frame}
+	\frametitle{what do we need}
+	sth...
+	\begin{itemize}[<+-|alert@+>]
+		\item 1
+		\item 2
+	\end{itemize} 
+	\hfill \\
+	else ?...
+\end{frame}
+ 
+\subsection{pic}
+\begin{frame}
+	\frametitle{pic}
+	\centerline{\includegraphics[height=6cm]{xx.jpg}}\label{phb}
+\end{frame}
+ 
+\section{else}
+\begin{frame}
+    \frametitle{else}
+	\begin{center}\Huge{?}\end{center}
+\end{frame}
+
+\end{document}
