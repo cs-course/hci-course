@@ -1,7 +1,15 @@
+% 课程：人机交互技术及应用
+% 班级：传播学1001班
+% 课时：40学时，2012年秋季1～10周，每周一、三
+% 地点：东九楼D212
+% 主页：http://code.google.com/p/hci-course/
+% 教师：施展 
+% 单位：华中科技大学 武汉光电国家实验室
 \documentclass{beamer}
 \usepackage{fontspec,xunicode,xltxtra,beamerthemesplit}
-\usetheme{Luebeck}
-\setsansfont[Mapping=tex-text, BoldFont={微软雅黑 Bold}]{微软雅黑}
+%\usetheme{Hannover} % White background
+\usetheme{Berkeley} % Blue background
+\setsansfont[Mapping=tex-text, ItalicFont={Courier Italic}]{Microsoft YaHei}
 
 % 中文环境自动换行
 \XeTeXlinebreaklocale "zh"
@@ -21,6 +29,7 @@
 \author{施展}
 \institute{华中科技大学~武汉光电国家实验室}
 \date{\today}
+\titlegraphic{\includegraphics[width=3cm]{images/wnlo.jpg}}
 
 \begin{document}
 
@@ -31,14 +40,21 @@
 \begin{frame}
 	\tableofcontents
 \end{frame}
-  
+
 \section{课程介绍}
 \subsection{教材及参考书}
 \begin{frame}
 	\frametitle{教材及参考书}
-	\begin{itemize}[<+-|alert@+>]
-		\item 孟祥旭，李学庆，杨承磊等：《人机交互基础教程（第2版）》清华大学出版社，2010
-		\item （美）施奈德曼，（美）普莱萨特,《用户界面设计—有效的人机交互策略（第五版）（英文版）》,2010
+    \transdissolve
+	\begin{columns}
+		\column{5cm}
+			\centerline{\includegraphics[width=2.7cm]<1->{images/textbook.jpg}}\label{textbook}
+		\column{5cm}
+			\centerline{\includegraphics[width=2.7cm]<2->{images/referencebook.jpg}}\label{referencebook}
+	\end{columns}
+	\begin{itemize}
+		\item<1->[教材] \tiny 孟祥旭，李学庆，杨承磊等：《人机交互基础教程（第2版）》清华大学出版社，2010
+		\item<2->[参考] \tiny [美]施奈德曼，[美]普莱萨特,《用户界面设计—有效的人机交互策略（第五版）》,2010
 	\end{itemize}
 \end{frame}
 
@@ -71,10 +87,26 @@
 	\end{itemize}
 \end{frame}
 
+\subsection{联系我}
+\begin{frame}
+	\frametitle{联系我}
+	\begin{columns}
+		\column{5cm}
+			\centerline{\includegraphics[scale=0.3]{images/maps.google.com_2012-9-2_11_6_22.png}}\label{WNLO_location_map}
+		\column{5cm}
+			\centerline{\includegraphics[scale=0.3]{images/maps.google.com_2012-9-2_11_7_11.png}}\label{WNLO_location_sat}
+	\end{columns}
+	\begin{itemize}
+		\item \small{工作地点：武汉光电国家实验室 F座309}
+		\item \small{电话：13971459597}
+		\item \small{课程网站：\textit{http://code.google.com/p/hci-course/}}
+	\end{itemize}
+\end{frame}
+
 \section{第一章}
  
 \begin{frame}
-	\frametitle{what do we have}
+	\frametitle{第一章}
 	\begin{itemize}[<+-|alert@+>]
 		\item have 1
 		\item have 2
@@ -85,7 +117,7 @@
  
 \section{本章小节}
 \begin{frame}
-	\frametitle{what do we need}
+	\frametitle{本章小节}
 	sth...
 	\begin{itemize}[<+-|alert@+>]
 		\item 1
