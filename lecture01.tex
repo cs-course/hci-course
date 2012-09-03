@@ -235,14 +235,12 @@
 		\begin{itemize}
 			\item {\large 人}\\~~{\tiny 计算机程序最终用户}
 			\item {\large 计算机}\\~~{\tiny 程序的载体}
-			\item {\large 交互}
-			\begin{itemize}
-				\item {\tiny 人告诉计算机应该做什么}
-				\item {\tiny 计算机反馈任务结果}
-			\end{itemize}
+			\item {\large 交互}\\
+				~~{\tiny 人告诉计算机应该做什么}\\
+				~~{\tiny 计算机反馈任务结果}
 		\end{itemize}
 		\column{5cm}
-		\begin{tikzpicture}[node distance=1cm, auto,]
+		\begin{tikzpicture}[node distance=0.5cm, auto,]
 			\node[] (dummy) {};
 			\node[punkt, above=of dummy]	(human)	{Human};
 			\node[punkt, below=of dummy]	(computer)	{Computer};
@@ -304,6 +302,7 @@
 			\end{itemize}
 		\end{beamerboxesrounded}
 	}
+	~\\
 	\onslide<2->{
 		\begin{beamerboxesrounded}[upper=uppercol,lower=lowercol,shadow=true]{因而}
 			在如此大的规模之下，人群没有那么容易去适应系统，系统设计应该贴近人们的需求来进行。
@@ -337,34 +336,108 @@
 \subsection{主要研究内容}
 \begin{frame}
 	\frametitle{主要研究内容}
+	人机交互的研究内容十分广泛，涵盖了建模、设计、评估等理论和方法以及在Web、移动计算、虚拟和增强现实等方面的交互设计技术。
+	\begin{center}
+		\includegraphics[width=6cm]{images/hci_research.jpg}
+	\end{center}
+	{\tiny Klaus Mueller教授在 IEEE Computer Graphics and Applications~\cite{DBLP:journals/cga/MuellerGNBM11} 上总结了一个可视化分析系统的人机交互过程，适用于大部分人机交互设计。}
+\end{frame}
 
+\begin{frame}
+	\frametitle{主要研究内容}
+	\begin{itemize}
+		\item 人机交互界面表示模型与设计方法 (Model and Methodology)
+		\begin{itemize}
+			\item 一个交互界面的好坏，直接影响到软件开发的成败。友好人机交互界面的开发离不开好的交互模型与设计方法。
+			\item 因此，研究人机交互界面的表示模型与设计方法，是人机交互的重要研究内容之一。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{主要研究内容}
+	\begin{itemize}
+		\item 可用性分析与评估 (Usability and Evaluation)
+		\begin{itemize}
+			\item 可用性是人机交互系统的重要内容，它关系到人机交互能否达到用户期待的目标，以及实现这一目标的效率与便捷性。
+			\item 人机交互系统的可用性分析与评估的研究主要涉及到支持可用性的设计原则和可用性的评估方法等。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{主要研究内容}
+	\begin{itemize}
+		\item 多通道交互技术 (Multi-Modal)
+		\begin{itemize}
+			\item 在多通道交互中，用户可以使用语音、手势、眼神、表情等自然的交互方式与计算机系统进行通信。
+			\item 多通道交互主要研究多通道交互界面的表示模型、多通道交互界面的评估方法以及多通道信息的融合等。
+			\item 其中，多通道信息整合是多通道用户界面研究的重点和难点。
+		\end{itemize}
+	\end{itemize}
+	\begin{center}
+		\includegraphics[width=3cm]{images/multimodal1.jpg}
+		\includegraphics[width=3cm]{images/multimodal2.jpg}
+		\includegraphics[width=3cm]{images/multimodal3.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{主要研究内容}
+	\begin{itemize}
+		\item 认知与智能用户界面 (Intelligent User Interface, IUI)
+		\begin{itemize}
+			\item 智能用户界面的最终目标是使人机交互和人－人交互一样自然、方便。
+			\item 上下文感知、眼动跟踪、手势识别、三维输入、语音识别、表情识别、手写识别、自然语言理解等都是认知与智能用户界面需要解决的重要问题。
+		\end{itemize}
+	\end{itemize}
+	\begin{center}
+		\includegraphics[width=5cm]{images/surface1.jpg}
+		\includegraphics[width=5cm]{images/surface2.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{主要研究内容}
+	\begin{itemize}
+		\item 虚拟和增强环境中的交互方法 (Virtual/Augmented Reality, VR/AR)
+		\begin{itemize}
+			\item “以人为本”的、自然和谐的人机交互理论和方法是虚拟现实的主要研究内容之一。
+			\item 通过研究视觉、听觉、触觉等多通道信息融合的理论和方法、协同交互技术以及三维交互技术等，建立具有高度真实感的虚拟环境，使人产生“身临其境”的感觉。
+		\end{itemize}
+	\end{itemize}
+	\begin{center}
+		\includegraphics[width=4cm]{images/augmented-reality-hud.jpg}
+		\includegraphics[width=4cm]{images/marco_tempest_augmented_reality_magic-480x327.jpg}
+		\includegraphics[width=2cm]{images/MediatedReality_on_iPhone2009_07_13_21_33_39.jpg}
+	\end{center}
+\end{frame}
+\begin{frame}
+	\frametitle{主要研究内容}
+	\begin{itemize}
+		\item 2006年4月，美国长期研究网站可用性的著名网站设计师杰柯柏·尼尔森（Jakob Nielsen）发表了一项《眼球轨迹的研究》报告（原文：F-Shaped Pattern For Reading Web Content）。 
+		\item 报告中提出，大多数情况下浏览者都不由自主的以“Ｆ”形状的模式阅读网页，这种基本恒定的阅读习惯决定了网页呈现F形的关注热度。 
+	\end{itemize}
+	\begin{center}
+		\includegraphics[width=4cm]{images/F-Shaped1.png}
+		\includegraphics[width=6cm]{images/F-Shaped2.jpg}
+	\end{center}
 \end{frame}
 
 \subsection{发展史}
 \begin{frame}
 	\frametitle{发展史}
-
-\end{frame}
-
-\begin{frame}
-	\frametitle{鼠标的故事}
-
-\end{frame}
-
-\begin{frame}
-	\frametitle{语音的故事}
-
-\end{frame}
-
-\begin{frame}
-	\frametitle{体感的故事}
-
+	\begin{itemize}
+		\item 鼠标
+		\item 语音
+		\item 体感
+	\end{itemize}
 \end{frame}
 
 \subsection{应用}
 \begin{frame}
 	\frametitle{应用}
-
+	\dots
 \end{frame}
 
 \section{小节}
@@ -378,5 +451,8 @@
 		\item 探讨课程价值~{\tiny 拓展兴趣方向，对今后的学习、研究、工作带来不一样的想法}
 	\end{itemize}
 \end{frame}
+
+\bibliographystyle{plain}
+\bibliography{hci}
 
 \end{document}
