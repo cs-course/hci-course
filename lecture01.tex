@@ -55,6 +55,9 @@
 		-latex'}
 }
 
+% placing images
+\def\Put(#1,#2)#3{\leavevmode\makebox(0,0){\put(#1,#2){#3}}}
+
 \title{人机交互技术}
 \author{施展}
 \institute{华中科技大学~武汉光电国家实验室}
@@ -471,17 +474,112 @@
 	\begin{center}
 		\only<1>{\includegraphics[width=4cm]{images/4506VV4004.jpg}~~\includegraphics[width=6cm]{images/ibm701.jpg}}
 		\only<2>{\includegraphics[width=6cm]{images/lisa-office.png}~~\includegraphics[width=4cm]{images/win31-1-1.png}}
-		\only<3>{}
-		\only<4>{}
-		\only<5>{}
+		\only<3>{\includegraphics[width=5cm]{images/macosx102.png}~~\includegraphics[width=5cm]{images/Windows-8.png}}
+		\only<4>{\includegraphics[width=3cm]{images/Xbox360S_Kinect.jpg}~~\includegraphics[width=5cm]{images/KinectLaunch_hero.jpg}}
+		\only<5>{\includegraphics[width=3cm]{images/siri.png}~~\includegraphics[width=6cm]{images/siri-analyse.png}}
 	\end{center}
 \end{frame}
 
+\begin{frame}
+	\frametitle{发展史}
+	\transwipe
+	\begin{center}
+		\includegraphics[width=10cm]{images/Sergey-Brin-with-Google-Glasses.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{发展史}
+	\transwipe
+	\begin{center}
+		\includegraphics[width=10cm]{images/iron-man-mark-vii-hud-design.png}
+	\end{center}
+\end{frame}
 
 \subsection{应用}
 \begin{frame}
-	\frametitle{应用}
-	\dots
+	\frametitle{应用~{\small 制造业}}
+	\begin{center}
+		\includegraphics[width=4cm]{images/boeing-design.jpg}~~
+		\includegraphics[width=4cm]{images/tribon-web.jpg}\\
+		\includegraphics[width=4cm]{images/cam-airplane.jpg}~~
+		\includegraphics[width=4cm]{images/ship-building.jpg}\\
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{应用~{\small 医疗}}
+	\transwipe
+	\Put(1,1){
+		\includegraphics[width=8cm]{images/imagerie_medical_scan.jpg}
+	}
+	\pause
+	\Put(150,30){
+		\includegraphics[width=4cm]{images/img_radiologie.jpg}
+	}
+\end{frame}
+
+\begin{frame}
+	\frametitle{应用~{\small 教育科研}}
+	\begin{center}
+		\includegraphics[width=4cm]{images/sixthsense02.jpg}~~
+		\includegraphics[width=4cm]{images/sixthsense11.jpg}\\
+		\includegraphics[width=4cm]{images/sixthsense13.jpg}~~
+		\includegraphics[width=4cm]{images/sixthsense16.jpg}\\
+	\end{center}
+	{\tiny MIT SixthSense项目 http://www.pranavmistry.com/projects/sixthsense/}
+\end{frame}
+
+\begin{frame}
+	\frametitle{应用~{\small 军事}}
+	\begin{center}
+		\includegraphics[width=4cm]{images/virtual-reality-plane-trainer-cockpit.jpg}~~
+		\includegraphics[width=6cm, height=3.5cm]{images/military.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{应用~{\small 日常生活}}
+	\transwipe
+	\only<1>{
+		\begin{columns}
+			\column{4cm}
+			\begin{tiny}
+				\begin{itemize}
+					\item Fuel tank Range
+					\item Engine Coolant temp
+					\item Steering wheel control
+					\item External temperature
+					\item RPM
+					\item Accelerator position.
+					\item Climate control temperature setting
+					\item Internal cabin temperature
+					\item Indicator status
+					\item PDC (rear parking information)
+					\item Clutch and brake information
+					\item Steering wheel position
+				\end{itemize}
+			\end{tiny}
+			\column{6cm}
+			\begin{center}
+				\includegraphics[width=5cm]{images/2010-BMW-X1-(E84)-Car-Computer-Install-1.jpg}\\
+				\includegraphics[width=5cm]{images/2010-BMW-X1-(E84)-Car-Computer-Install-2.jpg}
+			\end{center}
+		\end{columns}
+	}
+	\only<2>{
+		\begin{center}
+			\includegraphics[width=8cm]{images/google_automated_prius.jpg}
+		\end{center}
+	}
+\end{frame}
+
+\begin{frame}
+	\frametitle{应用~{\small 文化娱乐}}
+	\begin{center}
+		\includegraphics[width=4cm]{images/ar-drone-parrot-quadricopter.jpg}~~
+		\includegraphics[width=4cm]{images/wii.png}
+	\end{center}
 \end{frame}
 
 \section{小节}
@@ -496,7 +594,10 @@
 	\end{itemize}
 \end{frame}
 
-\bibliographystyle{plain}
-\bibliography{hci}
+\begin{frame}
+	\frametitle{参考文献}
+	\bibliographystyle{plain}
+	\bibliography{hci}
+\end{frame}
 
 \end{document}
