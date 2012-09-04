@@ -1,4 +1,6 @@
 syntax: glob
+# reverted files
+*.orig
 # LaTeX intermediate files
 *.aux
 *.log
