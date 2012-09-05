@@ -34,6 +34,9 @@
   \end{pgfpicture}}
 \makeatother
 
+% diagrams
+\usepackage{tikz}
+
 \title{人机交互技术}
 \author{施展}
 \institute{华中科技大学~武汉光电国家实验室}
@@ -84,12 +87,9 @@
 	\frametitle{认知心理学 Cognitive Psychology}
 	\beamertemplatetransparentcovereddynamicmedium 
 	\begin{itemize}
-		\item 认知心理学是二十世纪50年代中期在西方兴起的一种心理学思潮，二十世纪70年代开始其成为西方心理学的一个主要研究方向。
-		\pause
-		\item 是作为人类行为基础的心理机制，其核心是输入和输出之间发生的内部心理过程。
-		\pause
-		\item 与西方传统哲学也有一定联系，其主要特点是强调知识的作用，认为知识是决定人类行为的主要因素。
-		\pause
+		\item 认知心理学是二十世纪50年代中期在西方兴起的一种心理学思潮，二十世纪70年代开始其成为西方心理学的一个主要研究方向。\pause
+		\item 是作为人类行为基础的心理机制，其核心是输入和输出之间发生的内部心理过程。\pause
+		\item 与西方传统哲学也有一定联系，其主要特点是强调知识的作用，认为知识是决定人类行为的主要因素。\pause
 		\item 认知心理学研究：
 		\begin{itemize}
 			\item 人们如何获得外部世界信息
@@ -114,6 +114,88 @@
 	\end{itemize}
 \end{frame}
 
+\begin{frame}
+	\frametitle{视觉感知}
+	\beamertemplatetransparentcovereddynamicmedium 
+	\begin{itemize}[<+->]
+		\item 外界\textbf{80\%的信息}都是通过视觉得到的，视觉是人与周围世界发生联系的最重要的感觉通道。
+		\item 视觉显示是人机交互系统中用的最多的人机界面。
+		\item 视觉感知两阶段：\textbf{受到外部刺激接收信息阶段}和\textbf{解释信息阶段}。
+	\end{itemize}	
+\end{frame}
+
+\begin{frame}
+	\frametitle{视觉感知~{\small 特点}}
+	\beamertemplatetransparentcovereddynamicmedium 
+	\begin{itemize}[<+->]
+		\item 一方面，眼睛和视觉系统的物理特性决定了人类无法看到某些事物；
+		\item 另一方面，视觉系统进行解释处理信息时可对不完全信息发挥一定的想象力。
+		\item 进行人机交互设计需要清楚这两个阶段及其影响，了解人类真正能够看到的信息。
+	\end{itemize}	
+\end{frame}
+
+\begin{frame}
+	\frametitle{眼睛的构造}
+	\transboxout
+	\only<1>{\includegraphics[width=8cm]{images/eyeball.jpg}}
+	\only<2>{\includegraphics[width=8cm]{images/eyeball-anatomy.jpg}}
+\end{frame}
+
+\begin{frame}
+	\frametitle{视干细胞和视锥细胞}
+	\begin{tabular}[t]{p{4.5cm}p{4.5cm}}
+		\hline
+		视干细胞 & 视锥细胞\\
+		\hline
+		在低水平照明时（如夜间）起作用 & 在高水平照明时（如白天）起作用\\
+		区别黑白 & 区别彩色\\
+		对光谱中绿色部分最敏感，在远离视网膜中心处最多 & 对光谱中黄色部分最敏感，在视网膜中部最多\\
+		对极弱的刺激敏感 & 主要在识别空间位置和要求敏锐地看物体时起作用\\
+		\hline
+	\end{tabular}
+\end{frame}
+
+\begin{frame}
+	\frametitle{视角和视敏度}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{感知物体大小、相对距离和深度}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{感知亮度}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{感知色彩}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{视觉行为的整体性}
+	\transwipe
+	格式塔 (Gestalt) 心理学\\
+	\begin{center}
+	\begin{tikzpicture}
+		\foreach \c in {(1,1)} \fill \c + (0.5,0.5) circle (0.40);
+		\foreach \c in {(6,1)} \fill \c + (0.5,0.5) circle (0.40);\pause
+		\foreach \c in {(1,0), (0,1), (2,1), (1,2)} \fill \c + (0.5,0.5) circle (0.45);
+		\foreach \c in {(6,0), (5,1), (7,1), (6,2)} \fill \c + (0.5,0.5) circle (0.35);
+	\end{tikzpicture}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{视觉行为的整体性}
+	\transwipe
+	格式塔 (Gestalt) 心理学\\
+	\includegraphics[width=8cm]{images/gestalt1.jpg}
+\end{frame}
+
 \subsection{认知过程与交互设计原则}
 \begin{frame}
 	\frametitle{认知过程与交互设计原则}
@@ -123,13 +205,72 @@
 \subsection{概念模型及认知}
 \begin{frame}
 	\frametitle{概念模型及认知}
-
+	\begin{center}
+		\includegraphics[width=8cm]{images/viewpoint.jpg}
+	\end{center}
 \end{frame}
 
 \subsection{分布式认知}
 \begin{frame}
 	\frametitle{分布式认知}
 
+\end{frame}
+
+\begin{frame}
+	\frametitle{分布式认知模型}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 分布式认知法描述的是认知系统中发生了什么，它通常描述人员之间的交互，人们使用的物品及工作环境。\pause
+		\item 例如，要驾驶飞机这个活动涉及：
+		\begin{itemize}
+			\item 驾驶员、副驾驶员和空中交通管制员之间的交互；
+			\item 驾驶员、副驾驶员与驾驶舱内各种仪表的交互；
+			\item 驾驶员、副驾驶员与飞机所处环境的交互，如空中航线、跑道。
+		\end{itemize}\pause
+		\item 分布式认知的主要目的是要从信息传播媒介的角度来描述交互。
+		\begin{itemize}
+			\item 信息如何表示，信息在流经不同个人以及使用不同物体时如何重新表示。
+			\item 这类信息的转变也称为“表示状态的转变”。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{分布式模型与传统模型}
+	\transboxin<2>
+	\only<1>{
+		\begin{itemize}
+			\item Hollan, Hutchins \& Kirsh (2000) observing human activity ``in the wild,'' described three ways that cognitive process can be distributed
+			\begin{enumerate}
+				\item They can be distributed across members of a social group either co-present or over a distance.
+				\item They can distributed between internal process and external (material or environmental) tools.
+				\item They can be distributed across time with products of earlier events transforming the nature of later events.
+			\end{enumerate}
+		\end{itemize}
+    	\begin{flushright}
+    		{\tiny http://mindmaps.wikispaces.com/dcog}
+    	\end{flushright}
+	}
+	\only<2>{
+		\begin{center}
+			\includegraphics[width=8cm]{images/cognition4.jpg}
+		\end{center}
+	}
+\end{frame}
+
+\begin{frame}
+	\frametitle{分布式认知模型}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 在进行分布式认知分析时，通常需要考查：\pause
+		\begin{itemize}
+			\item 分布式问题的解决方法\\{\tiny 包括协议解决方式}\pause
+			\item 语言及非语言行为的任务\\{\tiny 包括说了什么、眼神和眨眼等暗示什么、什么是没有说出来的}\pause
+			\item 使用的各种协调机制\\{\tiny 如规则、规程}\pause
+			\item 协作活动在进行过程中将用到的各种通信路径\pause
+			\item 如何共享和访问信息
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \section{小结}
