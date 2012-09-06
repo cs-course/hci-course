@@ -152,16 +152,17 @@
 	\frametitle{眼睛的构造}
 	\transboxout
 	\begin{center}
-		\only<1>{\includegraphics[width=7cm]{images/eyeball.jpg}}
-		\only<2>{\includegraphics[width=8cm]{images/eyeball-anatomy.jpg}}
+		\only<1>{\includegraphics[width=6cm]{images/eyeball.jpg}}
+		\only<2>{\includegraphics[width=6cm]{images/eyeball-anatomy.jpg}}
 	\end{center}
 \end{frame}
 
 \begin{frame}
 	\frametitle{视干细胞和视锥细胞}
+	\beamertemplatetransparentcovereddynamicmedium
 	\begin{tabular}[t]{p{4.5cm}|p{4.5cm}}
 		\hline
-		视干细胞 & 视锥细胞\\	\hline
+		视干细胞 & 视锥细胞\\\hline
 		在低水平照明时起作用 & 在高水平照明时起作用\\\hline
 		区别黑白 & 区别彩色\\	\hline
 		对光谱中绿色部分最敏感 & 对光谱中黄色部分最敏感\\\hline
@@ -229,8 +230,33 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{视觉行为的整体性}
-	格式塔 (Gestalt) 心理学\\
+	\frametitle{视觉行为的整体性~{\small 格式塔 (Gestalt) 心理学}}
+	Gestalt(德): ``模式、形状、形式''\\即``动态的整体（dynamic wholes）''
+	\begin{center}
+	\includegraphics[width=5cm]{images/Reification.jpg}~\includegraphics[width=5cm]{images/744px-Multistability.svg.png}\\
+	\end{center}
+	{\tiny http://zh.wikipedia.org/wiki/格式塔学派}
+\end{frame}
+
+\begin{frame}
+	\frametitle{视错觉~{\small 莱亚错觉 Müller-Lyer illusion}}
+	\begin{center}
+	\begin{tikzpicture}
+		\onslide<1>{
+			\draw (1,1) -- (0,0); \draw (1,1) -- (0,2); \draw (6,1) -- (7,0);  \draw (6,1) -- (7,2);
+			\draw (1,4) -- (2,3); \draw (1,4) -- (2,5); \draw (6,4) -- (5,3);  \draw (6,4) -- (5,5);
+		}
+		\onslide<1,2>{
+			\draw (1,1) -- (6,1);
+			\draw (1,4) -- (6,4);
+		}
+	\end{tikzpicture}
+	\end{center}
+%	http://en.wikipedia.org/wiki/Müller-Lyer_illusion
+\end{frame}
+
+\begin{frame}
+	\frametitle{视错觉~{\small 艾宾浩斯错觉 Ebbinghaus illusion}}
 	\begin{center}
 	\begin{tikzpicture}
 		\onslide<1>{
@@ -243,11 +269,151 @@
 		}
 	\end{tikzpicture}
 	\end{center}
+%	http://en.wikipedia.org/wiki/Ebbinghaus_illusion
 \end{frame}
 
 \begin{frame}
-	\frametitle{视觉行为的整体性}
-	\includegraphics[width=9cm]{images/gestalt1.jpg}
+	\frametitle{视错觉~{\small 弗雷泽图形 Fraser spiral illusion}}
+	\begin{center}
+	\includegraphics[width=6cm]{images/597px-Fraser_spiral.svg.png}\\
+	\end{center}
+%	http://en.wikipedia.org/wiki/Fraser_spiral_illusion
+\end{frame}
+
+\begin{frame}
+	\frametitle{视错觉~{\small 静止图像的运动}}
+	\includegraphics[width=9cm]{images/illusion1.jpg}
+\end{frame}
+
+\begin{frame}
+	\frametitle{视觉行为影响}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 物体的组合方式将影响观察者的感知方式：
+		\begin{itemize}[<+->]
+			\item 人们总会夸大水平线而缩短垂直线。
+			\item 视错觉同样会影响到显示页面的对称性。
+			\item 人们经常把对称页面的中心看得稍微偏上些\\{\tiny 如果页面以实际中心为基准排版设计，人们就会感到页面上部比下部分要短，影响视觉效果}。
+			\item 在实际设计过程中，设计者应\textbf{以视觉中心为基准}设计图形界面。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{阅读}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 进行交互界面设计时，文字符号的处理，特别是文字的排版和显示，也要根据人们的视觉感知特点，找出其中一些规律。\pause
+		\item 阅读分为几个阶段：
+		\begin{itemize}
+			\item 页面上文字的形状被人眼感知
+			\item 文字被编码成相关的内部语言表示
+			\item 语言在人脑中被解释成有语法和语义的单词或句子
+		\end{itemize}\pause
+		\item 成年人阅读是通过字的特征（如字的形状）加以识别。\\{\tiny 改变字的显示方式（如用大写字母，改变字体等），会影响到阅读的速度和准确性。}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{阅读~{\small 舒适性}}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{center}
+		\includegraphics[width=9cm]{images/ibooks-themes.jpg}
+	\end{center}
+	\begin{itemize}
+		\item 9～12号的标准字体（英文）\pause
+		\item 页面的宽度在58～132mm之间\pause
+		\item 在明亮的背景下显示灰暗的文字 VS. 灰暗的背景下显示明亮的文字
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{颜色模型~{\small RGB, CMYK}}
+	\begin{center}
+	\begin{tikzpicture}[scale=.6]
+	% Create the background in the circle, by drawing several slices
+	% each with a constant color given by the angle (which is converted
+	% to a color usin the hue, saturation and brightness color space).
+%	\foreach \x in {0,0.0111,...,1} {
+%		\definecolor{currentcolor}{hsb}{\x, 1, 1}
+%		\draw[draw=none, fill=currentcolor]
+%			(-360*\x+88:2) -- (-360*\x+88:3.8)
+%			-- (-360*\x+92:3.8) -- (-360*\x+92:2) -- cycle;
+%	}
+
+	% On top of the background draw three spotlights of the primary colors
+	% red, green and blue (they are primary in an additive colorspace where
+	% light are mixed)
+	\draw [draw=none, fill=red] (90:1.5) circle (2cm);
+	\draw [draw=none, fill=green] (-30:1.5) circle (2cm);
+	\draw [draw=none, fill=blue] (210:1.5) circle (2cm);
+	
+	% Draw areas where two of the three primary colors are overlapping.
+	% These areas are the secondary colors yellow, cyan and magenta.
+	\begin{scope} % red + green = yellow
+		\clip (90:1.5) circle(2cm);
+		\draw [draw=none, fill=yellow] (-30:1.5) circle (2cm);
+	\end{scope} % blue + red = magenta
+	\begin{scope}
+		\clip (210:1.5) circle(2cm);
+		\draw [draw=none, fill=magenta] (90:1.5) circle (2cm);
+	\end{scope}
+	\begin{scope} % green + blue = cyan
+		\clip (-30:1.5) circle(2cm);
+		\draw [draw=none, fill=cyan] (210:1.5) circle (2cm);
+	\end{scope}
+	
+	% Draw the center area which consists of all the primary colors.
+	\begin{scope} % red + green + blue = white
+		\clip (90:1.5) circle(2cm);
+		\clip (210:1.5) circle(2cm);
+		\draw [draw=none, fill=white] (-30:1.5) circle (2cm);	
+	\end{scope}
+
+	% Draw a circle with markings along the perimeter, indicating which angles
+	% the hue function connects to certain colors.
+	\draw (0, 0) circle (3.9cm);
+	\foreach \x  in {0, 30, ..., 330}
+		\draw (-\x+90:3.8) -- (-\x+90:4.0) (-\x+90:4.4) node {$\x^\circ$};
+
+	% Add labels with names of the primary and secondary colors.
+	\foreach \x/\text in {0/red, 60/yellow, 120/green, 180/cyan, 240/blue, 300/magenta}
+		\draw (-\x+90:5.5) node {\text};
+	\end{tikzpicture}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{颜色模型~{\small HSV}}
+	Hue(色相)、Saturation(饱和度)和Value(值或明度)
+	% 红、绿、蓝分别相隔120度。互补色分别相差180度。
+	% 纯度S为一比例值，范围从0到1，它表示成所选颜色的纯度和该颜色最大的纯度之间的比率。
+	% S=0时，只有灰度。
+	% V表示色彩的明亮程度，范围从0到1。
+	% 有一点要注意：它和光强度之间并没有直接的联系。
+	\begin{center}
+		\includegraphics[width=8cm]{images/HSV_ColorModel.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{听觉}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{声音的处理}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{声音的解释}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{触觉}
+
 \end{frame}
 
 \subsection{认知过程与交互设计原则}
