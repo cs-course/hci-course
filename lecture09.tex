@@ -1,0 +1,98 @@
+% Copyright (C) 2012 Shi.Zhan <g.shizhan.g@gmail.com>
+%
+% Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+%
+% The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+%
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+%
+% 课程：人机交互技术及应用
+% 班级：传播学1001班
+% 课时：40学时，2012年秋季1～10周，每周一、三
+% 地点：东九楼D212
+% 主页：http://code.google.com/p/hci-course/
+% 教师：施展 
+% 单位：华中科技大学 武汉光电国家实验室
+%
+\documentclass{beamer}
+\usepackage{fontspec,xunicode,xltxtra,beamerthemesplit}
+%\usetheme{Hannover} % White background
+\usetheme{Berkeley} % Blue background
+\setsansfont[Mapping=tex-text, ItalicFont={Courier Italic}]{Microsoft YaHei}
+
+% 中文环境自动换行
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+
+% 中文环境修正导航栏
+\makeatletter
+\def\beamer@linkspace#1{%
+  \begin{pgfpicture}{0pt}{-1.5pt}{#1}{5.5pt}
+    \pgfsetfillopacity{0}
+    \pgftext[x=0pt,y=-1.5pt]{.}
+    \pgftext[x=#1,y=5.5pt]{.}
+  \end{pgfpicture}}
+\makeatother
+
+\title{人机交互技术}
+\author{施展}
+\institute{华中科技大学~武汉光电国家实验室}
+\date{\today}
+\titlegraphic{\includegraphics[width=3.5cm]{images/wnlo.jpg}}
+
+\begin{document}
+
+\begin{frame}
+	\frametitle{内容提要}
+	\titlepage
+\end{frame}
+
+\begin{frame}
+	\tableofcontents
+\end{frame}
+
+\section{第九讲}
+\begin{frame}
+	\frametitle{第八讲 可用性分析与评估}
+	\begin{itemize}
+		\item 可用性与可用性工程
+		\item 支持可用性的设计原则
+		\item 可用性评估
+		\item 可用性评估案例
+	\end{itemize}
+\end{frame}
+
+\subsection{可用性与可用性工程}
+\begin{frame}
+	\frametitle{可用性与可用性工程}
+
+\end{frame}
+
+\subsection{支持可用性的设计原则}
+\begin{frame}
+	\frametitle{支持可用性的设计原则}
+
+\end{frame}
+
+\subsection{可用性评估}
+\begin{frame}
+	\frametitle{可用性评估}
+
+\end{frame}
+
+\subsection{可用性评估案例}
+\begin{frame}
+	\frametitle{可用性评估案例}
+
+\end{frame}
+
+\section{小结}
+\begin{frame}
+	\frametitle{小结}
+	\begin{itemize}
+		\item 了解可用性定义、支持可用性的设计原则及可用性评估方法
+		\item 实践可用性评估过程
+	\end{itemize}
+\end{frame}
+
+\end{document}
