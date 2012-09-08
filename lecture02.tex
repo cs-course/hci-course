@@ -152,10 +152,14 @@
 	\frametitle{眼睛的构造}
 	\transboxout
 	\begin{center}
-		\only<1>{\includegraphics[width=6cm]{images/eyeball.jpg}}
-		\only<2>{\includegraphics[width=6cm]{images/eyeball-anatomy.jpg}}
+		\includegraphics[width=6cm]{images/eyeball.jpg}
 	\end{center}
 \end{frame}
+
+{% big blank frame with image inside
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{images/eyeball-anatomy.jpg}}
+\frame[plain]{\transdissolve}
+}
 
 \begin{frame}
 	\frametitle{视干细胞和视锥细胞}
@@ -329,8 +333,9 @@
 
 \begin{frame}
 	\frametitle{颜色模型~{\small RGB, CMYK}}
+	% 动机，主动光源显示（显示器）与被动反射（印刷）
 	\begin{center}
-	\begin{tikzpicture}[scale=.6]
+	\begin{tikzpicture}[scale=.5]
 	% Create the background in the circle, by drawing several slices
 	% each with a constant color given by the angle (which is converted
 	% to a color usin the hue, saturation and brightness color space).
@@ -391,6 +396,7 @@
 	% S=0时，只有灰度。
 	% V表示色彩的明亮程度，范围从0到1。
 	% 有一点要注意：它和光强度之间并没有直接的联系。
+	% 动机：色彩形成与生物识别机制之关联
 	\begin{center}
 		\includegraphics[width=8cm]{images/HSV_ColorModel.jpg}
 	\end{center}
@@ -400,6 +406,13 @@
 	\frametitle{听觉}
 
 \end{frame}
+
+%\bgroup
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{images/ear_anatomy_large.jpg}}
+\frame[plain]{\transdissolve}
+}
+%\egroup
 
 \begin{frame}
 	\frametitle{声音的处理}
