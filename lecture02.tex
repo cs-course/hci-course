@@ -36,6 +36,21 @@
 
 % diagrams
 \usepackage{tikz}
+\usetikzlibrary{arrows,chains,shapes}
+\tikzset{
+>=stealth',
+  punktchain/.style={
+    rectangle, 
+    rounded corners, 
+    % fill=black!10,
+    draw=black, very thick,
+    text width=10em, 
+    minimum height=1em, 
+    text centered, 
+    on chain},
+  line/.style={draw, thick, <-},
+  every join/.style={->, thick,shorten >=1pt},
+}
 
 \title{人机交互技术}
 \author{施展}
@@ -531,7 +546,7 @@
 	\end{itemize}
 	\transdissolve\pause
 	\begin{center}
-	\includegraphics[scale=.5]{images/tactile-sensitivity.png}
+		\includegraphics[scale=.5]{images/tactile-sensitivity.png}
 	\end{center}
 \end{frame}
 
@@ -547,7 +562,229 @@
 \subsection{认知过程与交互设计原则}
 \begin{frame}
 	\frametitle{认知过程与交互设计原则}
+	\begin{columns}
+		\column{4cm}
+		\onslide<2>{许多认知过程是相互依赖的，一个活动可同时涉及多个不同的过程。}
+		\column{6cm}
+		\begin{tikzpicture}
+			[node distance=.3cm, start chain=going below,]
+	  		\node[punktchain, join] (a) {感知和识别};
+			\node[punktchain, join] (b) {注意};
+			\node[punktchain, join] (c) {记忆};
+			\node[punktchain, join] (d) {学习};
+			\node[punktchain, join] (e) {阅读};
+			\node[punktchain, join] (f) {说话和聆听};
+			\node[punktchain, join] (g) {解题、规划、推理和决策};
+		\end{tikzpicture}
+	\end{columns}
+\end{frame}
 
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/focus.jpg}}
+\frame[plain]{\transdissolve}
+}
+
+\begin{frame}
+	\frametitle{注意}
+	\transdissolve
+	\begin{columns}
+		\column{5cm}
+		\begin{itemize}
+			\item 注意\\{\tiny 在某个时刻，从众多可能的事物中选择一个，并把精力集中在这个事物上。} 
+			\item 注意的不同类型
+			\begin{itemize}
+				\item 视觉关注
+				\item 听觉关注
+			\end{itemize}		
+			\item 注意相关的因素
+			\begin{itemize}
+				\item 目标
+				\item 信息的表示形式
+			\end{itemize}		
+		\end{itemize}
+		\column{5cm}
+		\includegraphics[width=4cm]{images/focus1.jpg}\\
+		\includegraphics[width=4cm]{images/focus2.jpg}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{信息表示方法}
+	\beamertemplatetransparentcovereddynamicmedium 
+	\begin{itemize}
+		\item 信息的显示方式对于人们能否快速捕捉到所需的信息片断有很大的影响。\pause
+		\begin{itemize}
+			\item 结构化的信息比较便于人们查找
+			\item 图形化的信息比较便于人们理解
+			\item 多媒体的信息比较便于人们快速接受
+		\end{itemize}	
+	\end{itemize}
+\end{frame}
+
+% http://www.smashingmagazine.com/2007/08/02/data-visualization-modern-approaches/
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/webtrends2007.jpg}}
+\frame[plain]{\transdissolve}
+}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/newsmap.jpg}}
+\frame[plain]{\transdissolve}
+}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/www.time.com-2012-9-10.png}}
+\frame[plain]{\transdissolve}
+}
+
+% http://www.crazyegg.com/home2
+% web heatmap
+
+% http://xiaoji-chen.com/blog/
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/cartogram-02.png}}
+\frame[plain]{\transdissolve}
+}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/network_en.jpg}}
+\frame[plain]{\transdissolve}
+}
+
+\begin{frame}
+	\frametitle{注意特点对界面设计的要求}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 在设计人机交互界面时应做到
+		\begin{itemize}[<+->]
+			\item 使重要信息吸引注意
+			\item 高亮醒目，运动，色彩，线框，序列 \dots
+			\item 朴实，简洁，避免过度拥挤，分散注意，造成疲劳
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+% http://www.aharef.info/static/htmlgraph/
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/www.aharef.info-2012-9-10-yahoo.png}}
+	\begin{frame}[plain]
+		\transdissolve
+		\onslide<2>{
+			\begin{center}
+			\includegraphics[scale=.3]{images/www.yahoo.com-2012-9-10.jpg}
+			\end{center}
+		}
+	\end{frame}	
+}
+
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/www.aharef.info-2012-9-10-sina.png}}
+	\begin{frame}[plain]
+		\transdissolve
+		\onslide<2>{
+			\begin{center}
+			\includegraphics[scale=.3]{images/sina.com.cn-2012-9-10.jpg}
+			\end{center}
+		}
+	\end{frame}	
+}
+
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/www.aharef.info-2012-9-10-google.png}}
+	\begin{frame}[plain]
+		\transdissolve
+		\onslide<2>{
+			\begin{center}
+			\includegraphics[scale=.3]{images/www.google.com.hk-2012-9-10.jpg}
+			\end{center}
+		}
+	\end{frame}	
+}
+
+\begin{frame}
+	\beamertemplatetransparentcovereddynamicmedium
+	\frametitle{感知和识别}
+	\begin{itemize}[<+->]
+		\item 在结合不同的媒体时，应确保用户能够理解它们表示的复合信息。
+		\item 在结合使用声音和动画时，需要仔细协调，合理安排它们的调用次序。
+		\item 用户应能不费力地区别图标或其他图形表示的不同含义。
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{记忆}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 回忆各种知识以便采取适当的行动。
+		\begin{itemize}[<+->]
+			\item \textbf{识记}：相当于信息的输入和编码过程{\tiny ，也就是使不同感官输入的信息，经过编码而成为头脑可接受的形式；}
+			\item \textbf{保持}：相当于信息的贮存{\tiny ，即信息在头脑中被再加工整理，使其成为有序地组织结构，以便贮存；}
+			\item \textbf{再认和回忆}：再认和回忆相当于信息的提取{\tiny ，编码越完善、组织越有序，提取也就越容易，反之，提取越困难。}
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/world-famous-brand-logo-vector-material_15-7097.jpg}}
+\frame[plain]{\transdissolve}
+}
+
+\begin{frame}
+	\frametitle{减轻记忆负担}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 人的识别能力大于回忆能力
+		\begin{itemize}
+			\item 图文界面替代命令界面
+			\item 在线帮助
+		\end{itemize}\pause
+		\item 回忆提示
+		\begin{itemize}
+			\item 密码的提示语句
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{交互设计原则}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 应考虑用户的记忆能力，勿使用过于复杂的任务执行步骤。
+		\item 由于用户长于``识别''而短于``回忆''，所以在界面设计应尽量使用菜单、图标，且布局整洁。
+		\item 为用户提供多种电子信息（如文件、邮件、图像）的编码方式，并且通过颜色、标志、时间戳、图标等，帮助用户记住它们的存放位置。
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{问题解决}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 一般步骤：理解问题、制订计划、实施计划、检验结果
+		\item 设计中要考虑做什么、有那些选择、执行某个活动会有什么结果？
+		\item 人的思维认知能力取决于在相关行业的经验以及对应用和技能的掌握程度。
+		\item 在界面中隐藏一些附加信息，供那些希望学习如何更有效地执行任务的用户访问。
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{语言处理—阅读、说话、聆听}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 听、说、读、写的区别\\{\tiny 外语学习、速度、持续性}
+		% 内容严谨性，文字、图形、语音理解速度差别，阅读可重复、聆听不易重复
+		\item 语音合成、语音控制须知\\{\tiny ``自然''感受、指令数量}
+		% 列队指令、战斗指挥
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{影响认知的因素}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 情感\\{\tiny 心理状态、情绪影响、情感计算和交流}
+		\item 个体\\{\tiny 年龄、性别、身体状态、心智}
+		% 摩尔庄园的成功，游戏界面设计
+	\end{itemize}
 \end{frame}
 
 \subsection{概念模型及认知}
@@ -556,6 +793,19 @@
 	\begin{center}
 		\includegraphics[width=8cm]{images/viewpoint.jpg}
 	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{概念模型}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 是一种用户能够理解的系统描述，它使用一组集成的构思和概念，描述系统做什么、如何运作、外观如何等。\pause
+		\item 设计开发一个概念模型的关键过程包括两个阶段：
+		\begin{itemize}
+			\item 了解用户任务需求；
+			\item 选择交互方式{\tiny ，并决定采用何种交互形式（是使用菜单系统，还是使用语音输入，或命令式的系统）。}
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \subsection{分布式认知}
