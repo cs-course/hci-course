@@ -156,7 +156,7 @@
 	\end{center}
 \end{frame}
 
-{% big blank frame with image inside
+{% big blank frame with image inside, \(b/e)group can also be used here
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{images/eyeball-anatomy.jpg}}
 \frame[plain]{\transdissolve}
 }
@@ -404,30 +404,108 @@
 
 \begin{frame}
 	\frametitle{听觉}
-
+	\begin{itemize}
+		\item 听觉感知传递的信息仅次于视觉，可人们一般都低估了这些信息。~{\small 人的听觉可以感知大量的信息，但被视觉关注掩盖了许多。}
+		\item 听觉所涉及的问题和视觉一样，即\textbf{接受刺激，把它的特性转化为神经兴奋，并对信息进行加工，然后传递到大脑}。
+	\end{itemize}
 \end{frame}
 
-%\bgroup
 {
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{images/ear_anatomy_large.jpg}}
 \frame[plain]{\transdissolve}
 }
-%\egroup
 
 \begin{frame}
 	\frametitle{声音的处理}
-
+	\begin{itemize}
+		\item 声波在空气中的振动传播的特性
+		\begin{itemize}
+			\item 音调与声波的频率有关，低频能产生低调的声音，高频能产生高调的声音。
+			\item 响度指在频率一定的情况下声波的振幅。
+			\item 音色与发声的材料有关，不同的乐器可以产生相同频率和振幅的声波，但音色不同。
+		\end{itemize}
+		\item 人类能够听到频率在20Hz~20kHz之间的声音
+		\begin{itemize}
+			\item 在1000Hz~4000Hz范围内听觉的感受性最高；
+			\item 人可以辨认的语音频率范围是260~5600Hz。
+			\item 500Hz以下和5000Hz以上的声音，强度很大时才能被听到。
+		\end{itemize}
+		\item 响度超过140dB（分贝）时，所引起的不再是听觉而是痛觉。
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{声音的解释}
+	\begin{itemize}
+		\item 听觉系统把输入分为三类：
+		\begin{itemize}
+			\item 噪声和可以忽略的不重要的声音；
+			\item 被赋予意义的非语言声音，如动物的叫声；
+			\item 用来组成语言的有意义的声音。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
 
+\begin{frame}
+	\frametitle{声音的解释}
+	\begin{itemize}
+		\item 听觉系统就像视觉系统一样，利用以前的经验来解释输入。
+		\item Lindsay PH和Norman DA 的“材料-驱动”（Data-Driven）和“概念-驱动”（Conceptually-Driven）过程~\cite{Langley198131}。
+		\begin{itemize}
+			\item 材料-驱动指的是对言语材料在感知水平上进行的加工过程，它是由下而上的分析过程。
+			\item 概念-驱动则是在理解水平上进行的加工过程，它是由上而下（从最高的结构概念开始）的分析过程。
+		\end{itemize}
+		\item 人类听觉系统对声音的解释可帮助设计人机交互界面中的语音界面
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{触觉}
-
+	\beamertemplatetransparentcovereddynamicmedium 
+	\begin{columns}
+	\column{6cm}
+	\begin{itemize}
+		\item 人-->机 \textbf{Touch}
+		\item 机-->人 \textbf{Haptic perception}
+		\onslide<2>{\item 重要性：\\{\small 交互更自然，帮助能力缺陷人士}}
+	\end{itemize}
+	\column{4cm}
+	\includegraphics[width=4cm]{images/skin-receptor-path.png}
+%	http://wiki.bethanycrane.com/somaticsenses
+	\end{columns}
 \end{frame}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{images/skin-layers.jpg}}
+\frame[plain]{\transdissolve}
+}
+
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth]{images/adapting-fibres.png}}
+	\frame[plain]{
+		\transdissolve
+		\pause\includegraphics[width=7cm]{images/slowly-adapting-fibres.png}\\~\\
+		\pause\includegraphics[width=7cm]{images/rapidly-adapting-fibres.png}
+	}
+}
+
+\begin{frame}
+	\frametitle{触觉~{\small 特点}}
+	\begin{itemize}
+		\item 触觉的感知机理与视觉和听觉的最大不同在于它的非局部性
+		\begin{itemize}
+			\item \textbf{冷热}~温度感受
+			\item \textbf{疼痛}~伤害感受
+			\item \textbf{压力}~机械刺激感受
+		\end{itemize}
+	\end{itemize}
+	\transdissolve\pause
+	\begin{center}
+	\includegraphics[scale=.5]{images/tactile-sensitivity.png}
+	\end{center}
+\end{frame}
+
+
 
 \subsection{认知过程与交互设计原则}
 \begin{frame}
@@ -517,4 +595,10 @@
 	\end{itemize}
 \end{frame}
  
+\begin{frame}
+	\frametitle{参考文献}
+	\bibliographystyle{plain}
+	\bibliography{hci}
+\end{frame}
+
 \end{document}
