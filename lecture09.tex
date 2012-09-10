@@ -26,12 +26,13 @@
 
 % 中文环境修正导航栏
 \makeatletter
-\def\beamer@linkspace#1{%
-  \begin{pgfpicture}{0pt}{-1.5pt}{#1}{5.5pt}
-    \pgfsetfillopacity{0}
-    \pgftext[x=0pt,y=-1.5pt]{.}
-    \pgftext[x=#1,y=5.5pt]{.}
-  \end{pgfpicture}}
+\def\beamer@linkspace#1{
+	\begin{pgfpicture}{0pt}{-1.5pt}{#1}{5.5pt}
+		\pgfsetfillopacity{0}
+		\pgftext[x=0pt,y=-1.5pt]{.}
+		\pgftext[x=#1,y=5.5pt]{.}
+	\end{pgfpicture}
+}
 \makeatother
 
 \title{人机交互技术}
@@ -53,7 +54,7 @@
 
 \section{第九讲}
 \begin{frame}
-	\frametitle{第八讲 可用性分析与评估}
+	\frametitle{第九讲 可用性分析与评估}
 	\begin{itemize}
 		\item 可用性与可用性工程
 		\item 支持可用性的设计原则
