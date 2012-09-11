@@ -45,7 +45,16 @@
 		rounded corners, 
 		% fill=black!10,
 		draw=black, very thick,
-		text width=10em, 
+		text width=7em, 
+		minimum height=1em, 
+		text centered, 
+		on chain},
+	normalchain/.style={
+		rectangle, 
+		rounded corners, 
+		% fill=black!10,
+		%draw=black, very thick,
+		text width=7em, 
 		minimum height=1em, 
 		text centered, 
 		on chain},
@@ -564,9 +573,9 @@
 \begin{frame}
 	\frametitle{认知过程与交互设计原则}
 	\begin{columns}
-		\column{4cm}
-		\onslide<2>{许多认知过程是相互依赖的，一个活动可同时涉及多个不同的过程。}
 		\column{6cm}
+		\onslide<2>{许多认知过程是相互依赖的，一个活动可同时涉及多个不同的过程。}
+		\column{4cm}
 		\begin{tikzpicture}
 			[node distance=.3cm, start chain=going below,]
 	  		\node[punktchain, join] (a) {感知和识别};
@@ -804,7 +813,7 @@
 		\item 设计开发一个概念模型的关键过程包括两个阶段：
 		\begin{itemize}
 			\item 了解用户任务需求；
-			\item 选择交互方式，\\{\tiny 并决定采用何种交互形式（是使用菜单系统，还是使用语音输入，或命令式的系统）。}
+			\item 选择交互方式，并决定采用何种交互形式\\{\tiny 是使用菜单系统，还是使用语音输入，或命令式的系统。}
 		\end{itemize}
 	\end{itemize}
 \end{frame}
@@ -823,6 +832,28 @@
 		\item 通过不断的与用户交流，逐步完善交互系统的概念模型。
 	\end{itemize}
 \end{frame}
+
+% http://gambit.mit.edu/updates/2009/09/rosemary_ui_design_sketches.php
+% http://dannyturley.com/uniblog/08/index.php
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/responsive-web-design-draft-layout.jpg}}
+\frame[plain]{\transdissolve}
+}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/week8.jpg}}
+\frame[plain]{\transdissolve}
+}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/site-template.jpg}}
+\frame[plain]{\transdissolve}
+}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/php.jpg}}
+\frame[plain]{\transdissolve}
+}
 
 \begin{frame}
 	\frametitle{对概念模型的认知}
@@ -854,48 +885,149 @@
 
 \begin{frame}
 	\frametitle{思维模型}
+	\beamertemplatetransparentcovereddynamicmedium
+	\transwipe
 	\begin{itemize}
 		\item 用户思维模型：
 		\begin{itemize}
-			\item 人们在学习和使用系统的过程中，积累了有关如何使用系统的知识，而且在一定程度上，也积累了有关系统如何工作的知识。
-		\end{itemize}
-		\item 在认知心理学中，思维模型被认为是外部世界的某些因素在人脑中的反映，掌握和运用思维模型使得人们能够进行推测和推理。
-		\item 思维模型牵涉到两个过程—“构建”和“运用”过程\\{\tiny 人们既可能进行有意识的思维处理，也可能进行无意识的思维处理。}
+			\item 人们在学习和使用系统的过程中，积累了\textbf{有关如何使用系统的知识}，而且在一定程度上，也积累了\textbf{有关系统如何工作的知识}。
+		\end{itemize}\pause
+		\item 在认知心理学中
+		\begin{itemize}
+			\item 思维模型被认为是外部世界的某些因素在人脑中的反映，\textbf{掌握和运用思维模型使得人们能够进行推测和推理}。
+		\end{itemize}\pause
+		\item 思维模型牵涉到两个过程：“构建”和“运用”过程\\{\tiny 人们既可能进行有意识的思维处理，也可能进行无意识的思维处理。}
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{思维模型用以指导交互的重要性}
-	\begin{itemize}
-		\item 错误的思维模型带来错误的思维模式
-	\end{itemize}
-%使用空调调温器（受水龙头、音量控制的影响）；
-%互联网网页浏览时的错误思维模式。
+	\transdissolve
+	错误的思维模型带来错误的思维模式\\
+	\includegraphics[width=3cm]{images/startbutton.jpg}\pause~
+	\includegraphics[width=2cm]{images/disable-back-button-browser.png}\pause~
+	\includegraphics[width=5cm]{images/dont-allow-this-to-happen.png}
+	% 横屏软键盘输入
 \end{frame}
 
 \begin{frame}
 	\frametitle{正确的思维模型的建立}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\transwipe
+	\begin{itemize}
+		\item 在理想情况下，用户开发的思维模型应与设计人员开发的概念模型相符，如何帮助用户达到这个目标是问题的关键。\pause
+		\item 交互式系统在设计时
+		\begin{itemize}
+			\item 应开发易于用户理解的系统映像
+			\item 应及时响应用户的输入，给出有用的反馈
+			\item 提供易于理解的、直观的反馈信息
+		\end{itemize}\pause
+		\item 交互系统还需要提供正确的信息类型以及正确的信息层次，针对不同层次的用户提供不同层次的系统透明度。
+		\begin{itemize}
+			\item 有条理的、易于理解的说明 
+			\item 合适的在线帮助和自学教程
+			\item 上下文相关的用户指南
+			\begin{itemize}
+				\item 针对不同层次的用户，解释在不同的任务阶段应如何处理各种情况
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{信息处理模型}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\transdissolve
+	\begin{columns}
+		\column{6cm}
+		\begin{itemize}
+			\onslide<1->{\item 将大脑视为一个信息处理机}
+			\begin{itemize}
+				\onslide<1->{\item 信息通过一系列有序的处理阶段进、出大脑。}
+				\onslide<2->{\item 大脑需要对思维表示（包括映像、思维模式、规则和其他形式的知识）进行各种处理（如比较和匹配）。}
+			\end{itemize}
+		\end{itemize}
+		\column{4cm}
+		\onslide<1->{信息处理模型的步骤}
+		\begin{tikzpicture}
+			[node distance=.3cm, start chain=going below,]
+	  		\onslide<1->{\node[normalchain, join] (a) {输入或刺激};}
+			\onslide<2->{\node[punktchain, join] (b) {编码};
+			\node[punktchain, join] (c) {比较};
+			\node[punktchain, join] (d) {响应选择};
+			\node[punktchain, join] (e) {响应执行};}
+			\onslide<1->{\node[normalchain, join] (f) {输出或响应};}
+		\end{tikzpicture}
+	\end{columns}
 \end{frame}
 
 \begin{frame}
 	\frametitle{信息处理模型的局限}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\transwipe
+	\begin{itemize}
+		\item “信息处理模型”
+		\begin{itemize}
+			\item 是否正确反应人们日常的认知活动？ 
+			\item 能否解释真实世界中的认知现象？
+			\item 能否解释人们与计算机交互时的认知活动？
+		\end{itemize}\pause
+		\item 有些研究人员认为，``信息处理''方法没有说服力\\{\tiny 因为这种方法只是考虑纯粹的智能活动，把这种活动同外界的干扰源以及人工辅助物隔离开来。}\pause
+		\item 目前，日益被人们认同的是在认知发生的上下文中研究、分析认知过程。\\{\tiny 主要目标是分析环境中的结构如何帮助人类认知，并减轻认知负担。}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{外部认知模型}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\transwipe
+	\begin{itemize}
+		\item 外部认知是要解释人们在与不同外部表示相交互时涉及的认知过程。
+		\begin{itemize}
+			\item 外部表示包括书本、报纸、网页、多媒体、地图、图表等。
+		\end{itemize}\pause
+		\item 主要目的是要详细说明在不同的认知活动、认知过程中使用不同表示的好处
+		\begin{itemize}
+			\item 将信息、知识表面化以减轻记忆负担；
+			\item 设计有利于人的信息表示及处理工具，减轻计算负担；
+			\item 标注和认知追踪。
+		\end{itemize}
+	\end{itemize}
 \end{frame}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/evernote.jpg}}
+\frame[plain]{\transdissolve}
+}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/google-calendar.png}}
+\frame[plain]{\transdissolve}
+}
+
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/google-calendar-week.jpg}}
+	\begin{frame}[plain]
+		\transdissolve
+		\onslide<2>{
+			\begin{center}
+			\fbox{\includegraphics[scale=.3]{images/google-sync.jpg}}
+			\end{center}
+		}
+	\end{frame}	
+}
 
 \begin{frame}
 	\frametitle{基于外部认知特点的交互式界面设计原则}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 使用基于外部认知的方法进行交互设计时，总体原则是要\textbf{在界面上提供外部表示，以减轻用户的记忆和计算负担}。\pause
+		\item 为此，设计人员需要\textbf{开发不同类型的可视化信息}，以便用户解决某个问题，扩充和增强认知能力。\pause
+		\begin{itemize}
+			\item \textbf{信息可视化技术}，可用于表示大量的数据，同时允许用户从不同的角度进行交叉比较。 % show some data visualization examples (quite big)
+			\item 设计良好的GUI也能大大减轻用户的记忆负担，用户能够依赖外部表示提供的线索，与系统进行交互。
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \subsection{分布式认知}
@@ -920,26 +1052,23 @@
 
 \begin{frame}
 	\frametitle{分布式模型与传统模型}
-	\transboxin<2>
-	\only<1>{
-		\begin{itemize}
-			\item Hollan, Hutchins \& Kirsh (2000) observing human activity ``in the wild,'' described three ways that cognitive process can be distributed
-			\begin{enumerate}
-				\item They can be distributed across members of a social group either co-present or over a distance.
-				\item They can distributed between internal process and external (material or environmental) tools.
-				\item They can be distributed across time with products of earlier events transforming the nature of later events.
-			\end{enumerate}
-		\end{itemize}
-    	\begin{flushright}
-    		{\tiny http://mindmaps.wikispaces.com/dcog}
-    	\end{flushright}
-	}
-	\only<2>{
-		\begin{center}
-			\includegraphics[width=8cm]{images/cognition4.jpg}
-		\end{center}
-	}
+	\begin{itemize}
+		\item Hollan, Hutchins \& Kirsh (2000) observing human activity ``in the wild,'' described three ways that cognitive process can be distributed
+		\begin{enumerate}
+			\item They can be distributed across members of a social group either co-present or over a distance.
+			\item They can distributed between internal process and external (material or environmental) tools.
+			\item They can be distributed across time with products of earlier events transforming the nature of later events.
+		\end{enumerate}
+	\end{itemize}
+    \begin{flushright}
+    	{\tiny http://mindmaps.wikispaces.com/dcog}
+   	\end{flushright}
 \end{frame}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{images/cognition4.jpg}}
+\frame[plain]{\transdissolve}
+}
 
 \begin{frame}
 	\frametitle{分布式认知模型}
