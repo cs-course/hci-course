@@ -38,6 +38,19 @@
 % diagrams
 \usepackage{tikz}
 
+\tikzset{
+	every overlay node/.style={
+		anchor=north west,
+	},
+}
+% Usage:
+% \tikzoverlay at (-1cm,-5cm) {content};
+% or
+% \tikzoverlay[text width=5cm] at (-1cm,-5cm) {content};
+\def\tikzoverlay{%
+	\tikz[baseline,overlay]\node[every overlay node]
+}%
+
 \title{人机交互技术}
 \author{施展}
 \institute{华中科技大学~武汉光电国家实验室}
@@ -63,25 +76,36 @@
 		\item 了解文本输入设备，图像输入设备，触摸屏输入设备，体感输入设备
 %		\item 了解显示器，声音的输出，数字纸等输出设备
 		\item 了解显示器，声音的输出，电子墨水等输出设备
-		\item 了解虚拟现实交互设备
+%		\item 了解虚拟现实交互设备
 	\end{itemize}
 \end{frame}
 
 \subsection{输入设备}
 \begin{frame}
 	\frametitle{输入设备}
-
+	\begin{center}
+	\includegraphics[width=\textwidth]{images/input-devices.jpg}
+	\end{center}
 \end{frame}
 
 \subsubsection{文本输入设备}
 \begin{frame}
 	\frametitle{文本输入设备}
-
+	\begin{itemize}
+		\item 文本输入是人与计算机交互的一个重要组成部分，同时也是一项繁重的工作。
+		\begin{itemize}
+			\item 键盘为主
+			\item 手写、识别（字符/条码、图像、语音）为辅
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{键盘 Keyboard}
-
+	\tikzoverlay at (0cm,-3cm) {{\tiny 文本输入最主要手段，应用环境影响布局，布局影响速度、准确性、舒适度。}};
+	\tikzoverlay at (1.5cm, 4cm) {\includegraphics[width=5cm]{images/keyboard.png}};
+	\tikzoverlay at (0cm, 0cm) {\includegraphics[width=3cm]{images/mobile_keyboards.png}};
+	\tikzoverlay at (6cm, 0cm) {\includegraphics[width=3cm]{images/blackberry-bold-9000-keyboard.jpg}};
 \end{frame}
 
 \begin{frame}
