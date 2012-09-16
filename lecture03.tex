@@ -37,19 +37,15 @@
 
 % diagrams
 \usepackage{tikz}
+\usetikzlibrary{trees,arrows,chains,shapes}
 
-\tikzset{
-	every overlay node/.style={
-		anchor=north west,
-	},
+% full page image
+\newcommand{\fullPageImage}[2]{
+	{
+		\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{#1}}
+		\frame[plain]{#2}
+	}
 }
-% Usage:
-% \tikzoverlay at (-1cm,-5cm) {content};
-% or
-% \tikzoverlay[text width=5cm] at (-1cm,-5cm) {content};
-\def\tikzoverlay{%
-	\tikz[baseline,overlay]\node[every overlay node]
-}%
 
 \title{人机交互技术}
 \author{施展}
@@ -105,6 +101,17 @@
 	\frametitle{键盘 Keyboard}
 	\transglitter % Glitter sweeps in specified direction
 	\transduration<1,2,3>{.2} % Show slide specified number of seconds
+
+	% preparation
+	\tikzstyle{imagenode} = [anchor=north west]
+	% Usage:
+	% \tikzoverlay at (-1cm,-5cm) {content};
+	% or
+	% \tikzoverlay[text width=5cm] at (-1cm,-5cm) {content};
+	\def\tikzoverlay{%
+		\tikz[baseline,overlay]\node[imagenode]
+	}%
+
 	\tikzoverlay at (0cm,-3cm) {文本输入最主要手段~{\tiny 应用环境影响布局，布局影响速度、准确性、舒适度。}};\pause
 	\tikzoverlay at (3cm, 4.5cm) {\includegraphics[width=5cm]{images/keyboard.png}};\pause
 	\tikzoverlay at (0cm, 0cm) {\includegraphics[width=3cm]{images/mobile_keyboards.png}};\pause
@@ -192,29 +199,21 @@
 	\begin{itemize}
 		\onslide<1->{\item 目前这类键盘品种很多，有固定式、分体式和可调角度式，以适应不同操作者的各种姿势。}
 		\onslide<2->{
-			\item 微软自然键盘 Microsoft Nature Keyboard\\
-			\includegraphics[width=4cm]{images/microsoft-natural-ergonomic-keyboard-4000.jpg}~
-			\includegraphics[width=4cm]{images/ergonomic-keyboard-mac-microsoft.jpg}
+			\item {\tiny 微软自然键盘 Microsoft Nature Keyboard}\\
+			\includegraphics[width=3.5cm]{images/microsoft-natural-ergonomic-keyboard-4000.jpg}~
+			\includegraphics[width=3.5cm]{images/ergonomic-keyboard-mac-microsoft.jpg}
+		}
+		\onslide<3->{
+			\item {\tiny \textbf{Kinesis}, \textbf{Logitech} 人体工学键盘 \dots}\\
+			\includegraphics[width=3.5cm]{images/kinesis-advantage-keyboard.jpg}~
+			\includegraphics[width=3.5cm]{images/logitech-ergonomic-keyboard-wave.jpg}
 		}
 	\end{itemize}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[transdissolve]
 	\frametitle{人机工程学键盘 Ergonomic Keyboard}
-	\transdissolve
 	\begin{itemize}
-		\item 目前这类键盘品种很多，有固定式、分体式和可调角度式，以适应不同操作者的各种姿势。
-		\item Kinsis, Logitec 人体工学键盘 \dots\\
-		\includegraphics[width=4cm]{images/kinesis-advantage-keyboard.jpg}~
-		\includegraphics[width=4cm]{images/logitech-ergonomic-keyboard-wave.jpg}
-	\end{itemize}
-\end{frame}
-
-\begin{frame}
-	\frametitle{人机工程学键盘 Ergonomic Keyboard}
-	\transdissolve
-	\begin{itemize}
-		\item 目前这类键盘品种很多，有固定式、分体式和可调角度式，以适应不同操作者的各种姿势。
 		\item 分体式人体工学键盘 Modular Ergonomic Keyboard\\
 		\includegraphics[width=4cm]{images/ergonomic-keyboard-mac-goldtouch.jpg}~
 		% http://elecinlife.com/modular-ergonomic-keyboard-falls-to-pieces/
@@ -245,8 +244,8 @@
 \begin{frame}
 	\frametitle{手写设备}
 	\begin{itemize}
-		\item 手写板+手写笔
-		\item {\tiny 除用于文字、符号、图形等输入外，还可提供光标定位功能，从而同时替代键盘与鼠标}
+		\item 手写板+手写笔\\
+		{\tiny 除用于文字、符号、图形等输入外，还可提供光标定位功能，从而同时替代键盘与鼠标}
 	\end{itemize}
 	% http://m.pconline.com.cn/shop123090/nid:3118168/news_detail.html
 	\begin{center}
@@ -259,9 +258,9 @@
 	\frametitle{手写板}
 	% http://baike.baidu.com/view/207382.htm
 	\begin{itemize}
-		\item 电阻式压力手写板：几乎已经被淘汰
-		\item 电磁式感应手写板：目前市场主流产品
-		\item 电容式触控手写板：市场的新生力量，具有耐磨损、使用简便、敏感度高等优点，是今后手写板的发展趋势。
+		\item 电阻式压力手写板：\\{\tiny 几乎已经被淘汰}
+		\item 电磁式感应手写板：\\{\tiny 目前市场主流产品}
+		\item 电容式触控手写板：\\{\tiny 市场的新生力量，具有耐磨损、使用简便、敏感度高等优点，是今后手写板的发展趋势。}
 	\end{itemize}
 \end{frame}
 
@@ -280,53 +279,203 @@
 
 \begin{frame}
 	\frametitle{光学字符识别 Optical Character Recognition}
-%图像处理模块
-%版面划分模块 
-%文字识别模块 
-%文字编辑模块
-%
-%影像输入、影像前处理、文字特征抽取、比对识别、人工校正、结果输出
+	\tikzstyle{treenode}	= [draw=black,thick,anchor=west]
+	\tikzstyle{comment}		= [fill=gray!80,anchor=west]
+	\begin{tikzpicture}[%
+		grow via three points={one child at (0.5,-0.7) and
+		two children at (0.5,-0.7) and (0.5,-1.4)},
+		edge from parent path={(\tikzparentnode.south) |- (\tikzchildnode.west)}]
+		\node [treenode] {光学字符识别}
+			child { node [treenode] {图像处理模块}
+				child { node [comment] {文稿扫描、图像缩放、图像旋转}}}
+			child [missing] {}	
+			child { node [treenode] {版面划分模块}
+				child { node [comment] {版面划分、更改划分~{\tiny 理解版面、字切分、归一化等}}}}
+			child [missing] {}
+			child { node [treenode] {文字识别模块}
+				child { node [comment] {{\tiny 逐行切割、单字辨认、归一化、特征提取、识别}}}}
+			child [missing] {}
+			child { node [treenode] {文字编辑模块}
+				child { node [comment] {文字修改、编辑}}};
+	\end{tikzpicture}
 \end{frame}
 
 \begin{frame}
-	\frametitle{手写汉字识别 Handwriting Recognition}
+	\frametitle{光学字符识别 Optical Character Recognition}
+	\tikzstyle{punktchain}	= [
+		rectangle, 
+		rounded corners, 
+		% fill=black!10,
+		draw=black, very thick,
+		text width=7em, 
+		minimum height=1em, 
+		text centered, 
+		on chain]
+	\tikzstyle{normalchain}	= [
+		rectangle, 
+		rounded corners, 
+		% fill=black!10,
+		%draw=black, very thick,
+		text width=7em, 
+		minimum height=1em, 
+		text centered, 
+		on chain]
+	\tikzstyle{line}	= [draw, thick, <-]
+	\tikzstyle{every join}	= [->, thick, shorten >=1pt]
+%	影像输入、影像前处理、文字特征抽取、比对识别、人工校正、结果输出
+	\begin{center}
+	\begin{tikzpicture}
+		[node distance=.3cm, start chain=going below,]
+  		\node[normalchain, join] (a) {影像输入};
+		\node[punktchain, join] (b) {影像前处理};
+		\node[punktchain, join] (c) {文字特征抽取};
+		\node[punktchain, join] (d) {比对识别};
+		\node[punktchain, join] (e) {人工校正};
+		\node[normalchain, join] (f) {结果输出};
+	\end{tikzpicture}
+	\end{center}
+\end{frame}
 
+\begin{frame}
+	\frametitle{手写识别 Handwriting Recognition}
+	\begin{center}
+	\includegraphics[width=4cm]{images/myscriptmemo7212.jpg}~\pause
+	\includegraphics[width=4cm]{images/apple-handwriting.png}
+	\end{center}
 \end{frame}
 
 \subsubsection{指点输入设备}
 \begin{frame}
 	\frametitle{指点输入设备}
-	\begin{itemize}
-		\item 指点设备常用于完成一些定位和选择物体的交互任务。
+	\beamertemplatetransparentcovereddynamicmedium
+	\transduration<1,2>{.1}
+	\begin{itemize}[<+->]
+		\item 指点设备常用于完成一些\textbf{定位}和\textbf{选择物体}的交互任务。
 		\item 物体可能处于一维、二维、三维或更高维的空间中。
-		\item 选择与定位的方式可以是直接选择，或通过操作屏幕上的光标来完成。
+		\item 选择与定位的方式可以是\textbf{直接选择}，或通过\textbf{操作屏幕上的光标}来完成。
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{鼠标 Mouse}
+	\begin{itemize}
+	\item 1968年12月9日，世界上的第一个鼠标诞生于美国斯坦福大学，由Douglas Englebart博士发明。
+	\end{itemize}
+	\begin{center}
+	\includegraphics[width=7cm]{images/first-mouse.jpg}
+	\end{center}
+\end{frame}
 
+\begin{frame}
+	\frametitle{鼠标 Mouse}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{columns}
+		\column{6cm}
+		\begin{itemize}[<+->]
+		\item 外形是一只小木头盒子
+		\item 工作原理
+		\begin{itemize}
+			\item 底部的小球带动枢轴转动，继而带动变阻器改变阻值来产生位移信号，并将信号传至主机。
+		\end{itemize}
+		\item 鼠标的使用使得计算机的操作更加简便，有效代替了键盘的繁琐指令。
+		\end{itemize}
+		\column{4cm}
+		\includegraphics[width=3.5cm]{images/computer-mouse-original-patent.jpg}
+	\end{columns}
 \end{frame}
 
 \begin{frame}
 	\frametitle{鼠标的分类}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{center}
+	\includegraphics[width=3cm]{images/mouse1.jpg}
+	\includegraphics[width=3cm]{images/mouse2.jpg}
+	\includegraphics[width=3cm]{images/mouse3.jpg}
+	\end{center}
+	\begin{itemize}
+		\item 依据移动感应技术的分类
+		\begin{itemize}
+			\onslide<1-6>{\item 机械鼠标}
+		    \onslide<2-6>{\item 早期光电鼠标~{\tiny 需要印有特定条纹的鼠标垫}}
+		    \onslide<3-6>{\item 光电机械鼠标}
+		    \onslide<4->{\item 光电鼠标~{\tiny 现代的“红光鼠标”，无需特定条纹的鼠标垫}}
+		    \onslide<5->{\item 蓝光鼠标~{\tiny 民用高端，DPI可达2000}}
+		    \onslide<6,7>{\item 激光鼠标~{\tiny DPI高端的能达到5000以上}}
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{鼠标与计算机的接口}
-
+	\begin{itemize}
+		\onslide<1-4>{\item 串行接口 Serial Port~\includegraphics[width=1.5cm]{images/serial-port.jpg}}
+	    \onslide<2-4>{\item PS/2接口~\includegraphics[width=1.5cm]{images/ps2-port.jpg}}
+	    \onslide<3-5>{\item USB接口 Universal Serial Bus\\
+	    	\includegraphics[width=1.5cm]{images/usb-port.jpg}~}
+	    \onslide<5>{\includegraphics[width=1.5cm]{images/ps2-usb-adapter.jpg}}
+	    \onslide<4-5>{\item 蓝牙接口 Bluetooth~\includegraphics[width=1.5cm]{images/bluetooth-mouse.jpg}}
+	\end{itemize}
 \end{frame}
 
+% http://www.freepatentsonline.com/6927759.html
+% http://www.freepatentsonline.com/7119793.html
 \begin{frame}
 	\frametitle{鼠标的结构}
+	\begin{center}
+	\includegraphics[scale=0.4]{images/6927759-0-large.jpg}~
+	\includegraphics[scale=0.2]{images/7119793-0-large.jpg}
+	\end{center}
+\end{frame}
 
+% http://www.engineersgarage.com/insight/how-optical-mouse-works
+\fullPageImage{images/optical-mouse-insight-1.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-2.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-3.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-4.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-5_1.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-6_0.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-7_1.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-8.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-9.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-10.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-11.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-12.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-13.jpg}{\transdissolve}
+
+\begin{frame}
+	\frametitle{鼠标的原理}
+	\transdissolve
+	\begin{center}
+	\includegraphics[width=4cm]{images/mouse-basics-1.jpg}
+	\includegraphics[width=4cm]{images/mouse-basics-2.jpg}\\
+	\pause
+	\includegraphics[width=3cm]{images/mouse-basics-3.jpg}
+	\end{center}
 \end{frame}
 
 \begin{frame}
 	\frametitle{新型鼠标}
-
+	\transdissolve
+	\begin{center}
+	% http://www.tuvie.com/future-mouse-from-swiftpoint/
+	\includegraphics[width=3cm]{images/swiftpoint-mouse1.jpg}\\
+	\pause
+	\includegraphics[width=4cm]{images/swiftpoint-mouse3.jpg}
+	\includegraphics[width=4cm]{images/swiftpoint-mouse6.jpg}
+	\end{center}
 \end{frame}
+
+% http://www.zdnet.com/wearable-tech-6-future-tech_p10-7000002331/
+\fullPageImage{images/wearable-airmouse-future-computer-gadget-02-620x.jpg}{\transdissolve}
+
+% http://archive.techtree.com/techtree/jsp/article.jsp?article_id=88590&cat_id=505
+\fullPageImage{images/spacenavigator-3d-mouse2.jpg}{
+	\transdissolve
+	\pause
+	\begin{center}
+	\includegraphics[width=5cm]{images/spacenavigator-3d-mouse1.jpg}
+	\end{center}
+}
 
 \begin{frame}
 	\frametitle{触摸板 Touchpad}
