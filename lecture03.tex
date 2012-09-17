@@ -302,6 +302,7 @@
 
 \begin{frame}
 	\frametitle{光学字符识别 Optical Character Recognition}
+	\beamertemplatetransparentcovereddynamicmedium
 	\tikzstyle{punktchain}	= [
 		rectangle, 
 		rounded corners, 
@@ -323,17 +324,45 @@
 	\tikzstyle{line}	= [draw, thick, <-]
 	\tikzstyle{every join}	= [->, thick, shorten >=1pt]
 %	影像输入、影像前处理、文字特征抽取、比对识别、人工校正、结果输出
-	\begin{center}
+	\begin{columns}
+	\column{4cm}
 	\begin{tikzpicture}
 		[node distance=.3cm, start chain=going below,]
-  		\node[normalchain, join] (a) {影像输入};
-		\node[punktchain, join] (b) {影像前处理};
-		\node[punktchain, join] (c) {文字特征抽取};
-		\node[punktchain, join] (d) {比对识别};
-		\node[punktchain, join] (e) {人工校正};
-		\node[normalchain, join] (f) {结果输出};
+  		\onslide<1>{\node[normalchain, join] (a) {影像输入};}
+		\onslide<2>{\node[punktchain, join] (b) {影像前处理};}
+		\onslide<3>{\node[punktchain, join] (c) {文字特征抽取};}
+		\onslide<4>{\node[punktchain, join] (d) {比对识别};}
+		\onslide<5>{\node[punktchain, join] (e) {人工校正};}
+		\onslide<6>{\node[normalchain, join] (f) {结果输出};}
 	\end{tikzpicture}
-	\end{center}
+	\column{6cm}
+	\begin{itemize}
+		\only<1>{\item 使用光学仪器，如影像扫描仪、传真机或任何摄影器材，将影像转入计算机。}
+		\only<2>{\item 影像正规化、去除噪声、影像矫正等的影像处理，及图文分析、文字行与字分离的文件前处理。}
+		\only<3>{
+			\item 用什么特征、怎么抽取？
+			\begin{itemize}
+				\item 统计的特征，如文字区域内的黑/白点数比;
+				\item 结构的特征，如文字影像细线化后，取得字的笔划端点、交叉点之数量及位置。
+			\end{itemize}
+		}
+		\only<4>{
+			\item 使用特征数据库来进行比对。
+			\begin{itemize}
+				\item 根据不同的特征特性，选用不同的数学距离函数；
+				\item 辅以神经网络、专家系统；
+				\item 字词后处理：相似候选字群，根据上下文选择。
+			\end{itemize}
+		}
+		\only<5>{
+			\item 文字影像与识别文字的对照
+			\item 屏幕信息摆放的位置
+			\item 每一识别文字的候选字、拒认字
+			\item 字词后处理后标示出可能有问题的字词
+		}
+		\only<6>{\item 格式还原、人工排版}
+	\end{itemize}
+	\end{columns}
 \end{frame}
 
 \begin{frame}
