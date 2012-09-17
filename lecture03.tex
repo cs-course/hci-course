@@ -325,7 +325,7 @@
 	\tikzstyle{every join}	= [->, thick, shorten >=1pt]
 %	影像输入、影像前处理、文字特征抽取、比对识别、人工校正、结果输出
 	\begin{columns}
-	\column{4cm}
+	\column{.4\textwidth}
 	\begin{tikzpicture}
 		[node distance=.3cm, start chain=going below,]
   		\onslide<1>{\node[normalchain, join] (a) {影像输入};}
@@ -335,7 +335,7 @@
 		\onslide<5>{\node[punktchain, join] (e) {人工校正};}
 		\onslide<6>{\node[normalchain, join] (f) {结果输出};}
 	\end{tikzpicture}
-	\column{6cm}
+	\column{.6\textwidth}
 	\begin{itemize}
 		\only<1>{\item 使用光学仪器，如影像扫描仪、传真机或任何摄影器材，将影像转入计算机。}
 		\only<2>{\item 影像正规化、去除噪声、影像矫正等的影像处理，及图文分析、文字行与字分离的文件前处理。}
@@ -399,7 +399,7 @@
 	\frametitle{鼠标 Mouse}
 	\beamertemplatetransparentcovereddynamicmedium
 	\begin{columns}
-		\column{6cm}
+		\column{.6\textwidth}
 		\begin{itemize}[<+->]
 		\item 外形是一只小木头盒子
 		\item 工作原理
@@ -408,7 +408,7 @@
 		\end{itemize}
 		\item 鼠标的使用使得计算机的操作更加简便，有效代替了键盘的繁琐指令。
 		\end{itemize}
-		\column{4cm}
+		\column{.4\textwidth}
 		\includegraphics[width=3.5cm]{images/computer-mouse-original-patent.jpg}
 	\end{columns}
 \end{frame}
@@ -457,19 +457,19 @@
 \end{frame}
 
 % http://www.engineersgarage.com/insight/how-optical-mouse-works
-\fullPageImage{images/optical-mouse-insight-1.jpg}{\transdissolve}
-\fullPageImage{images/optical-mouse-insight-2.jpg}{\transdissolve}
-\fullPageImage{images/optical-mouse-insight-3.jpg}{\transdissolve}
-\fullPageImage{images/optical-mouse-insight-4.jpg}{\transdissolve}
-\fullPageImage{images/optical-mouse-insight-5_1.jpg}{\transdissolve}
-\fullPageImage{images/optical-mouse-insight-6_0.jpg}{\transdissolve}
-\fullPageImage{images/optical-mouse-insight-7_1.jpg}{\transdissolve}
-\fullPageImage{images/optical-mouse-insight-8.jpg}{\transdissolve}
-\fullPageImage{images/optical-mouse-insight-9.jpg}{\transdissolve}
-\fullPageImage{images/optical-mouse-insight-10.jpg}{\transdissolve}
-\fullPageImage{images/optical-mouse-insight-11.jpg}{\transdissolve}
-\fullPageImage{images/optical-mouse-insight-12.jpg}{\transdissolve}
-\fullPageImage{images/optical-mouse-insight-13.jpg}{\transdissolve}
+\fullPageImage{images/optical-mouse-insight-1.jpg}{\transwipe}
+\fullPageImage{images/optical-mouse-insight-2.jpg}{\transwipe}
+\fullPageImage{images/optical-mouse-insight-3.jpg}{\transwipe}
+\fullPageImage{images/optical-mouse-insight-4.jpg}{\transwipe}
+\fullPageImage{images/optical-mouse-insight-5_1.jpg}{\transwipe}
+\fullPageImage{images/optical-mouse-insight-6_0.jpg}{\transwipe}
+\fullPageImage{images/optical-mouse-insight-7_1.jpg}{\transwipe}
+\fullPageImage{images/optical-mouse-insight-8.jpg}{\transwipe}
+\fullPageImage{images/optical-mouse-insight-9.jpg}{\transwipe}
+\fullPageImage{images/optical-mouse-insight-10.jpg}{\transwipe}
+\fullPageImage{images/optical-mouse-insight-11.jpg}{\transwipe}
+\fullPageImage{images/optical-mouse-insight-12.jpg}{\transwipe}
+\fullPageImage{images/optical-mouse-insight-13.jpg}{\transwipe}
 
 \begin{frame}
 	\frametitle{鼠标的原理}
@@ -507,13 +507,48 @@
 }
 
 \begin{frame}
-	\frametitle{触摸板 Touchpad}
-
+	\frametitle{触摸板 TouchPad}
+	\begin{center}
+	% http://www.fayerwayer.com/up/2009/06/macbook-unibody-touchpad.jpg
+	\includegraphics[width=8cm]{images/macbook-unibody-touchpad.jpg}
+	\end{center}
+	\begin{itemize}
+		\item 移动PC的鼠标
+		\begin{itemize}
+			\item 由一块能够感应手指运行轨迹的压感板和两个按钮组成，电容感应
+			\item 无机械磨损，控制精度不错，操作方便，易于掌握
+			\item 易受污渍、水分影响
+		\end{itemize}
+	\end{itemize}
 \end{frame}
+
+% http://www.thinkpads.com/wp-content/gallery/lenovo-thinkpad-t410-review/
+\fullPageImage{images/lenovo-thinkpad-t410-touchpad-trackpoint-ultranav.jpg}{
+	\transdissolve
+	\pause
+	% http://www.no-ack.org/2010/12/disable-buttons-of-synaptics-touchpad.html
+	\begin{center}
+	\includegraphics[width=5cm]{images/thinkpad-with-synaptics-touchpad.png}
+	\end{center}
+}
 
 \begin{frame}
 	\frametitle{控制杆 Joy Stick}
-
+	\transwipe
+	\transduration<1,2,3>{.2} % Show slide specified number of seconds
+	\begin{center}
+	% http://radialmind.blogspot.com/2010/05/joystick-pong-how-to-write-custom-usb.html
+	\includegraphics[height=2.7cm]{images/joystick1.jpg}\pause
+	% http://www.hisupplier.com/product-37839-16-Bits-Joysticks/
+	\includegraphics[height=2.7cm]{images/joystick2.jpg}\pause
+	% http://www.technologytell.com/gaming/59500/x-arcade-solo-joystick-single-player-arcade-style-controller/
+	\includegraphics[height=2.7cm]{images/x-arcade_solo_joystick_640.jpg}\pause
+	\end{center}
+	\begin{itemize}
+		\item 将物理动作（手部的运动）转换成数字形式
+		\item 早已在各种机械设备上得到应用（战斗机、挖掘机）
+		\item 监视每一个轴的位置以确定操纵杆的位置
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
