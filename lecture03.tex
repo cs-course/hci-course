@@ -534,6 +534,15 @@
 
 \begin{frame}
 	\frametitle{控制杆 Joy Stick}
+	% http://www.atariarchives.org/ccc/chapter5.php
+	\begin{center}
+	\includegraphics[height=5cm]{images/joystick-prototype-fig1.jpg}
+	\includegraphics[height=5cm]{images/joystick-prototype-fig2.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{控制杆 Joy Stick}
 	\transwipe
 	\transduration<1,2,3>{.2} % Show slide specified number of seconds
 	\begin{center}
@@ -551,20 +560,78 @@
 	\end{itemize}
 \end{frame}
 
+% http://baike.baidu.com/view/10658.htm
 \begin{frame}
 	\frametitle{触摸屏 Touch Screen}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{columns}
+	\column{.6\textwidth}
+	\begin{itemize}[<+->]
+		\item 触控是目前最简单、方便、自然的一种人机交互方式。
+		\begin{itemize}
+			\item 当用户接触屏幕上的图形按钮，屏幕上的触觉反馈系统可根据预先编制的程序执行各种功能。
+			\item 可用以取代机械式的按钮面板，并借由液晶显示画面制造出生动的影音效果。
+		\end{itemize}
+	\end{itemize}
+	\column{.4\textwidth}
+	\includegraphics[width=4cm]{images/touch-screen.jpg}
+	\end{columns}
 \end{frame}
 
+% http://www.eizo.com/global/library/basics/basic_understanding_of_touch_panel/
+\begin{frame}
+	\frametitle{触摸屏的应用}
+	\begin{itemize}
+	\item 广泛用于从ATM、售货机、导航、娱乐到手机\dots
+	\end{itemize}
+	\includegraphics[width=\textwidth]{images/touch-screen-applications.jpg}
+\end{frame}
+
+% http://www.planarembedded.com/technology/touch/
 \begin{frame}
 	\frametitle{触摸屏的组成与分类}
-
+%	\beamertemplatetransparentcovereddynamicmedium
+	\begin{columns}
+	\column{.5\textwidth}
+	\begin{itemize}[<+->]
+		\item 矢量压力传感技术触摸屏\\
+			{\tiny 早期技术}
+		\item 电阻技术触摸屏\\
+			{\tiny 单触，定位准确，易磨损}
+		\item 电容技术触摸屏\\
+			{\tiny 不易磨损、生物电、漂移}
+		\item 红外线技术触摸屏\\
+			{\tiny 早期：光干扰、曲面失真\\改进：免电流/压和静电干扰，适宜恶劣环境}
+		\item 表面声波技术触摸屏\\
+			{\tiny 在公共场所使用较多，污渍影响}
+	\end{itemize}
+	\column{.5\textwidth}
+	\only<2>{\includegraphics[width=4.5cm]{images/resistive-how-final.jpg}}
+	\only<3>{
+		\includegraphics[width=3.5cm]{images/capacitive-how-final.jpg}\\
+		\includegraphics[width=3.5cm]{images/projected-cap-final.jpg}
+	}
+	\only<4>{\includegraphics[width=4.5cm]{images/ir-how-final.jpg}}
+	\only<5>{\includegraphics[width=4.5cm]{images/saw-final.jpg}}
+	\end{columns}
 \end{frame}
 
+% http://www.ecnmag.com/articles/2010/04/advances-touch-controller-technology
+\fullPageImage{images/pct-construction.jpg}{\transdissolve}
+
+% http://electronicdesign.com/article/components/self-capacitive-sensing-brings-touch-to-large-screens-
+% http://www.radio-electronics.com/articles/electronics-components/touchscreen-controller---key-points-to-25
+% http://bbs.ednchina.com/BLOG_ARTICLE_38488.HTM （中文版）
+\fullPageImage{images/pct-construction-comparision.png}{\transwipe}
+
+% http://medialoot.com/item/40-vector-multitouch-gestures/
 \begin{frame}
 	\frametitle{多点触摸}
-
+	\includegraphics[width=\textwidth]{images/640x440_Vector_MultiTouch_Gestures_Preview3.png} 
 \end{frame}
+
+% http://www.gizmowatch.com/entry/perceptive-pixel-uncovers-gigantic-82-inch-pro-cap-lcd-display/
+\fullPageImage{images/biggest_projected_capacitive_display_r7p8n.jpg}{\transdissolve}
 
 \subsubsection{图像输入设备}
 \begin{frame}
@@ -600,9 +667,9 @@
 
 \end{frame}
 
-\subsubsection{电子墨}
+\subsubsection{电子纸与电子墨水}
 \begin{frame}
-	\frametitle{电子墨}
+	\frametitle{电子纸与电子墨水}
 
 \end{frame}
 
