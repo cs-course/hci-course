@@ -632,27 +632,174 @@
 
 % http://www.gizmowatch.com/entry/perceptive-pixel-uncovers-gigantic-82-inch-pro-cap-lcd-display/
 \fullPageImage{images/biggest_projected_capacitive_display_r7p8n.jpg}{\transdissolve}
+% http://www.knowledgebase-script.com/demo/article-420.html
+\fullPageImage{images/microsoft-surface.jpg}{\transwipe}
+\fullPageImage{images/microsoft-surface-illustration.jpg}{
+	\transwipe
+	\begin{beamerboxesrounded}[shadow=true]{关键环节}
+		\begin{enumerate}
+			\only<1>{\item 屏幕：多用户同时进行多点触控输入}
+			\only<2>{\item 红外：在近红外波长范围探测搁置物}
+			\only<3>{\item 处理器：Core 2 Duo处理器, 2GB内存256MB显存，蓝牙、Wifi \dots}
+			\only<4>{\item 投影：1024 x 768分辨率高清投影}
+		\end{enumerate}
+	\end{beamerboxesrounded}
+}
+%1. Screen: A diffuser turns the Surface's acrylic tabletop into a large horizontal "multitouch" screen, capable of processing multiple inputs from multiple users. The Surface can also recognize objects by their shapes or by reading coded "domino" tags.
+%2. Infrared: Surface's "machine vision" operates in the near-infrared spectrum, using an 850-nanometer-wavelength LED light source aimed at the screen. When objects touch the tabletop, the light reflects back and is picked up by multiple infrared cameras with a net resolution of 1280 x 960.
+%3. CPU: Surface uses many of the same components found in everyday desktop computers. A Core 2 Duo processor, 2GB of RAM and a 256MB graphics card. Wireless communication with devices on the surface is handled using WiFi and Bluetooth antennas (future versions may incorporate RFID or Near Field Communications). The underlying operating system is a modified version of Microsoft Vista.
+%4. Projector: Microsoft's Surface uses the same DLP light engine found in many rear-projection HDTVs. The footprint of the visible light screen, at 1024 x 768 pixels, is actually smaller than the invisible overlapping infrared projection to allow for better recognition at the edges of the screen.
 
 \subsubsection{图像输入设备}
 \begin{frame}
 	\frametitle{图像输入设备}
-
+	\begin{itemize}
+		\item 图像输入是人与计算机交互的另外一个重要组成部分。
+		\begin{itemize}
+			\item 静态画面\\{\tiny \textbf{数码相机、二维扫描仪}，快速输入图像，且经过对图像的分析与识别，可以得到文字、图形等内容；}
+			\item 动态画面\\{\tiny \textbf{摄像头}，捕捉动态场景。}
+		\end{itemize}
+	\end{itemize}
+	\begin{center}
+	\includegraphics[width=.25\textwidth]{images/scanner.jpg}
+	\includegraphics[width=.25\textwidth]{images/scanner-barcode.jpg}
+	\includegraphics[width=.25\textwidth]{images/camera.jpg}
+	\includegraphics[width=.25\textwidth]{images/compact_camera.jpg}
+	\end{center}
 \end{frame}
 
 \begin{frame}
 	\frametitle{扫描仪}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{columns}
+	\column{.6\textwidth}
+	\begin{enumerate}[<+->]
+		\item {\small 光源将光线照射到待扫描的图像原稿上，产生反射光或透射光；}
+		\item {\small 经反光镜组反射到电荷耦合器件 (Charge Coupled Device, CCD)中；}
+		\item {\small CCD图像传感器根据反射光线强弱的不同转换成不同大小的电流；}
+		\item {\small 电流经模拟／数字转换处理，将电信号转换成数字信号，即产生一行图像数据。}
+	\end{enumerate}
+	\column{.4\textwidth}
+	% (obsolete) http://www.pcmag.com/article2/0,2817,1156000,00.asp
+	% http://www.petervaldivia.com/eso/computers/computers.php
+	\includegraphics[width=.9\textwidth]{images/scanner-diagram.jpg}
+	\end{columns}
 \end{frame}
 
 \begin{frame}
-	\frametitle{数码摄像头}
-
+	\frametitle{扫描仪~{\small 分辨率}}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 分辨率决定了最高扫描精度\\{\tiny 高分辨率意味着高图像精度，还将增加扫描文件尺寸。}
+		\item 光学分辨率\\{\tiny 光学部件 (即透镜组) 分辨率 + 传感器 (即CCD器件) 分辨率}
+		\item 插值分辨率\\{\tiny 由驱动程序及后期处理软件进行处理，如拟合、锐化\dots ，将增加图像像素。}
+	\end{itemize}
 \end{frame}
+
+\begin{frame}
+	\frametitle{扫描仪~{\small 扫描速度}}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 一般指扫描仪从预览开始到图像扫描完成后，光头移动的时间，即物理部件工作过程用时。
+		\item 有时把扫描图像送到word文档中所花费的时间，往往比单纯的扫描过程还要长。
+		\item 完整的扫描速度：
+		\begin{itemize}
+			\item 作业任务从打开扫描仪完成预热，到把从原稿放置在扫描平台上开始，到最终完成图像处理的整个过程。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+% http://h20424.www2.hp.com/product/scanjet/cn/zh/index.asp
+\begin{frame}
+	\frametitle{扫描仪~{\small 扫描速度}}
+	\begin{columns}
+		\column{.5\textwidth}
+		\begin{itemize}
+			\item {\small HP Scanjet Enterprise 7000n 文档捕获工作站}
+			\item {\tiny 600 dpi分辨率，48位色彩深度}
+			\item {\tiny 扫描速度（ADF、A4）: }
+			\begin{itemize}
+				\item {\tiny \textbf{40 页/分钟/80 幅图像/分钟（黑白和灰阶）}}
+				\item {\tiny \textbf{35 页/分钟/70 幅图像/分钟（彩色）}}
+			\end{itemize}
+			\item {\tiny 最大扫描尺寸（平板）: 216 x356 毫米}
+			\item {\tiny 支持的介质类型: }
+			\begin{itemize}
+				\item {\tiny 普通纸、喷墨纸；信封、标签、卡片}
+			\end{itemize}
+			\item {\tiny 日打印负荷 2000 页}
+		\end{itemize}
+		\column{.5\textwidth}
+		\includegraphics[width=.9\textwidth]{images/scanjet7000.jpg}
+	\end{columns}
+\end{frame}
+
+% http://www.photoreview.com.au/news/canon-unveils-long-awaited-eos-5d-mark-ii
+\fullPageImage{images/canon-5d2-front-view_sml.jpg}{\transwipe}
+\fullPageImage{images/canon-5d2-k218frontview_sml.jpg}{\transwipe}
+
+% http://images04.olx.co.id/ui/11/90/25/1346258522_433538525_1-Gambar--Nokia-808-PureView-Harga-Rp3700000-Call-62856-5639-7135.jpg
+\fullPageImage{images/Nokia-808-PureView-Harga.jpg}{\transwipe}
+% Kamera utama 41 MP (38 MP effective, 7152 x 5368 pixels), Carl Zeiss optics, autofocus, Xenon flash, 1/1.2 sensor size, ND filter, up to 3x loseless digital zoom, geo-tagging, face detection, Video 1080p@30fps
+
+% http://www.esato.com/news/under-the-cover-of-nokia-808-pureview-2333#g221
+\fullPageImage{images/inside-the-nokia-808-pureview-lens.jpg}{\transwipe}
+% http://conversations.nokia.com/2012/03/01/nokia-pureview-qa-with-damian-dinning/
+\fullPageImage{images/pureview-detached.jpg}{\transwipe}
+%http://www.engadget.com/2012/03/05/nokia-808-shows-off-carl-zeiss-lens-division/
+\fullPageImage{images/pureview-lens.jpg}{\transwipe}
+% http://media.gizmodo.co.uk/wp-content/uploads/2012/09/original.jpg
+\fullPageImage{images/pureview-comparision.jpg}{\transwipe}
+
+% http://http://www.appvv.com/news/2670.shtml
+% 苹果的这个专利被命名为“配备不同照相机镜头的便携式电子设备背板”（Back Panel for a Portable Electronic Device with Different Camera Lens Options）。专利文件显示，随着用高压缩设备拍出的数码图片的质量越来越高，用户希望能获得在高端数码相机（如数码单反相机）上拥有的一些更复杂的功能，这需要为设备搭配强大的镜头、滤镜、光学变焦和图像稳定器材。
+\fullPageImage{images/apple-patent-camera.jpg}{\transwipe}
+% http://reviews.in.88db.com/index.php/technology/digital-cameras/17146-iphone-to-get-slr-like-changeable-lenses
+\fullPageImage{images/Apple-Changeable-Lens.jpg}{\transwipe}
+
+\begin{frame}
+	\frametitle{数码摄像头}
+	\begin{center}
+	% http://www.sciencedirect.com/science/article/pii/S1076567010620058
+	\includegraphics[width=.8\textwidth]{images/ccd.jpg}
+	\end{center}
+\end{frame}
+
+% http://www.tedpella.com/cameras_html/ccd_cmos.htm
+\fullPageImage{images/ccd-internal.jpg}{\transwipe}
+\fullPageImage{images/cmos-internal.jpg}{\transwipe}
+
+% http://pluggedin.kodak.com/pluggedin/post/?id=2179980
+\fullPageImage{images/wafer.jpg}{
+	\transdissolve
+	% http://www.steves-digicams.com/news/fujifilm-announces-digital-imaging-breakthrough-with-its-new-super-ccd.html
+	\pause
+	\begin{center}
+	\includegraphics[scale=.5]{images/ccd-chip.jpg}
+	\end{center}
+}
 
 \subsection{输出设备}
 \begin{frame}
 	\frametitle{输出设备}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\tikzstyle{punkt} = [
+		rectangle,
+		rounded corners,
+		draw=black, very thick,
+		text width=6.5em,
+		minimum height=2em,
+		text centered]
+	\tikzstyle{line} = [
+		draw,
+		text centered]
+	\begin{tikzpicture}[node distance=0.5cm, auto,]
+		\node[punkt] (display) {显示};
+		\uncover<2->{\node[punkt, right=of display] (epaper) {电子纸};}
+		\node[punkt, right=of epaper] (print) {打印};
+		\uncover<2->{\path[line]	(display)--(epaper);
+		\path[line]	(epaper)--(print);}
+	\end{tikzpicture}
 \end{frame}
 
 \subsubsection{显示器}
@@ -668,10 +815,91 @@
 \end{frame}
 
 \subsubsection{电子纸与电子墨水}
-\begin{frame}
-	\frametitle{电子纸与电子墨水}
+% http://news.cnet.com/8301-17938_105-20009738-1/kindle-vs-nook-vs-ipad-which-e-book-reader-should-you-buy/
+\fullPageImage{images/ebooks.jpg}{\transwipe}
+\fullPageImage{images/kindle-inside.jpg}{\transwipe}
 
+% http://www.economist.com/node/442911
+\begin{frame}
+	\frametitle{电子纸与电子墨水 Electronic Paper, Ink}
+	\transwipe
+	\begin{center}
+	\includegraphics[height=.8\textheight, width=.6\textwidth]{images/e-ink-technology.jpg}
+	\end{center}
 \end{frame}
+
+% http://www.seikowatches.com/baselworld/2007/press/details/070412_11.html
+\begin{frame}
+	\frametitle{电子纸与电子墨水 Electronic Paper, Ink}
+	\transwipe
+	\begin{center}
+	\includegraphics[width=\textwidth]{images/e-ink-technology-detail.jpg}
+	\end{center}
+\end{frame}
+
+% http://zh.wikipedia.org/wiki/电子纸
+\begin{frame}[transwipe]
+	\frametitle{电子纸与电子墨水 Electronic Paper, Ink}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 仿效墨水在真实纸张上的显现，如同普通纸一样可以反射环境光。
+		\item \textbf{不加电}的情况下可保留原先显示的图片和文字状态。
+		\item 显示内容时图像固定、无需持续刷新，所显示的图像具有\textbf{很大的可视角度}。
+		\item 与纸的特性十分相似，其色彩对比高、分辨率高、耗电量小、制造成本低。
+		\item 应用于零售商店价签，数字标牌，电子公告牌，手机屏幕，电子书阅读器。
+	\end{itemize}
+\end{frame}
+
+% http://www.seikowatches.com/baselworld/2007/press/details/070412_11.html
+\begin{frame}
+	\frametitle{电子纸与电子墨水 Electronic Paper, Ink}
+	\transwipe
+	\begin{center}
+	\includegraphics[height=.8\textheight, width=.4\textwidth]{images/e-ink-watch1.jpg}
+	\includegraphics[height=.8\textheight, width=.4\textwidth]{images/e-ink-watch2.jpg}
+	\end{center}
+\end{frame}
+
+% http://zh.wikipedia.org/wiki/电子纸
+\begin{frame}
+	\frametitle{电子纸与电子墨水 Electronic Paper, Ink}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 刷新速度极低、复杂交互不便\pause
+		\begin{itemize}
+			\item 强制刷新清楚图像残留，搭配键盘、触屏
+		\end{itemize}\pause
+		\item 与液晶屏幕相比，最大的缺点是没有背光\pause
+		\begin{itemize}
+			\item 给电子纸搭配一个辅助光源
+		\end{itemize}\pause
+		\item E-Ink屏幕开始大规模上市的时候，还有两大缺陷需要改进\pause
+		\begin{itemize}
+			\item 一是无法进行彩色显示
+			\item 二是采用玻璃基板导致重量较大而且易摔坏。
+		\end{itemize}
+		\item 同时将两个缺陷解决的彩色柔性电子纸技术直到最近才成熟。
+	\end{itemize}
+\end{frame}
+
+% http://www.cnbeta.com/articles/206296.htm
+\fullPageImage{images/glow-light.jpg}{\transwipe}
+\fullPageImage{images/paper-white.jpg}{\transwipe}
+\fullPageImage{images/paper-white-inside.jpg}{\transwipe}
+
+\begin{frame}
+	\frametitle{电子纸与电子墨水 Electronic Paper, Ink}
+	\begin{itemize}
+		\item E-Ink屏幕开始大规模上市的时候，还有两大缺陷需要改进
+		\begin{itemize}
+			\item 一是无法进行彩色显示
+			\item 二是采用玻璃基板导致重量较大而且易摔坏。
+		\end{itemize}
+		\item 同时将两个缺陷解决的彩色柔性电子纸技术直到最近才成熟。
+	\end{itemize}
+\end{frame}
+
+\fullPageImage{images/plastic-logic.jpg}{\transwipe}
 
 \subsubsection{语音交互设备}
 \begin{frame}
