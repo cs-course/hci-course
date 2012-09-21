@@ -18,7 +18,14 @@
 \usepackage{fontspec,xunicode,xltxtra,beamerthemesplit}
 %\usetheme{Hannover} % White background
 \usetheme{Berkeley} % Blue background
-\setsansfont[Mapping=tex-text, ItalicFont={Courier Italic}]{Microsoft YaHei}
+\setmainfont[
+	BoldFont={WenQuanYi Zen Hei},
+	ItalicFont={WenQuanYi Micro Hei}
+]{WenQuanYi Micro Hei}
+\setsansfont[
+	BoldFont={WenQuanYi Zen Hei},
+	ItalicFont={WenQuanYi Micro Hei}
+]{WenQuanYi Micro Hei}
 
 % 中文环境自动换行
 \XeTeXlinebreaklocale "zh"
@@ -270,8 +277,8 @@
 	% http://baike.baidu.com/view/17761.htm
 	\begin{itemize}[<+->]
 		\item 对文本资料的图像文件进行分析处理，获取文字及版面信息的过程。
-		\item 在1929年由德国科学家Tausheck最先提出来的，后来美国科学家Handel也提出了利用技术对文字进行识别的想法。
-		\item 最早对印刷体汉字识别进行研究的是IBM公司的Casey和Nagy，1966年他们发表了第一篇关于汉字识别的文章，采用了模板匹配法识别了1000个印刷体汉字。
+		\item 在1929年由德国科学家Tausheck最先提出，后来美国科学家Handel也提出利用技术对文字进行识别的想法。
+		\item IBM公司的Casey和Nagy最早对印刷体汉字识别进行研究，1966年发表了第一篇关于汉字识别的文章\cite{casey1966recognition}，采用模板匹配法识别了1000个印刷体汉字。
 		\item 20世纪70年代初，日本的学者开始研究汉字识别，并做了大量的工作。
 		\item 中国在OCR技术方面的研究工作起步较晚，70年代末开始进行汉字识别的研究，80年代产品化。
 	\end{itemize}
@@ -711,7 +718,7 @@
 \begin{frame}
 	\frametitle{扫描仪~{\small 扫描速度}}
 	\begin{columns}
-		\column{.5\textwidth}
+		\column{.6\textwidth}
 		\begin{itemize}
 			\item {\small HP Scanjet Enterprise 7000n 文档捕获工作站}
 			\item {\tiny 600 dpi分辨率，48位色彩深度}
@@ -727,7 +734,7 @@
 			\end{itemize}
 			\item {\tiny 日打印负荷 2000 页}
 		\end{itemize}
-		\column{.5\textwidth}
+		\column{.4\textwidth}
 		\includegraphics[width=.9\textwidth]{images/scanjet7000.jpg}
 	\end{columns}
 \end{frame}
