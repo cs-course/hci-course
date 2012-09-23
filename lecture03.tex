@@ -1059,9 +1059,9 @@
 		\end{itemize}
 	\end{itemize}
 	\column{.3\textwidth}
-	\includegraphics[width=.9\textwidth]{images/oled-principle.jpg}\\ % http://www.eefocus.com/article/10-03/833141268409705.html
-	\includegraphics[width=.9\textwidth]{images/whatisoled.jpg}\\ % http://oled.lcdtvbuyingguide.com/oled-tv-articles/what-is-oled.html
-	\includegraphics[width=.9\textwidth]{images/oled-structure.jpg} % http://www.techcn.com.cn/index.php?doc-view-136743.html
+	\includegraphics[width=.9\textwidth, height=.3\textheight]{images/oled-principle.jpg}\\ % http://www.eefocus.com/article/10-03/833141268409705.html
+	\includegraphics[width=.9\textwidth, height=.3\textheight]{images/whatisoled.jpg}\\ % http://oled.lcdtvbuyingguide.com/oled-tv-articles/what-is-oled.html
+	\includegraphics[width=.9\textwidth, height=.3\textheight]{images/oled-structure.jpg} % http://www.techcn.com.cn/index.php?doc-view-136743.html
 	\end{columns}
 \end{frame}
 
@@ -1072,7 +1072,112 @@
 \subsubsection{打印机}
 \begin{frame}
 	\frametitle{打印机}
+	\beamertemplatetransparentcovereddynamicmedium
+	% http://zh.wikipedia.org/wiki/打印机
+	% http://baike.baidu.com/view/7836.htm
+	\begin{itemize}[<+->]
+		\item 将电脑内储存的数据按照文字或图形的方式永久的输出到纸张或者透明胶片上
+		%\item 单色和彩色打印
+		\item 根据把图像印在纸上的方法进行分类：
+		\begin{columns}
+		\column{.5\textwidth}
+		\begin{itemize}
+			\item 击打式
+			\begin{itemize}
+				\item 行式打印机% 报纸
+				\item 击打式打印机% 打字机延伸
+				\item 点阵式打印机% 早期产品
+			\end{itemize}
+		\end{itemize}
+		\column{.5\textwidth}
+		\begin{itemize}
+			\item 非击打式
+			\begin{itemize}
+				\item 喷墨打印机
+				\item 激光打印机
+			\end{itemize}
+		\end{itemize}
+		\end{columns}
+	\end{itemize}
+	\begin{center}
+	\includegraphics[width=.3\textwidth]{images/pin-printer.jpg} 
+	\includegraphics[width=.1\textwidth]{images/ticket-printer.jpg} 
+	\includegraphics[width=.2\textwidth]{images/color-bj-printer.jpg} 
+	\includegraphics[width=.3\textwidth]{images/laser-printer.jpg} 
+	\end{center}
+\end{frame}
 
+\fullPageImage{images/800px-Tandy1000HX.jpg}{\transwipe}% http://zh.wikipedia.org/wiki/File:Tandy1000HX.jpg
+
+\begin{frame}
+	\frametitle{喷墨打印机}
+	\begin{itemize}
+		\item 把数量众多的微小墨滴精确的喷射在要打印的媒介上
+		\begin{itemize}
+			\item 擅长彩色打印
+			\begin{itemize}
+				\item 六至七色墨盒的喷墨打印机，其颜色范围超出传统CMYK的局限，效果超过四色印刷，甚至可媲美传统冲洗的相片。
+				\item 热泡式 (Thermal Bubble) 喷墨及压电式 (Piezoelectric) 喷墨
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
+	\begin{center}
+	\includegraphics[height=.5\textheight]{images/bubblejet-print-principle.jpg}% http://zh.wikipedia.org/wiki/File:Printer.jpg
+	\end{center}
+\end{frame}
+
+\fullPageImage{images/bj-printer-flow.jpg}{\transwipe}
+\fullPageImage{images/continous-flow-ink-jet.jpg}{\transwipe}% http://www.scoug.com/warpexpowest/presentations/Image1.gif
+
+\begin{frame}
+	\frametitle{激光打印机}
+	\begin{itemize}
+		\item 通过光导鼓把碳粉印在媒介上
+		\begin{itemize}
+			\item 综合考虑耗材，具有最佳的成本优势
+			\item 控制精细，输出效果优秀，适用于家庭和办公单色打印
+		\end{itemize}
+	\end{itemize}
+	\begin{center}
+	\includegraphics[height=.5\textheight]{images/laser-printer-principle.jpg}% http://zh.wikipedia.org/wiki/File:Laserprinter.jpg
+	\end{center}
+\end{frame}
+
+\fullPageImage{images/laserprinting.jpg}{\transwipe}
+
+\begin{frame}
+	\frametitle{彩色打印}
+	\begin{itemize}
+		\item 抖动(dithering)
+		\begin{itemize}
+			\item 打印系统不是将每一个像素当作一个点来处理，而是使用抖动的方式结合不同的点形成一个点阵，打印出中间的色值。
+			\item 但是点阵的结构降低了打印机的分辨率。
+		\end{itemize}
+	\end{itemize}
+	% http://abell.as.arizona.edu/~lbtsci/Instruments/LBC/lbc_obgui.html
+	% http://cse.csusb.edu/tong/courses/cs420/notes/color.php
+	\begin{center}
+	\includegraphics[width=.3\textwidth]{images/225px-Dithering_example_dithered_256color.png}
+	\includegraphics[width=.3\textwidth]{images/dither.jpg}
+	\includegraphics[width=.4\textwidth]{images/rectangularDitheringImage.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{彩色打印}
+	% http://www.descreen.net/eng/help/descreen/home/main.htm
+	\begin{itemize}
+		\item 半色调处理(halftoning)
+		\begin{itemize}
+			\item 半色调是抖动技术之外的另外一个选择，它可以保持打印机的分辨率。
+			\item 半色调技术可以改变打印点的大小。
+		\end{itemize}
+	\end{itemize}
+	\begin{center}
+	\includegraphics[width=.3\textwidth]{images/halftoninggray1.jpg}
+	\includegraphics[width=.3\textwidth]{images/halftoninggray.jpg}
+	\includegraphics[width=.4\textwidth]{images/halftoningcolor.svg.png}
+	\end{center}
 \end{frame}
 
 \subsubsection{电子纸与电子墨水}
@@ -1165,7 +1270,49 @@
 \subsubsection{语音交互设备}
 \begin{frame}
 	\frametitle{语音交互设备}
+	\begin{center}
+	\includegraphics[width=.8\textwidth]{images/Speech-Recognition.jpg} 
+	\end{center}
+\end{frame}
 
+\begin{frame}
+	\frametitle{两项任务}
+	\begin{itemize}
+		\item 语音识别
+		\begin{itemize}
+			\item 让计算机通过识别和理解过程把语音信号转变为相应的文本或命令的高技术，也就是让机器听懂人类的语音。
+		\end{itemize}
+		\item 语音合成
+		\begin{itemize}
+			\item 将计算机自己产生的、或外部输入的文字信息转变为可以听得懂的、流利的口语输出。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+% 一个完整的语音识别系统可大致分为三部分：
+
+%（1）语音特征提取：目的是从语音波形中提取随时间变化的语音特征序列。
+%
+%（2）声学模型与模式匹配（识别算法）：声学模型是识别系统的底层模型，并且是语音识别系统中最关键的一部分。声学模型通常由获取的语音特征通过训练产生，目的是为每个发音建立发音模板。在识别时将未知的语音特征同声学模型（模式）进行匹配与比较，计算未知语音的特征矢量序列和每个发音模板之间的距离。声学模型的设计和语言发音特点密切相关。声学模型单元大小（字发音模型、半音节模型或音素模型）对语音训练数据量大小、系统识别率，以及灵活性有较大影响。
+%
+%（3）语义理解：计算机对识别结果进行语法、语义分析。明白语言的意义以便做出相应的反应。通常是通过语言模型来实现。 
+% 详细的技术下一章介绍
+
+\fullPageImage{images/voice-recognition-principle.jpg}{\transwipe}% http://www.yuyinshibie.com/html/yingyong/201004/06-249.html
+\fullPageImage{images/voice-recognition-overview.eps}{\transwipe}% http://www.cslu.ogi.edu/tutordemos/nnet_recog/recog.html
+\fullPageImage{images/voice-recognition-demo.jpg}{\transwipe}
+
+\fullPageImage{images/schema_tts_work.jpg}{\transwipe}% http://www.codeproject.com/KB/HTML/435434/schema_tts_work.png
+
+\begin{frame}
+	\frametitle{语音交互设备}
+	\transdissolve
+	\begin{center}
+	\includegraphics[width=.3\textwidth]{images/speech-to-text-device.jpg} \pause
+	\includegraphics[width=.3\textwidth]{images/KindleWifi.jpg} \pause
+	\includegraphics[width=.3\textwidth]{images/hawking.jpg} \\\pause
+	\includegraphics[width=.6\textwidth]{images/Omnitech_4.3__Portable_GPS_with_Text_to_Speech_9e1Detail.jpg} 
+	\end{center}
 \end{frame}
 
 \section{小结}
