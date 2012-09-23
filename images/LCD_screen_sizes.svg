@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:odm="http://product.corel.com/CGS/11/cddns/" xml:space="preserve" width="11.6929in" height="8.26772in" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd"
+     viewBox="0 0 11692 8268">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str4 {stroke:#7F7F7F;stroke-width:3}
+    .str7 {stroke:#000000;stroke-width:16}
+    .str10 {stroke:#7F7F7F;stroke-width:16}
+    .str6 {stroke:#000000;stroke-width:20}
+    .str8 {stroke:#000000;stroke-width:16;stroke-dasharray:81 49}
+    .str9 {stroke:#000000;stroke-width:16;stroke-dasharray:162 49}
+    .str3 {stroke:#7F7F7F;stroke-width:3}
+    .str0 {stroke:#B2B2B2;stroke-width:3}
+    .str1 {stroke:#000000;stroke-width:16}
+    .str2 {stroke:#FF0000;stroke-width:16}
+    .str5 {stroke:#000000;stroke-width:20}
+    .fil4 {fill:none}
+    .fil10 {fill:#000000}
+    .fil9 {fill:#000000}
+    .fil5 {fill:#0000FF}
+    .fil6 {fill:#00A000}
+    .fil11 {fill:#4C4C4C}
+    .fil7 {fill:#7F7F7F}
+    .fil3 {fill:#CCCC33}
+    .fil8 {fill:#FF0000}
+    .fil2 {fill:#FFFF80}
+    .fil1 {fill:#FFFFA0}
+    .fil0 {fill:#FFFFC0}
+    .fil12 {fill:#FFFFFF}
+    .fnt3 {font-weight:bold;font-size:111;font-family:Arial}
+    .fnt2 {font-weight:bold;font-size:167;font-family:Arial}
+    .fnt1 {font-weight:bold;font-size:250;font-family:Arial}
+    .fnt0 {font-weight:900;font-size:500;font-family:'Arial Black'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer 1">
+  <rect class="fil0" x="984" y="2214" width="6613" height="4676"/>
+  <rect class="fil1" x="984" y="2214" width="3309" height="4676"/>
+  <rect class="fil2" x="984" y="3583" width="4677" height="3307"/>
+  <text x="4527" y="4291" class="fil3 fnt0">A4</text>
+  <text x="6653" y="2795" class="fil3 fnt0">A3</text>
+  <text x="3070" y="2795" class="fil3 fnt0">A4</text>
+  <path class="fil4 str0" d="M2563 6890l0 -6457m1573 6457l0 -6457m1574 6457l0 -6457m1573 6457l0 -6457m1574 6457l0 -6457m1574 6457l0 -6457m-9447 4882l10236 0m-10236 -1575l10236 0m-10236 -1575l10236 0"/>
+  <path class="fil4 str1" d="M984 6890l8068 -6457"/>
+  <path class="fil4 str2" d="M9592 433l-8608 6457"/>
+  <g>
+   <path class="fil5" d="M979 6883l10237 -6397 8 14 -10236 6397 -9 -14z"/>
+  </g>
+  <g>
+   <path class="fil6" d="M980 6883l10236 -5759 8 14 -10236 5759 -8 -14z"/>
+  </g>
+  <g>
+   <path class="fil4 str3" d="M984 4492c1303,0 2401,1092 2401,2398"/>
+   <path class="fil4 str3" d="M4185 6890c0,-1754 -1451,-3199 -3201,-3199"/>
+   <path class="fil4 str3" d="M4985 6890c0,-2190 -1815,-4000 -4001,-4000"/>
+   <path class="fil4 str3" d="M5786 6890c0,-2625 -2179,-4801 -4802,-4801"/>
+   <path class="fil4 str3" d="M6586 6890c0,-3061 -2543,-5602 -5602,-5602"/>
+   <path class="fil4 str3" d="M7386 6890c0,-3497 -2906,-6403 -6402,-6403"/>
+   <path class="fil4 str3" d="M8181 6890c0,-2795 -1578,-5153 -4012,-6457"/>
+   <path class="fil4 str3" d="M8981 6890c0,-2487 -1226,-5000 -3277,-6457"/>
+   <path class="fil4 str3" d="M9782 6890c0,-2415 -1031,-4833 -2828,-6457"/>
+   <path class="fil4 str3" d="M10582 6890c0,-2339 -897,-4725 -2498,-6457"/>
+   <path class="fil4 str3" d="M11220 5061c-321,-1645 -1024,-3329 -2087,-4628"/>
+   <path class="fil4 str3" d="M11220 2355c-311,-668 -653,-1329 -1092,-1922"/>
+   <g>
+    <path class="fil4 str4" d="M11220 639l-130 -206"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path class="fil7" d="M2921 437l21 76 -15 5 -22 -76 16 -5zm6 81l0 0 7 -3 -7 3zm15 -5l222 666 -16 5 -221 -666 15 -5zm207 671l-1 0 8 -3 -7 3zm14 -6l406 898 -15 7 -405 -899 14 -6zm392 906l-1 -1 8 -3 -7 4zm13 -9l433 693 -14 9 -432 -693 13 -9zm420 702l-1 0 7 -5 -6 5zm12 -10l417 503 -13 11 -416 -504 12 -10zm405 515l-1 -1 7 -5 -6 6zm11 -12l443 411 -11 12 -443 -411 11 -12zm433 423l-1 0 6 -6 -5 6zm10 -13l427 320 -10 13 -427 -320 10 -13zm418 333l-1 0 5 -7 -4 7zm8 -14l406 255 -9 13 -405 -254 8 -14zm398 269l-1 -1 5 -6 -4 7zm7 -15l438 222 -7 15 -438 -222 7 -15zm431 237l0 0 4 -8 -4 8zm7 -15l422 184 -7 15 -422 -184 7 -15zm416 199l-1 0 3 -7 -2 7zm5 -15l444 162 -6 16 -443 -163 5 -15zm438 178l0 0 3 -8 -3 8zm5 -16l428 141 -5 15 -428 -140 5 -16zm423 156l0 0 2 -7 -2 7zm4 -15l417 113 -5 16 -416 -114 4 -15zm412 129l0 0 2 -8 -2 8zm4 -16l438 114 -4 16 -438 -114 4 -16zm435 130l-1 0 2 -8 -1 8zm3 -16l422 92 -3 16 -422 -92 3 -16zm419 108l0 0 1 -8 -1 8zm3 -16l411 81 -3 16 -411 -81 3 -16zm408 97l0 0 1 -8 -1 8zm3 -16l432 76 -3 16 -432 -76 3 -16zm432 76l416 70 -2 16 -417 -70 3 -16zm414 86l0 0 1 -8 -1 8zm2 -16l444 65 -3 16 -443 -65 2 -16zm442 81l-1 0 2 -8 -1 8zm2 -16l427 54 -2 16 -427 -54 2 -16zm425 70l0 0 1 -8 -1 8zm2 -16l400 49 -2 16 -400 -49 2 -16z"/>
+   </g>
+   <g>
+    <path class="fil7" d="M4839 436l22 37 -14 9 -22 -38 14 -8zm8 46l0 0 7 -4 -7 4zm14 -9l427 639 -14 9 -427 -639 14 -9zm414 648l-1 0 7 -5 -6 5zm13 -10l405 503 -13 11 -405 -504 13 -10zm393 514l-1 0 7 -6 -6 6zm12 -11l438 449 -12 11 -438 -449 12 -11zm426 461l0 -1 6 -5 -6 6zm11 -13l422 363 -11 13 -422 -363 11 -13zm412 376l-1 0 5 -7 -4 7zm9 -13l444 330 -10 13 -443 -330 9 -13zm434 343l0 0 5 -7 -5 7zm9 -13l428 281 -9 14 -428 -282 9 -13zm419 295l0 0 4 -7 -4 7zm8 -14l416 233 -8 14 -416 -233 8 -14zm409 247l-1 0 4 -7 -3 7zm7 -15l438 217 -7 14 -438 -216 7 -15zm431 231l0 0 3 -7 -3 7zm7 -14l421 189 -6 15 -422 -190 7 -14zm415 204l0 0 3 -7 -3 7zm6 -15l411 157 -6 15 -411 -157 6 -15zm405 172l0 0 3 -8 -3 8zm6 -15l433 157 -6 15 -433 -157 6 -15zm427 172l0 0 3 -8 -3 8zm5 -15l417 135 -5 15 -417 -135 5 -15zm412 151l0 -1 2 -7 -2 8zm4 -16l444 130 -5 15 -443 -129 4 -16zm439 145l0 0 3 -7 -3 7zm5 -15l427 113 -4 16 -428 -114 5 -15zm423 129l0 0 2 -8 -2 8zm4 -16l400 98 -4 16 -400 -98 4 -16z"/>
+   </g>
+   <g>
+    <path class="fil7" d="M8677 434l22 22 -12 11 -21 -22 11 -11zm11 34l-1 -1 6 -6 -5 7zm10 -13l411 325 -10 12 -411 -324 10 -13zm401 338l0 -1 5 -6 -5 7zm10 -14l432 309 -9 13 -433 -308 10 -14zm423 322l0 0 5 -6 -5 6zm9 -13l416 270 -8 14 -417 -271 9 -13zm408 284l0 0 4 -7 -4 7zm8 -14l444 260 -9 14 -443 -260 8 -14zm436 274l-1 0 5 -7 -4 7zm7 -14l428 227 -8 14 -427 -227 7 -14zm420 242l0 -1 4 -7 -4 8zm7 -15l401 200 -8 15 -400 -200 7 -15z"/>
+   </g>
+   <g>
+    <path class="fil7" d="M6763 434l233 260 -12 11 -233 -260 12 -11zm221 271l0 0 6 -6 -6 6zm11 -11l428 411 -12 12 -427 -412 11 -11zm417 423l-1 0 6 -6 -5 6zm10 -12l417 351 -11 13 -416 -352 10 -12zm407 364l-1 0 5 -6 -4 6zm9 -13l438 325 -9 13 -438 -325 9 -13zm429 338l0 0 4 -7 -4 7zm9 -14l422 282 -9 13 -422 -281 9 -14zm413 296l0 -1 4 -6 -4 7zm8 -14l411 243 -8 14 -411 -243 8 -14zm403 257l0 0 4 -7 -4 7zm8 -14l433 233 -8 14 -433 -233 8 -14zm425 247l0 0 4 -7 -4 7zm7 -14l417 200 -7 15 -417 -201 7 -14zm410 215l0 0 3 -8 -3 8zm6 -15l444 200 -7 15 -443 -200 6 -15zm438 215l-1 0 4 -8 -3 8zm5 -15l428 168 -6 15 -427 -168 5 -15zm422 183l0 0 3 -8 -3 8zm5 -15l401 146 -6 15 -400 -146 5 -15z"/>
+   </g>
+   <g>
+    <path class="fil7" d="M3888 436l114 271 -15 6 -114 -270 15 -7zm99 278l0 -1 7 -3 -7 4zm14 -8l417 753 -15 7 -416 -752 14 -8zm403 761l-1 -1 8 -3 -7 4zm13 -9l444 622 -14 10 -443 -623 13 -9zm431 632l-1 0 7 -5 -6 5zm12 -10l427 476 -12 11 -427 -477 12 -10zm416 487l-1 0 6 -6 -5 6zm11 -12l405 379 -11 12 -405 -379 11 -12zm395 391l-1 0 6 -6 -5 6zm10 -12l438 335 -10 13 -438 -336 10 -12zm428 348l0 0 5 -6 -5 6zm9 -13l422 270 -9 14 -422 -271 9 -13zm414 284l-1 0 4 -7 -3 7zm7 -14l444 249 -8 14 -443 -249 7 -14zm436 263l0 0 4 -7 -4 7zm7 -14l428 211 -8 15 -427 -212 7 -14zm421 226l-1 0 4 -8 -3 8zm6 -15l417 173 -7 15 -416 -173 6 -15zm411 188l-1 0 3 -8 -2 8zm5 -15l438 162 -5 15 -438 -162 5 -15zm433 178l0 -1 2 -7 -2 8zm5 -16l422 141 -5 15 -422 -140 5 -16zm417 156l0 0 2 -8 -2 8zm5 -15l410 124 -4 16 -411 -125 5 -15zm406 140l0 0 2 -8 -2 8zm4 -16l433 114 -4 15 -433 -113 4 -16zm429 130l0 -1 2 -7 -2 8zm4 -16l416 103 -4 15 -416 -102 4 -16zm412 118l0 0 2 -8 -2 8zm4 -15l443 97 -3 16 -444 -98 4 -15zm440 113l0 0 2 -8 -2 8zm3 -16l427 86 -3 16 -427 -86 3 -16zm424 102l0 0 2 -8 -2 8zm3 -16l400 71 -2 16 -401 -71 3 -16z"/>
+   </g>
+   <g>
+    <path class="fil7" d="M1958 439l17 113 -17 2 -16 -113 16 -2zm0 116l0 -1 8 -1 -8 2zm16 -3l103 590 -16 3 -103 -590 16 -3zm87 593l0 0 8 -2 -8 2zm16 -3l222 990 -16 3 -222 -990 16 -3zm206 994l0 -1 8 -1 -8 2zm16 -5l205 650 -15 4 -206 -649 16 -5zm190 655l0 -1 7 -2 -7 3zm15 -6l222 530 -15 7 -222 -531 15 -6zm207 537l0 0 7 -4 -7 4zm14 -7l216 395 -14 7 -216 -395 14 -7zm203 403l-1 -1 7 -3 -6 4zm13 -9l222 330 -14 9 -221 -330 13 -9zm209 340l-1 -1 7 -4 -6 5zm12 -11l406 450 -12 10 -406 -449 12 -11zm395 461l-1 -1 6 -5 -5 6zm10 -12l432 346 -10 13 -432 -347 10 -12zm423 359l-1 0 5 -7 -4 7zm8 -14l417 249 -9 14 -416 -249 8 -14zm409 264l-1 -1 5 -7 -4 8zm7 -15l443 211 -7 15 -443 -211 7 -15zm437 226l-1 0 4 -8 -3 8zm6 -15l427 157 -6 15 -427 -157 6 -15zm422 172l-1 0 3 -8 -2 8zm5 -15l405 124 -5 15 -405 -124 5 -15zm401 140l-1 -1 3 -7 -2 8zm4 -16l438 114 -4 15 -438 -113 4 -16zm434 129l0 0 2 -8 -2 8zm3 -16l422 92 -3 16 -422 -92 3 -16zm419 108l0 0 1 -8 -1 8zm3 -16l443 82 -3 16 -443 -82 3 -16zm441 98l-1 0 2 -8 -1 8zm2 -16l427 70 -2 16 -427 -70 2 -16zm425 86l0 0 1 -8 -1 8zm2 -16l417 59 -3 17 -416 -60 2 -16zm415 76l-1 0 1 -9 0 9zm1 -17l438 54 -1 17 -438 -54 1 -17zm438 54l422 49 -2 16 -421 -48 1 -17zm421 65l-1 0 1 -8 0 8zm1 -16l411 38 -1 16 -411 -38 1 -16zm411 38l432 38 -1 16 -432 -38 1 -16zm431 54l0 0 1 -8 -1 8zm1 -16l417 32 -1 17 -417 -33 1 -16zm417 32l443 33 -1 16 -443 -32 1 -17zm443 33l427 32 -1 17 -427 -33 1 -16zm426 49l0 0 1 -9 -1 9zm1 -17l400 22 -1 16 -400 -21 1 -17z"/>
+   </g>
+  </g>
+  <g>
+   <path class="fil6" d="M1065 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M1195 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M1325 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M1455 4901l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M1584 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M1714 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M1844 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M1974 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M2104 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M2234 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M2364 4901l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M2493 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M2623 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M2753 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M2883 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3013 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3143 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3273 4901l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M3402 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3532 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3662 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3792 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3922 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M4052 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M4182 4901l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M4312 4901l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M4441 4901l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M4512 4909l-8 -8 -14 0 0 16 14 0 8 -8 0 0 0 -8 -8 0z"/>
+   <path class="fil6" d="M4512 4976l-16 0 0 -67 16 0z"/>
+   <path class="fil6" d="M4512 5106l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 5236l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 5366l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 5496l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 5626l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 5756l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 5886l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 6016l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 6146l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 6276l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 6406l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 6536l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 6666l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 6796l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M4512 6890l0 -45 -16 0 0 45z"/>
+  </g>
+  <g>
+   <path class="fil5" d="M1065 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1195 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1325 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1455 4316l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M1584 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1714 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1844 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1974 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2104 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2234 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2364 4316l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M2493 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2623 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2753 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2883 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3013 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3143 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3273 4316l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M3402 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3532 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3662 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3792 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3922 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4052 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4182 4316l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M4311 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4441 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4571 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4701 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4831 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4961 4316l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M5096 4325l-8 -9 -78 0 0 17 78 0 8 -8 0 0 0 -9 -8 0z"/>
+   <path class="fil5" d="M5096 4327l-16 0 0 -2 16 0z"/>
+   <path class="fil5" d="M5096 4457l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 4587l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 4717l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 4847l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 4977l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 5107l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 5237l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 5367l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 5497l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 5627l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 5757l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 5887l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 6017l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 6147l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 6277l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 6407l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 6537l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 6667l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 6797l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5096 6890l0 -44 -16 0 0 44z"/>
+  </g>
+  <g>
+   <path class="fil5" d="M1065 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M1195 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M1325 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M1455 4062l0 16 -82 0 0 -16z"/>
+   <path class="fil5" d="M1584 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M1714 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M1844 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M1974 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M2104 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M2234 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M2364 4062l0 16 -82 0 0 -16z"/>
+   <path class="fil5" d="M2493 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M2623 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M2753 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M2883 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3013 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3143 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3273 4062l0 16 -82 0 0 -16z"/>
+   <path class="fil5" d="M3402 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3532 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3662 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3792 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3922 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4052 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4182 4062l0 16 -82 0 0 -16z"/>
+   <path class="fil5" d="M4311 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4441 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4571 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4701 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4831 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4961 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M5091 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M5221 4062l0 16 -82 0 0 -16z"/>
+   <path class="fil5" d="M5350 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M5480 4062l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M5502 4187l-17 0 0 -81 17 0z"/>
+   <path class="fil5" d="M5502 4317l-17 0 0 -81 17 0z"/>
+   <path class="fil5" d="M5502 4447l-17 0 0 -81 17 0z"/>
+   <path class="fil5" d="M5502 4577l-17 0 0 -81 17 0z"/>
+   <path class="fil5" d="M5502 4707l-17 0 0 -81 17 0z"/>
+   <path class="fil5" d="M5502 4837l-17 0 0 -82 17 0z"/>
+   <path class="fil5" d="M5502 4967l-17 0 0 -82 17 0z"/>
+   <path class="fil5" d="M5502 5097l-17 0 0 -82 17 0z"/>
+   <path class="fil5" d="M5502 5227l-17 0 0 -82 17 0z"/>
+   <path class="fil5" d="M5502 5357l-17 0 0 -82 17 0z"/>
+   <path class="fil5" d="M5502 5487l-17 0 0 -82 17 0z"/>
+   <path class="fil5" d="M5502 5617l-17 0 0 -82 17 0z"/>
+   <path class="fil5" d="M5502 5747l-17 0 0 -82 17 0z"/>
+   <path class="fil5" d="M5502 5877l-17 0 0 -82 17 0z"/>
+   <path class="fil5" d="M5502 6007l-17 0 0 -82 17 0z"/>
+   <path class="fil5" d="M5502 6136l-17 0 0 -81 17 0z"/>
+   <path class="fil5" d="M5502 6266l-17 0 0 -81 17 0z"/>
+   <path class="fil5" d="M5502 6396l-17 0 0 -81 17 0z"/>
+   <path class="fil5" d="M5502 6526l-17 0 0 -81 17 0z"/>
+   <path class="fil5" d="M5502 6656l-17 0 0 -81 17 0z"/>
+   <path class="fil5" d="M5502 6786l-17 0 0 -81 17 0z"/>
+   <path class="fil5" d="M5502 6890l0 -55 -17 0 0 55z"/>
+  </g>
+  <g>
+   <path class="fil8" d="M1146 3521l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M1357 3521l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M1569 3521l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M1780 3521l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M1991 3521l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M2202 3521l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M2413 3521l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M2624 3521l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M2836 3521l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M3047 3521l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M3258 3521l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M3469 3521l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M3680 3521l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M3891 3521l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M4103 3521l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M4314 3521l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M4525 3521l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M4736 3521l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M4947 3521l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M5158 3521l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M5370 3521l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M5475 3529l-8 -8 -49 0 0 16 49 0 8 -8 0 0 0 -8 -8 0z"/>
+   <path class="fil8" d="M5475 3643l-17 0 0 -114 17 0z"/>
+   <path class="fil8" d="M5475 3855l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5475 4066l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5475 4277l-17 0 0 -162 17 0z"/>
+   <path class="fil8" d="M5475 4489l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5475 4700l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5475 4911l-17 0 0 -162 17 0z"/>
+   <path class="fil8" d="M5475 5123l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5475 5334l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5475 5545l-17 0 0 -162 17 0z"/>
+   <path class="fil8" d="M5475 5757l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5475 5968l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5475 6179l-17 0 0 -162 17 0z"/>
+   <path class="fil8" d="M5475 6391l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5475 6602l-17 0 0 -162 17 0z"/>
+   <path class="fil8" d="M5475 6813l-17 0 0 -162 17 0z"/>
+   <path class="fil8" d="M5475 6890l0 -28 -17 0 0 28z"/>
+  </g>
+  <g>
+   <path class="fil5" d="M1065 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1195 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1325 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1455 3894l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M1584 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1714 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1844 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1974 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2104 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2234 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2364 3894l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M2493 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2623 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2753 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2883 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3013 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3143 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3273 3894l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M3402 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3532 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3662 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3792 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3922 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4052 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4182 3894l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M4311 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4441 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4571 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4701 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4831 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4961 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M5091 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M5221 3894l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M5350 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M5480 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M5610 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M5740 3894l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M5777 4003l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5777 4133l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5777 4263l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5777 4393l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5777 4523l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5777 4653l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5777 4783l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5777 4913l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5777 5043l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5777 5173l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5777 5303l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5777 5433l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M5777 5563l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M5777 5693l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M5777 5823l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M5777 5953l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M5777 6083l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M5777 6213l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M5777 6343l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M5777 6473l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M5777 6603l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M5777 6733l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M5777 6863l-16 0 0 -82 16 0z"/>
+  </g>
+  <g>
+   <path class="fil8" d="M1147 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M1358 3283l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M1570 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M1782 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M1994 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M2205 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M2417 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M2629 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M2840 3283l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M3052 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M3264 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M3476 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M3687 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M3899 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M4111 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M4322 3283l0 16 -162 0 0 -16z"/>
+   <path class="fil8" d="M4534 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M4746 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M4958 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M5169 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M5381 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M5593 3283l0 16 -163 0 0 -16z"/>
+   <path class="fil8" d="M5794 3291l-8 -8 -144 0 0 16 144 0 8 -8 0 0 0 -8 -8 0z"/>
+   <path class="fil8" d="M5794 3310l-17 0 0 -19 17 0z"/>
+   <path class="fil8" d="M5794 3522l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 3734l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 3945l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 4157l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 4369l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 4581l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 4793l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 5005l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 5217l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 5429l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 5641l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 5853l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 6064l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 6276l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 6488l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 6700l-17 0 0 -163 17 0z"/>
+   <path class="fil8" d="M5794 6890l0 -141 -17 0 0 141z"/>
+  </g>
+  <g>
+   <path class="fil5" d="M1065 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M1195 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M1325 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M1455 3618l0 16 -82 0 0 -16z"/>
+   <path class="fil5" d="M1584 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M1714 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M1844 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M1974 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M2104 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M2234 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M2364 3618l0 16 -82 0 0 -16z"/>
+   <path class="fil5" d="M2493 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M2623 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M2753 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M2883 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3013 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3143 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3273 3618l0 16 -82 0 0 -16z"/>
+   <path class="fil5" d="M3402 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3532 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3662 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3792 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M3922 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4052 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4182 3618l0 16 -82 0 0 -16z"/>
+   <path class="fil5" d="M4311 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4441 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4571 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4701 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4831 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M4961 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M5091 3618l0 16 -82 0 0 -16z"/>
+   <path class="fil5" d="M5221 3618l0 16 -82 0 0 -16z"/>
+   <path class="fil5" d="M5350 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M5480 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M5610 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M5740 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M5870 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M6000 3618l0 16 -81 0 0 -16z"/>
+   <path class="fil5" d="M6130 3618l0 16 -82 0 0 -16z"/>
+   <path class="fil5" d="M6215 3626l-8 -8 -29 0 0 16 29 0 8 -8 0 0 0 -8 -8 0z"/>
+   <path class="fil5" d="M6215 3679l-16 0 0 -53 16 0z"/>
+   <path class="fil5" d="M6215 3809l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M6215 3938l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 4068l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 4198l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 4328l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 4458l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 4588l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 4718l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 4848l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 4978l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 5108l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 5238l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 5368l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 5498l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 5628l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 5758l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 5888l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 6018l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 6148l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 6278l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 6408l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 6538l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 6668l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 6798l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6215 6890l0 -43 -16 0 0 43z"/>
+  </g>
+  <g>
+   <path class="fil8" d="M984 2801l5440 0 0 16 -5440 0 0 -16zm5440 0l8 0 0 8 -8 0 0 -8zm8 8l0 4081 -16 0 0 -4081 16 0z"/>
+  </g>
+  <g>
+   <path class="fil9" d="M984 2633l5310 0 0 16 -5310 0 0 -16zm5310 0l8 0 0 8 -8 0 0 -8zm8 8l0 4249 -16 0 0 -4249 16 0z"/>
+  </g>
+  <g>
+   <path class="fil5" d="M1065 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1195 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1325 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1455 3277l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M1584 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1714 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1844 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M1974 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2104 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2234 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2364 3277l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M2493 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2623 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2753 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M2883 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3013 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3143 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3273 3277l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M3402 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3532 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3662 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3792 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M3922 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4052 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4182 3277l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M4311 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4441 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4571 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4701 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4831 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M4961 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M5091 3277l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M5221 3277l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M5350 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M5480 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M5610 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M5740 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M5870 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M6000 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M6130 3277l0 17 -82 0 0 -17z"/>
+   <path class="fil5" d="M6259 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M6389 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M6519 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M6649 3277l0 17 -81 0 0 -17z"/>
+   <path class="fil5" d="M6756 3285l-8 -8 -50 0 0 17 50 0 8 -9 0 0 0 -8 -8 0z"/>
+   <path class="fil5" d="M6756 3316l-16 0 0 -31 16 0z"/>
+   <path class="fil5" d="M6756 3446l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 3576l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 3706l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 3836l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 3966l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 4096l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 4226l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 4356l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 4486l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 4616l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 4746l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 4876l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 5006l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 5136l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 5266l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 5396l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 5526l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 5656l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 5786l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 5916l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 6046l-16 0 0 -81 16 0z"/>
+   <path class="fil5" d="M6756 6176l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M6756 6306l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M6756 6436l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M6756 6566l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M6756 6696l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M6756 6826l-16 0 0 -82 16 0z"/>
+   <path class="fil5" d="M6756 6890l0 -16 -16 0 0 16z"/>
+  </g>
+  <g>
+   <path class="fil6" d="M1065 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M1195 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M1325 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M1455 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M1586 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M1716 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M1846 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M1976 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M2106 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M2236 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M2366 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M2496 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M2626 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M2757 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M2887 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M3017 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3147 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3277 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3407 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3537 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3667 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M3798 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M3928 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M4058 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M4188 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M4318 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M4448 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M4578 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M4708 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M4838 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M4969 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M5099 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M5229 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M5359 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M5489 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M5619 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M5749 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M5879 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M6010 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M6140 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M6270 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M6400 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M6530 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M6660 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M6790 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M6920 3272l0 16 -81 0 0 -16z"/>
+   <path class="fil6" d="M7051 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M7181 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M7311 3272l0 16 -82 0 0 -16z"/>
+   <path class="fil6" d="M7405 3280l-8 -8 -37 0 0 16 37 0 8 -8 0 0 0 -8 -8 0z"/>
+   <path class="fil6" d="M7405 3324l-16 0 0 -44 16 0z"/>
+   <path class="fil6" d="M7405 3454l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 3584l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 3715l-16 0 0 -82 16 0z"/>
+   <path class="fil6" d="M7405 3845l-16 0 0 -82 16 0z"/>
+   <path class="fil6" d="M7405 3975l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 4105l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 4236l-16 0 0 -82 16 0z"/>
+   <path class="fil6" d="M7405 4366l-16 0 0 -82 16 0z"/>
+   <path class="fil6" d="M7405 4496l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 4626l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 4756l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 4887l-16 0 0 -82 16 0z"/>
+   <path class="fil6" d="M7405 5017l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 5147l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 5277l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 5408l-16 0 0 -82 16 0z"/>
+   <path class="fil6" d="M7405 5538l-16 0 0 -82 16 0z"/>
+   <path class="fil6" d="M7405 5668l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 5798l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 5929l-16 0 0 -82 16 0z"/>
+   <path class="fil6" d="M7405 6059l-16 0 0 -82 16 0z"/>
+   <path class="fil6" d="M7405 6189l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 6319l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 6450l-16 0 0 -82 16 0z"/>
+   <path class="fil6" d="M7405 6580l-16 0 0 -82 16 0z"/>
+   <path class="fil6" d="M7405 6710l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 6840l-16 0 0 -81 16 0z"/>
+   <path class="fil6" d="M7405 6890l0 -1 -16 0 0 1z"/>
+  </g>
+  <g>
+   <path class="fil9" d="M984 2135l5932 0 0 17 -5932 0 0 -17zm5932 0l8 0 0 8 -8 0 0 -8zm8 8l0 4747 -16 0 0 -4747 16 0z"/>
+  </g>
+  <g>
+   <path class="fil8" d="M984 2081l6402 0 0 16 -6402 0 0 -16zm6402 0l8 0 0 8 -8 0 0 -8zm8 8l0 4801 -16 0 0 -4801 16 0z"/>
+  </g>
+  <g>
+   <path class="fil6" d="M984 2958l6970 0 0 16 -6970 0 0 -16zm6970 0l8 0 0 8 -8 0 0 -8zm8 8l0 3924 -16 0 0 -3924 16 0z"/>
+  </g>
+  <g>
+   <path class="fil8" d="M984 1767l6813 0 0 17 -6813 0 0 -17zm6813 0l8 0 0 8 -8 0 0 -8zm8 8l0 5115 -16 0 0 -5115 16 0z"/>
+  </g>
+  <g>
+   <path class="fil5" d="M984 2217l7462 0 0 16 -7462 0 0 -16zm7462 0l8 0 0 8 -8 0 0 -8zm8 8l0 4665 -16 0 0 -4665 16 0z"/>
+  </g>
+  <g>
+   <path class="fil6" d="M984 2373l8019 0 0 17 -8019 0 0 -17zm8019 0l8 0 0 9 -8 0 0 -9zm8 9l0 4508 -16 0 0 -4508 16 0z"/>
+  </g>
+  <g>
+   <path class="fil5" d="M984 1794l8138 0 0 17 -8138 0 0 -17zm8138 0l8 0 0 8 -8 0 0 -8zm8 8l0 5088 -16 0 0 -5088 16 0z"/>
+  </g>
+  <g>
+   <path class="fil5" d="M984 1367l8819 0 0 16 -8819 0 0 -16zm8819 0l8 0 0 8 -8 0 0 -8zm8 8l0 5515 -16 0 0 -5515 16 0z"/>
+  </g>
+  <g>
+   <path class="fil5" d="M984 523l10171 0 0 16 -10171 0 0 -16zm10171 0l8 0 0 8 -8 0 0 -8zm8 8l0 6359 -16 0 0 -6359 16 0z"/>
+  </g>
+  <g>
+   <path class="fil4 str5" d="M2563 6890l0 -65m1573 65l0 -65m1574 65l0 -65m1573 65l0 -65m1574 65l0 -65m1574 65l0 -65m-9128 65l0 -38m313 38l0 -38m314 38l0 -38m314 38l0 -38m632 38l0 -38m314 38l0 -38m314 38l0 -38m313 38l0 -38m633 38l0 -38m314 38l0 -38m313 38l0 -38m319 38l0 -38m628 38l0 -38m313 38l0 -38m314 38l0 -38m319 38l0 -38m627 38l0 -38m314 38l0 -38m319 38l0 -38m313 38l0 -38m628 38l0 -38m313 38l0 -38m319 38l0 -38m314 38l0 -38m627 38l0 -38m319 38l0 -38"/>
+   <path class="fil4 str5" d="M984 5315l65 0m-65 -1575l65 0m-65 -1575l65 0m-65 -1575l65 0m-65 5986l43 0m-43 -314l43 0m-43 -314l43 0m-43 -319l43 0m-43 -628l43 0m-43 -314l43 0m-43 -319l43 0m-43 -314l43 0m-43 -628l43 0m-43 -314l43 0m-43 -319l43 0m-43 -314l43 0m-43 -628l43 0m-43 -314l43 0m-43 -319l43 0m-43 -314l43 0"/>
+   <path class="fil4 str5" d="M2563 498l0 -65m1573 65l0 -65m1574 65l0 -65m1573 65l0 -65m1574 65l0 -65m1574 65l0 -65m-9128 38l0 -38m313 38l0 -38m314 38l0 -38m314 38l0 -38m632 38l0 -38m314 38l0 -38m314 38l0 -38m313 38l0 -38m633 38l0 -38m314 38l0 -38m313 38l0 -38m319 38l0 -38m628 38l0 -38m313 38l0 -38m314 38l0 -38m319 38l0 -38m627 38l0 -38m314 38l0 -38m319 38l0 -38m313 38l0 -38m628 38l0 -38m313 38l0 -38m319 38l0 -38m314 38l0 -38m627 38l0 -38m319 38l0 -38"/>
+   <path class="fil4 str5" d="M11155 5315l65 0m-65 -1575l65 0m-65 -1575l65 0m-65 -1575l65 0m-38 5986l38 0m-38 -314l38 0m-38 -314l38 0m-38 -319l38 0m-38 -628l38 0m-38 -314l38 0m-38 -319l38 0m-38 -314l38 0m-38 -628l38 0m-38 -314l38 0m-38 -319l38 0m-38 -314l38 0m-38 -628l38 0m-38 -314l38 0m-38 -319l38 0m-38 -314l38 0"/>
+   <rect class="fil4 str6" x="984" y="433" width="10236" height="6457"/>
+  </g>
+  <text x="2420" y="7244" class="fil10 fnt1">10</text>
+  <text x="3994" y="7244" class="fil10 fnt1">20</text>
+  <text x="5569" y="7244" class="fil10 fnt1">30</text>
+  <text x="7144" y="7244" class="fil10 fnt1">40</text>
+  <text x="8719" y="7244" class="fil10 fnt1">50</text>
+  <text x="10294" y="7244" class="fil10 fnt1">60</text>
+  <text x="10708" y="7244" class="fil10 fnt1">cm</text>
+  <text x="588" y="5394" class="fil10 fnt1">10</text>
+  <text x="588" y="3819" class="fil10 fnt1">20</text>
+  <text x="588" y="2244" class="fil10 fnt1">30</text>
+  <text x="588" y="669" class="fil10 fnt1">40</text>
+  <text x="1084" y="5059" class="fil6 fnt2">10,1&quot;</text>
+  <text x="1084" y="4475" class="fil5 fnt2">12,1&quot;</text>
+  <text x="1084" y="4220" class="fil5 fnt2">13,3&quot;</text>
+  <text x="1084" y="3776" class="fil5 fnt2">15,4&quot;</text>
+  <text x="2093" y="3876" class="fil5 fnt2">14,1&quot;</text>
+  <text x="1084" y="3441" class="fil8 fnt2">15&quot;</text>
+  <text x="2232" y="3510" class="fil8 fnt2">14&quot;</text>
+  <text x="1084" y="3116" class="fil6 fnt2">20&quot;</text>
+  <g>
+   <text x="3189" y="5866" class="fil11 fnt2">6&quot;</text>
+   <text x="3886" y="5474" class="fil11 fnt2">8&quot;</text>
+   <text x="4584" y="5081" class="fil11 fnt2">10&quot;</text>
+   <text x="5282" y="4689" class="fil11 fnt2">12&quot;</text>
+   <text x="5980" y="4296" class="fil11 fnt2">14&quot;</text>
+   <text x="6678" y="3903" class="fil11 fnt2">16&quot;</text>
+   <text x="7376" y="3510" class="fil11 fnt2">18&quot;</text>
+   <text x="8074" y="3117" class="fil11 fnt2">20&quot;</text>
+   <text x="8772" y="2725" class="fil11 fnt2">22&quot;</text>
+   <text x="9470" y="2333" class="fil11 fnt2">24&quot;</text>
+   <text x="10168" y="1939" class="fil11 fnt2">26&quot;</text>
+   <text x="10866" y="1546" class="fil11 fnt2">28&quot;</text>
+  </g>
+  <text x="2093" y="3248" class="fil6 fnt2">18,3&quot;</text>
+  <text x="1084" y="2791" class="fil9 fnt2">17&quot;</text>
+  <text x="2232" y="2786" class="fil8 fnt2">17&quot;</text>
+  <text x="1084" y="2532" class="fil6 fnt2">23&quot;</text>
+  <text x="1084" y="1525" class="fil5 fnt2">26&quot;</text>
+  <text x="1084" y="681" class="fil5 fnt2">30&quot;</text>
+  <text x="1084" y="1952" class="fil5 fnt2">24&quot;</text>
+  <text x="2093" y="1745" class="fil8 fnt2">21,3&quot;</text>
+  <text x="2232" y="2068" class="fil8 fnt2">20&quot;</text>
+  <text x="1084" y="2375" class="fil5 fnt2">22&quot;</text>
+  <text x="1610" y="2087" class="fil9 fnt2">19&quot;</text>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 320.614 12636.2)">
+   <text x="5846" y="4134" class="fil6 fnt2">10,1&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 904.618 12636.2)">
+   <text x="5846" y="4134" class="fil5 fnt2">12,1&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 1283.14 12636.2)">
+   <text x="5846" y="4134" class="fil8 fnt2">14&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 1518.4 11215.8)">
+   <text x="5443" y="4134" class="fil5 fnt2">13,3&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 1585.95 12636.2)">
+   <text x="5846" y="4134" class="fil5 fnt2">14,1&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 1810.53 11215.8)">
+   <text x="5582" y="4134" class="fil8 fnt2">15&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 2023.95 12636.2)">
+   <text x="5846" y="4134" class="fil5 fnt2">15,4&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 2457.7 11215.8)">
+   <text x="5582" y="4134" class="fil8 fnt2">17&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 2111.06 11888.5)">
+   <text x="5714" y="4134" class="fil9 fnt2">17&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 2564.69 12636.2)">
+   <text x="5846" y="4134" class="fil5 fnt2">17&quot;</text>
+  </g>
+  <text x="1591" y="3268" class="fil5 fnt2">17&quot;</text>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 2943.03 11215.8)">
+   <text x="5582" y="4134" class="fil9 fnt2">19&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 3202.76 12636.2)">
+   <text x="5846" y="4134" class="fil8 fnt2">20&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 3990.23 11215.8)">
+   <text x="5582" y="4134" class="fil6 fnt2">20&quot;</text>
+  </g>
+  <rect class="fil12 str6" x="9260" y="3029" width="1654" height="2126"/>
+  <text x="9457" y="3423" class="fil10 fnt1">5:4</text>
+  <text x="9457" y="3702" class="fil8 fnt1">4:3</text>
+  <text x="10008" y="3423" class="fil5 fnt1">16:10</text>
+  <text x="10008" y="3702" class="fil6 fnt1">16:9</text>
+  <path class="fil4 str7" d="M9457 3995l354 0"/>
+  <text x="10008" y="4074" class="fil10 fnt2">Monitor</text>
+  <path class="fil4 str8" d="M9457 4210l354 0"/>
+  <text x="10008" y="4289" class="fil10 fnt2">Notebook</text>
+  <path class="fil4 str9" d="M9457 4425l354 0"/>
+  <text x="10008" y="4504" class="fil10 fnt2">both</text>
+  <path class="fil4 str10" d="M9457 4722l354 0"/>
+  <text x="10008" y="4801" class="fil11 fnt2">Area</text>
+  <path class="fil4 str4" d="M9457 4919l354 0"/>
+  <text x="10008" y="4998" class="fil11 fnt2">Diagonal</text>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 3613.72 12636.2)">
+   <text x="5846" y="4134" class="fil8 fnt2">21,3&quot;</text>
+  </g>
+  <text x="2086" y="906" class="fil11 fnt2">250cm</text>
+  <text x="2605" y="850" class="fil11 fnt3">2</text>
+  <text x="3110" y="906" class="fil11 fnt2">500cm</text>
+  <text x="3629" y="850" class="fil11 fnt3">2</text>
+  <text x="9320" y="906" class="fil11 fnt2">2000cm</text>
+  <text x="9931" y="850" class="fil11 fnt3">2</text>
+  <text x="5157" y="906" class="fil11 fnt2">1000cm</text>
+  <text x="5769" y="850" class="fil11 fnt3">2</text>
+  <text x="4123" y="906" class="fil11 fnt2">750cm</text>
+  <text x="4642" y="850" class="fil11 fnt3">2</text>
+  <text x="7233" y="906" class="fil11 fnt2">1500cm</text>
+  <text x="7845" y="850" class="fil11 fnt3">2</text>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 3428.94 11215.8)">
+   <text x="5443" y="4134" class="fil6 fnt2">18,3&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 4262.62 12636.2)">
+   <text x="5846" y="4134" class="fil5 fnt2">22&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 4819.58 12636.2)">
+   <text x="5846" y="4134" class="fil6 fnt2">23&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 5161.04 11215.8)">
+   <text x="5582" y="4134" class="fil5 fnt2">24&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 5619.87 12636.2)">
+   <text x="5846" y="4134" class="fil5 fnt2">26&quot;</text>
+  </g>
+  <g transform="matrix(2.64845E-014 -1 1 2.64845E-014 6971.72 12636.2)">
+   <text x="5846" y="4134" class="fil5 fnt2">30&quot;</text>
+  </g>
+  <text x="1423" y="6299" class="fil10 fnt2">5:4</text>
+  <text x="2013" y="5866" class="fil8 fnt2">4:3</text>
+  <text x="1771" y="6614" class="fil6 fnt2">16:9</text>
+  <text x="2333" y="6249" class="fil5 fnt2">16:10</text>
+  <g>
+   <path class="fil10" d="M1116 7053l-132 73 132 73 0 -146 -132 73z"/>
+   <path class="fil10" d="M1651 7112l-547 0 0 28 547 0z"/>
+   <path class="fil10" d="M1639 7053l132 73 -132 73 0 -146 132 73z"/>
+  </g>
+  <g>
+   <path class="fil10" d="M675 6758l73 132 72 -132 -145 0 73 132z"/>
+   <path class="fil10" d="M734 6263l0 506 27 0 0 -506z"/>
+   <path class="fil10" d="M675 6274l73 -132 72 132 -145 0 73 -132z"/>
+  </g>
+ </g>
+</svg>

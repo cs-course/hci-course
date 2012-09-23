@@ -805,13 +805,269 @@
 		\uncover<2->{\path[line]	(display)--(epaper);
 		\path[line]	(epaper)--(print);}
 	\end{tikzpicture}
+	\begin{itemize}
+		\item 将计算机内储存的数据按照文字或图形的方式
+		\begin{itemize}
+			\item 【显示输出】输出到显示屏幕上
+			\item 【打印输出】输出到纸张或者透明胶片上
+		\end{itemize}
+		\uncover<2->{\item 输出到与纸张相仿的显示屏幕上【电子纸】}
+	\end{itemize}
 \end{frame}
 
 \subsubsection{显示器}
 \begin{frame}
 	\frametitle{显示器}
-
+	\begin{itemize}
+		\item 计算机的重要输出设备，人机对话的重要工具。
+		\item 主要功能：\\接收主机发出的信息，经过一系列的变换，最后以光的形式将文字和图形显示出来。 
+		\item 主要种类：\\CRT,LCD, LED~\dots
+	\end{itemize}
 \end{frame}
+
+% http://zh.wikipedia.org/wiki/Apple_I
+\fullPageImage{images/800px-Apple_I_Computer.jpg}{\transwipe}% http://zh.wikipedia.org/wiki/File:Apple_I_Computer.jpg
+% Apple I首次为电脑带来显示屏的概念，而不仅仅是一台充满信号灯的大盒子。
+% Apple I的内置终端电路相当特殊。用户只需要一组电脑键盘及一台不贵的屏幕。当时其他电脑如Altair 8800通常设计以前置切换开关调整并以灯光(通常是红色LED)输出，若要连接屏幕或电传打字机则需扩充硬件。这使得Apple I在当时成为创新机种。
+% 直至2008年，约有30~50台Apple I尚存，使其成为非常罕见的收藏品，而一般价位则在14,000至16,000美元之间。
+
+% http://www.scanmac.dk/apple_museum/1976-77/apple_I.html
+\fullPageImage{images/appleI_med.jpg}{\transwipe}
+\fullPageImage{images/apple1_m_monitor.jpg}{\transwipe}
+%CPU: MOS Technology 6502
+%CPU speed: 1 Mhz
+%FPU: none
+%motherboard RAM: 8 k
+%maximum RAM: 32 k (65 k hacked)
+%number of sockets: n/a
+%minimum speed: n/a
+%VRAM: 1 k ROM: ?
+%L1 cache: n/a
+%L2 cache: n/a
+%data path: 8 bit
+%bus speed: 1 Mhz
+%slots: ??
+%SCSI: none
+%Serial Ports:none
+%ADB: none
+%Floppy: optional
+%HD: none
+%Display: 60.05 Hz, 40x24
+%text, w/ automatic scrolling.
+%Sound Output: ??
+%power: 58 Watts
+%
+%introduced: April 1976
+%terminated: 1977
+
+% http://en.wikipedia.org/wiki/History_of_Apple_Inc.
+\fullPageImage{images/Apple3.jpg}{\transwipe}% http://en.wikipedia.org/wiki/File:Apple3.jpg
+
+% http://en.wikipedia.org/wiki/History_of_Apple_Inc.
+\fullPageImage{images/600px-Apple_Lisa.jpg}% http://en.wikipedia.org/wiki/File:Apple_Lisa.jpg
+% In human–computer interaction, WIMP stands for "windows, icons, menus, pointer",[1][2][3] denoting a style of interaction using these elements of the user interface. It was coined by Merzouga Wilberts in 1980.[4] Other expansions are sometimes used, substituting "mouse" and "mice" or "pull-down menu" and "pointing", for menus and pointer, respectively.
+{
+	\transwipe
+	\transdissolve<2>
+	\pause
+	\begin{beamerboxesrounded}[shadow=true]{WIMP}
+% http://en.wikipedia.org/wiki/WIMP_(computing)
+%
+%A window runs a self-contained program, isolated from other programs that (if in a multi-program operating system) run at the same time in other windows .
+%An icon acts as a shortcut to an action the computer performs (e.g., execute a program or task).
+%A menu is a text or icon-based selection systems that selects and executes programs or tasks.
+%The pointer is an onscreen symbol that represents movement of a physical device that the user controls to select icons, data elements, etc.
+		\begin{itemize}
+			\item \textit{W}indow~多任务环境中每个应用程序占据一个独立的窗口
+			\item \textit{I}con~用图标快捷方式代表一项任务或程序
+			\item \textit{M}enu~在一组文本或图标列表中进行选择
+			\item \textit{P}ointer~以特定符号``光标''代表用户控制下的输入设备运动来执行选择
+		\end{itemize}
+	\end{beamerboxesrounded}
+% WIMP interaction was developed at Xerox PARC (see Xerox Alto, developed in 1973) and popularized with Apple's introduction of the Macintosh in 1984, which added the concepts of the "menu bar" and extended window management.
+
+% http://en.wikipedia.org/wiki/Post-WIMP
+% WIMP 的提出基于文档处理背景，但是 ……
+}
+
+% http://en.wikipedia.org/wiki/History_of_Apple_Inc.
+\fullPageImage{images/544px-IMac_Bondi_Blue.jpg}{\transwipe}% http://en.wikipedia.org/wiki/File:IMac_Bondi_Blue.jpg
+% While discontinuing Apple's licensing of its operating system to third-party computer manufacturers, one of Jobs's first moves as new acting CEO was to develop the iMac, which bought Apple time to restructure. The original iMac integrated a CRT display and CPU into a streamlined, translucent plastic body. The line became a sales smash, moving about one million units each year. It also helped re-introduce Apple to the media and public, and announced the company's new emphasis on the design and aesthetics of its products.
+% CRT加主机一体化设计
+
+% 要完整的评价显示设备，有大量参数需要掌握
+% 站在人机交互的角度上，重点考察视觉感受，关键有屏幕尺寸、分辨率等方面
+
+\begin{frame}
+	\frametitle{屏幕尺寸}
+	\begin{columns}
+	\column{.5\textwidth}
+	\begin{itemize}
+		\item 宽高比 {\color{blue}W}idth:{\color{purple}H}eight\\5:4, 4:3, 16:10, 5:3, 16:9~\dots
+		\item 对角线长度 {\color{green}D}iagonal
+	\end{itemize}
+	\begin{center}
+	$ height=\sqrt{\dfrac{D^2 \times H^2}{W^2+H^2}} $\\
+	$ width=\frac{W}{H} \times height $
+	\end{center}
+	\column{.5\textwidth}
+	\includegraphics[width=.9\textwidth]{images/697px-Display_size_measurements.png} % http://en.wikipedia.org/wiki/File:Display_size_measurements.png
+	\end{columns}
+\end{frame}
+
+% http://en.wikipedia.org/wiki/Display_size
+\fullPageImage{images/LCD_screen_sizes.svg.png}{\transwipe}% http://en.wikipedia.org/wiki/File:LCD_screen_sizes.svg
+% http://en.wikipedia.org/wiki/Display_resolution
+\fullPageImage{images/749px-Vector_Video_Standards4.svg.png}{\transwipe}% http://en.wikipedia.org/wiki/File:Vector_Video_Standards4.svg
+
+\begin{frame}
+	\frametitle{阴极射线管 (CRT) 显示器}
+	% http://wiki.dzsc.com/info/1721.html
+	\begin{itemize}
+		\item 工作原理
+		\begin{itemize}
+			\item 使用电子枪发射高速电子
+			\item 经过垂直和水平的偏转线圈控制高速电子的偏转角度
+			\item 高速电子击打屏幕上的磷光物质使其发光
+			\item 通过电压来调节电子束的功率在屏幕上形成明暗不同的光点
+			\item 形成各种图案和文字
+		\end{itemize}
+	\end{itemize}
+	\begin{center}
+	\includegraphics[height=.4\textheight]{images/crt-working-flow.jpg}
+	\end{center}
+\end{frame}
+
+% http://en.wikipedia.org/wiki/Cathode_ray_tube
+\fullPageImage{images/750px-CRT_color_enhanced.png}{\transwipe}% http://en.wikipedia.org/wiki/File:CRT_color_enhanced.png
+%1. Three Electron guns (for red, green, and blue phosphor dots)
+%2. Electron beams
+%3. Focusing coils
+%4. Deflection coils
+%5. Anode connection
+%6. Mask for separating beams for red, green, and blue part of displayed image
+%7. Phosphor layer with red, green, and blue zones
+%8. Close-up of the phosphor-coated inner side of the screen
+\fullPageImage{images/800px-CRTV.jpg}{\transwipe}% http://en.wikipedia.org/wiki/File:CRTV.jpg
+\fullPageImage{images/717px-Crt14.jpg}{\transwipe}% http://en.wikipedia.org/wiki/File:Crt14.jpg
+
+\fullPageImage{images/crt-structure.jpg}{\transwipe}
+
+\begin{frame}
+	\frametitle{阴极射线管 (CRT) 显示器}
+	\begin{itemize}
+		\item 优点
+		\begin{itemize}
+			\item 高对比度
+		    \item 高响应速度
+		    \item 大尺寸
+		    \item 使用寿命长
+		    \item 色域宽、颜色响应准确
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{阴极射线管 (CRT) 显示器}
+	\begin{itemize}
+		\item 缺点
+		\begin{itemize}
+			\item 体积大、重量大
+		    \item 某些CRT存在几何畸变现象
+		    \item 功耗较大
+		    \item 运作时会发布少量X射线，有辐射。
+		    \item 长时间使用令人眼部不适，容易造成近视
+		    \item 含有铅，丢弃后会严重污染环境
+		    \item 易受外来磁场干扰而出现色斑
+		    \item 假如长时间显示同一画面，该画面会永久以残影形式留在画面。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{液晶显示屏 (LCD)}
+	% http://zh.wikipedia.org/wiki/液晶顯示器
+	\begin{itemize}
+		\item Liquid Crystal Display
+		\item 平面薄型的显示设备，由一定数量的彩色或黑白像素组成，放置于光源或者反射面前方。
+		\item 功耗低，适用于使用电池的电子设备。
+	\end{itemize}
+	\begin{center}
+	\includegraphics[height=.6\textheight]{images/Liquid_Crystal_Display.jpg}
+	\end{center}
+\end{frame}
+
+\fullPageImage{images/800px-LCD_structure.JPG} % http://zh.wikipedia.org/wiki/File:LCD_structure.JPG
+{
+	\transwipe
+	\transdissolve<2>
+	\pause
+	\begin{beamerboxesrounded}[shadow=true]{液晶显示原理}
+		\begin{itemize}
+			\item 悬浮于两个透明电极（氧化铟锡）间的一列液晶分子层
+			\item 两边外侧有两个偏振方向互相垂直的偏振过滤片
+			\item 如果没有电极间的液晶，光通过其中一个偏振过滤片其偏振方向将和第二个偏振片完全垂直，因此被完全阻挡
+			\item 如果通过一个偏振过滤片的光线偏振方向被液晶旋转，那么它就可以通过另一个偏振过滤片
+			\item 液晶对光线偏振方向的旋转可以通过静电场控制，从而实现对光的控制。
+		\end{itemize}
+	\end{beamerboxesrounded}
+}
+
+% 显示屏上的每一行或列都有一个独立的电路，每一个像素的位置也要一个行和列同时指定，这类显示方式称为“被动数组”，因为每一个像素也要在更新前记着各自的状态，此时每像素也是没有稳定的电荷供应。当像数增加时，相对的行和列数目也会增加，这种显示方式变得更难使用，以被动数组所制造的LCD特性为非常慢的反应时间及低对比度。
+%
+%现行高分辨率彩色显示屏，例如計算機屏幕或电视，皆为主动数组。薄膜晶体管（TFT）数组（见薄膜晶体管液晶显示屏）会被添加到偏光板与色彩滤镜上。每个像素都有自己的晶体管，允许操控单一像素。当一条列线路被打开时，所有行线路会连接到一整列的像素，而每条行线会有正确的电压驱动，这条列线路会关掉而另一列被打开。在一次完整的画面更新运作中，所有列线路会依照时间串行被打开。同等大小的主动数组显示屏比起被动数组显示屏会显得更亮更锐利，而且有短的反应时间。
+
+% http://www.britannica.com/EBchecked/media/60170/Basic-architecture-of-an-active-matrix-thin-film-transistor-liquid
+\fullPageImage{images/active-matrix-TFTLCD.jpg}{\transwipe} 
+
+\begin{frame}
+	\frametitle{液晶显示屏 (LCD)}
+	\begin{itemize}
+		\item 优点
+		\begin{itemize}
+			\item 体积远比CRT显示屏小
+		    \item 功耗低，较省电
+		    \item 发热量低，不会令工作环境变得太热
+		\end{itemize}
+		\item 缺点
+		\begin{itemize}
+			\item 显示色域不够宽，颜色重现不够逼真
+		    \item 早期产品可视角度不够广
+		    \item 响应速度偏低~{\tiny 高速变化画面如玩游戏或播放影片时或出现残影}
+		    \item 长时间显示同一画面易致残影~{\tiny 可能会永久残留}
+		    \item 长时间使用可能会产生永久性的亮点、暗点、坏点~{\tiny 无法修复！}
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\fullPageImage{images/whiteLED.jpg}{\transwipe}
+\fullPageImage{images/led_diode.jpg}{\transwipe}
+\fullPageImage{images/LED2.jpg}{\transwipe}
+\fullPageImage{images/led-matrix.jpg}{\transwipe}
+
+\begin{frame}
+	\frametitle{有机发光二极管 (Organic Light-Emitting Diode)}
+	\begin{columns}
+	\column{.7\textwidth}
+	\begin{itemize}
+		\item 又称为有机电激光显示 (Organic Electroluminesence Display, OELD)
+		\begin{itemize}
+			\item 1947年美籍华裔教授邓青云在实验室中发现了有机发光二极体，也就是OLED
+		    \item 与传统的LCD显示方式不同，无需背光灯，具有自发光的特性
+		    \item 可以做得更轻更薄，可视角度更大，并且能够显著节省电能。
+		    \item 使用寿命短、屏幕大型化难
+		\end{itemize}
+	\end{itemize}
+	\column{.3\textwidth}
+	\includegraphics[width=.9\textwidth]{images/oled-principle.jpg}\\ % http://www.eefocus.com/article/10-03/833141268409705.html
+	\includegraphics[width=.9\textwidth]{images/whatisoled.jpg}\\ % http://oled.lcdtvbuyingguide.com/oled-tv-articles/what-is-oled.html
+	\includegraphics[width=.9\textwidth]{images/oled-structure.jpg} % http://www.techcn.com.cn/index.php?doc-view-136743.html
+	\end{columns}
+\end{frame}
+
+\fullPageImage{images/flexible-oled.jpg}{\transwipe}
+% http://www.oled.si/tv/tag/oled-tv/
+\fullPageImage{images/flexible-oled-display.jpg}{\transwipe} % http://www.oled.si/tv/future-of-oled-technology/
 
 \subsubsection{打印机}
 \begin{frame}
