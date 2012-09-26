@@ -193,7 +193,7 @@
 		rounded corners,
 		draw=black, very thick,
 		fill=blue!20,
-		text width=3em,
+		text width=2em,
 		minimum height=2em,
 		text centered]
 	\tikzstyle{queue} = [
@@ -212,20 +212,20 @@
 		\end{itemize}
 	\end{itemize}
 	\begin{center}
-	\begin{tikzpicture}[node distance=1.8cm, auto,]
-		\node [queue] (R){
+	\begin{tikzpicture}[node distance=1.5cm, auto,]
+		\node [] (device) {输入};\pause
+		\node [queue, below of=device, right of=device] (R){
 			\nodepart{two} \nodepart{three}事件
 			\nodepart{four} \nodepart{five}
 		};
-		\node [above of=R, left of=R] (device) {输入};
 		\draw [line] (device.east) -| (R.north);\pause
 		\node [block, below of=R, right of=R] (poll) {检查};
 		\draw [line] (R.south) |- (poll.west);\pause
-		\node [block, right of=poll] (handlerA) {事件A处理};
+		\node [block, right of=poll] (handlerA) {{\tiny 事件A处理}};
 		\draw [line] (poll.east) -- (handlerA.west);
-		\node [block, above of=handlerA] (handlerB) {事件B处理};
+		\node [block, above of=handlerA] (handlerB) {{\tiny 事件B处理}};
 		\draw [line] (poll.east) -- (handlerB.west);
-		\node [block, above of=handlerB] (handlerC) {事件C处理};
+		\node [block, above of=handlerB] (handlerC) {{\tiny 事件C处理}};
 		\draw [line] (poll.east) -- (handlerC.west);
 	\end{tikzpicture}
 	\end{center}
@@ -243,9 +243,9 @@
 \end{frame}
 
 % http://biancheng.dnbcw.info/python/348697.html
-%\fullPageImage{images/socket.jpg}{\transwipe}
-%\fullPageImage{images/epoll.jpg}{\transwipe}
-%\fullPageImage{images/tornado.png}{\transwipe}
+\fullPageImage{images/socket.jpg}{\transwipe}
+\fullPageImage{images/epoll.jpg}{\transwipe}
+\fullPageImage{images/tornado.jpg}{\transwipe}
 
 \subsection{图形交互技术}
 \begin{frame}
