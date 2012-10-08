@@ -86,9 +86,9 @@
 	\begin{itemize}
 		\item 掌握图形用户界面的主要思想和设计的一般原则。
 		\item 了解用户、用户体验、用户交互分析以及设计流程。
-		\item 掌握任务分析方法方法，重点掌握：
+		\item 掌握任务分析方法方法
 		\begin{itemize}
-			\item 使用行为分析、顺序分析、协作关系分析。
+			\item 重点掌握：使用行为分析、顺序分析、协作关系分析。
 		\end{itemize}
 		\item 掌握以用户为中心的界面设计方法。
 	\end{itemize}
@@ -100,9 +100,9 @@
 	\begin{itemize}
 		\item 根据表现形式，用户界面分为
 		\begin{itemize}
-			\item 命令行界面
-			\item 图形界面
-			\item 多通道用户界面
+			\item 命令行界面 Command Line Interface
+			\item 图形界面 Graphic User Interface
+			\item 多通道用户界面 Multimodal User Interface
 		\end{itemize}
 	\end{itemize}
 \end{frame}
@@ -120,33 +120,128 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{桌面隐喻}
+	\frametitle{桌面隐喻~\textit{desktop metaphor}}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{beamerboxesrounded}[shadow=true]{桌面隐喻}
+		在用户界面中用人们熟悉的桌面上的图例清楚地表示计算机可以处理的能力。
+		\begin{itemize}
+			\item 图形具有一定的文化和语言独立性，可以提高搜索目标的效率。
+			\item 图形用户界面中的图例可以代表对象、动作、属性或其他概念。
+		\end{itemize}
+	\end{beamerboxesrounded}
+	\pause
+	\begin{beamerboxesrounded}[shadow=true]{表达方式}
+		图例和文字
+		\begin{itemize}
+			\item 文字适用于表达某些抽象概念。
+			\item 图例更易于识别，占用较少屏幕空间，可独立于语言。
+		\end{itemize}
+	\end{beamerboxesrounded}
+\end{frame}
 
+\begin{frame}
+	\frametitle{隐喻的表现方法}
+	\begin{itemize}
+		\item 静态图标
+		\item 动画
+		\item 视频
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{隐喻的分类}
+	\begin{itemize}
+		\item 直接隐喻：隐喻本身就带有操纵的对象
+		\begin{itemize}
+			\item 如Word中的表格、图表等图标，图标分别代表了操纵对象。
+		\end{itemize}
+		\item 工具隐喻：代表所使用的工具
+		\begin{itemize}
+			\item 如用磁盘图标隐喻存盘操作、用打印机图标隐喻打印操作等，这种隐喻设计简单、形象直观，应用也最为普遍。
+		\end{itemize}
+		\item 过程隐喻：通过描述操作的过程来暗示该操作
+		\begin{itemize}
+			\item 如Word中的撤销和恢复图标。
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{所见即所得}
+	\begin{itemize}
+		\item 在WYSIWYG交互界面中显示的用户交互行为与应用程序最终产生的结果是一致的。 
+		\item 非WYSIWYG的编辑器，用户只能看到文本的控制代码，对于最后的输出结果缺乏直观的认识。
+	\end{itemize}
+\end{frame}
 
+\begin{frame}
+	\frametitle{WYSIWYG的弊端}
+	\begin{itemize}
+		\item 如果屏幕的空间或颜色的配置方案与硬件设备所提供的配置不一样，在两者之间就很难产生正确的匹配。
+		\item 文本处理器都提供了定义章、节、小节等的标记，这些标记显式地标明了对象的属性，但并不是用户最终输出结果的一部分。
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{直接操纵}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{beamerboxesrounded}[shadow=true]{直接操纵}
+	把操作的对象、属性、关系显式地表示出来，用光笔、鼠标、触摸屏或数据手套等指点设备直接从屏幕上获取形象化命令与数据的过程。
+	\end{beamerboxesrounded}
+	\pause
+	\begin{beamerboxesrounded}[shadow=true]{直接操纵的对象}
+	命令、数据或是对数据的某种操作。
+	\end{beamerboxesrounded}
+\end{frame}
+
+\begin{frame}
+	\frametitle{直接操纵的特性}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{直接操纵的优缺点}
 
 \end{frame}
 
 \begin{frame}
 	\frametitle{图形用户界面~{\small 一般性原则}}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 界面要具有一致性
+		\begin{itemize}
+			\item 在同一用户界面中，所有的菜单选择、命令输入、数据显示和其他功能应保持风格的一致性。
+		\end{itemize}
+		\item 常用操作要有快捷方式
+		\begin{itemize}
+			\item 不仅会提高用户的工作效率，还使界面在功能实现上简洁而高效。
+		\end{itemize}
+		\item 提供简单的错误处理
+		\begin{itemize}
+			\item 在出现错误时，系统应该能检测出错误，并且提供简单和容易理解的错误处理功能
+		\end{itemize}
+		\item 对操作人员的重要操作要有信息反馈
+		\begin{itemize}
+			\item 尤其是对不常用操作、至关重要操作要有信息反馈。
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \subsection{理解用户}
 \begin{frame}
 	\frametitle{理解用户}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 以用户为中心的设计，宗旨就是：
+		\begin{itemize}
+			\item 在软件开发过程中要紧紧围绕用户，在系统设计和测试过程中，要有用户的参与，以便及时获得用户的反馈信息;
+			\item 根据用户的需求和反馈信息，不断改进设计，直到满足了用户的需求，这个过程才终止。
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
-	\frametitle{所谓``用户''}
+	\frametitle{所谓“用户”}
 
 \end{frame}
 
