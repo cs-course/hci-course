@@ -11,5 +11,3 @@ syntax: glob
 *.toc
 *.bbl
 *.blg
-# test code
-__test*
