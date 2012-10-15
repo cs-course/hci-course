@@ -44,23 +44,14 @@
 
 % diagrams
 \usepackage{tikz}
-\usetikzlibrary{arrows,positioning} 
-\tikzset{
-    %Define standard arrow tip
-    >=stealth',
-    %Define style for boxes
-    punkt/.style={
-		rectangle,
-		rounded corners,
-		draw=black, very thick,
-		text width=6.5em,
-		minimum height=2em,
-		text centered},
-	line/.style = {
-		->,
-		draw,
-		text centered,
-		-latex'}
+\usetikzlibrary{arrows,shapes}
+
+% full page image
+\newcommand{\fullPageImage}[2]{
+	{
+		\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{#1}}
+		\frame[plain]{#2}
+	}
 }
 
 \title{人机交互技术}
@@ -100,9 +91,9 @@
 	\begin{itemize}
 		\item 根据表现形式，用户界面分为
 		\begin{itemize}
-			\item 命令行界面 Command Line Interface
-			\item 图形界面 Graphic User Interface
-			\item 多通道用户界面 Multimodal User Interface
+			\item 命令行界面 \textit{Command Line Interface}
+			\item 图形界面 \textit{Graphic User Interface}
+			\item 多通道用户界面 \textit{Multimodal User Interface}
 		\end{itemize}
 	\end{itemize}
 \end{frame}
@@ -166,19 +157,29 @@
 	\end{itemize}
 \end{frame}
 
+\fullPageImage{images/RedconsFullPreview1-600x356.png}{\transwipe}
+
 \begin{frame}
 	\frametitle{所见即所得}
-	\begin{itemize}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
 		\item 在WYSIWYG交互界面中显示的用户交互行为与应用程序最终产生的结果是一致的。 
 		\item 非WYSIWYG的编辑器，用户只能看到文本的控制代码，对于最后的输出结果缺乏直观的认识。
+		\item 思考：孰优孰劣？
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{WYSIWYG的弊端}
-	\begin{itemize}
-		\item 如果屏幕的空间或颜色的配置方案与硬件设备所提供的配置不一样，在两者之间就很难产生正确的匹配。
-		\item 文本处理器都提供了定义章、节、小节等的标记，这些标记显式地标明了对象的属性，但并不是用户最终输出结果的一部分。
+	\begin{itemize}[<+->]
+		\item 平台兼容
+		\begin{itemize}
+			\item 如果屏幕的空间或颜色的配置方案与硬件设备所提供的配置不一样，在两者之间就很难产生正确的匹配。
+		\end{itemize}
+		\item 结构隐藏
+		\begin{itemize}
+			\item 文本处理器都提供了定义章、节、小节等的标记，这些标记显式地标明了对象的属性，但并不是用户最终输出结果的一部分。
+		\end{itemize}
 	\end{itemize}
 \end{frame}
 

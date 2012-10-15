@@ -42,6 +42,18 @@
 }
 \makeatother
 
+% diagrams
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+
+% full page image
+\newcommand{\fullPageImage}[2]{
+	{
+		\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{#1}}
+		\frame[plain]{#2}
+	}
+}
+
 \title{人机交互技术}
 \author{施展}
 \institute{华中科技大学~武汉光电国家实验室}
