@@ -157,7 +157,7 @@
 	\end{itemize}
 \end{frame}
 
-\fullPageImage{images/RedconsFullPreview1-600x356.png}{\transwipe}
+\fullPageImage{images/redcons-fullpreview1-600x356.jpg}{\transwipe}
 
 \begin{frame}
 	\frametitle{所见即所得}
@@ -171,6 +171,7 @@
 
 \begin{frame}
 	\frametitle{WYSIWYG的弊端}
+	\beamertemplatetransparentcovereddynamicmedium
 	\begin{itemize}[<+->]
 		\item 平台兼容
 		\begin{itemize}
@@ -182,6 +183,8 @@
 		\end{itemize}
 	\end{itemize}
 \end{frame}
+
+\fullPageImage{images/texmakertop_big.jpg}{\transwipe}
 
 \begin{frame}
 	\frametitle{直接操纵}
@@ -197,12 +200,49 @@
 
 \begin{frame}
 	\frametitle{直接操纵的特性}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 直接操纵的对象是动作或数据的形象隐喻
+		\begin{itemize}
+			\item 形象隐喻与实际内容相近，使用户能通过屏幕上的隐喻直接想象或感知其内容。
+		\end{itemize}
+		\item 用指点和选择代替键盘输入
+		\begin{itemize}
+			\item 优点：操作简便，速度快捷。
+			\item 再考虑一下？ % 为什么还需要键盘快捷键
+		\end{itemize}
+		\item 操作结果立即可见
+		\begin{itemize}
+			\item 用户可以及时修正操作，逐步往正确的方向前进。
+		\end{itemize}
+		\item 支持逆向操作
+		\begin{itemize}
+			\item 用户在使用系统的过程中，不可避免地会出现一些操作错误，通过逆向操作，用户可以很方便地恢复到出现错误之前的状态。
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{直接操纵的优缺点}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 优点
+		\begin{itemize}
+			\item 借助物理的、空间的或形象的表示，而不是单纯的文字或数字的表示。依赖于视觉和手动控制的参与，可以直接操作，有利于解决问题和进行学习。
+		\end{itemize}
+		\item 缺点
+		\begin{itemize}
+			\item 与命令语言界面的某些优点相比
+			\begin{itemize}
+				\item 从用户界面设计者角度看，设计图形比较繁琐，需进行大量的测试和实验。
+				\item \dots 快捷性再考虑
+			\end{itemize}
+			\item 表示复杂语义、抽象语义比较困难。
+			\begin{itemize}
+				\item \dots “宏”、“脚本”的意义
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -228,11 +268,43 @@
 	\end{itemize}
 \end{frame}
 
+\begin{frame}
+	\frametitle{图形用户界面~{\small 一般性原则}}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 操作可逆
+		\begin{itemize}
+			\item 对大多数动作应允许恢复(UNDO)，对用户出错采取比较宽容的态度。
+		\end{itemize}
+		\item 设计良好的联机帮助
+		\begin{itemize}
+			\item 人机界面应该提供上下文敏感的求助系统，让用户及时获得帮助，尽量用简短的动词和动词短语提示命令。
+		\end{itemize}
+		\item 合理划分并高效地使用显示屏
+		\begin{itemize}
+			\item 只显示与上下文有关的信息，允许用户对可视环境进行维护，如放大、缩小窗口；
+			\item 用窗口分隔不同种类的信息，只显示有意义的出错信息。
+		\end{itemize}
+		\item 保证信息显示方式与数据输入方式的协调一致，尽量减少用户输入的动作
+		\begin{itemize}
+			\item 隐藏当前状态下不可用的命令，允许用户自选输入方式，能够删除错误的输入，允许用户控制交互过程。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
 \subsection{理解用户}
 \begin{frame}
 	\frametitle{理解用户}
 	\beamertemplatetransparentcovereddynamicmedium
 	\begin{itemize}[<+->]
+		\item 用户是使用某种产品的人，其包含两层含义:
+		\begin{itemize}
+			\item 1）用户是人类的一部分；2）用户是产品的使用者。
+		\end{itemize}
+		\item 衡量一个以用户为中心的设计的好坏，关键点是强调产品的最终使用者与产品之间的交互质量
+		\begin{itemize}
+			\item {\tiny 产品在特定使用环境下为特定用户用于特定用途时}所具有的有效性 Effectiveness、效率 Efficiency 和用户主观满意度 Satisfaction。
+		\end{itemize}
 		\item 以用户为中心的设计，宗旨就是：
 		\begin{itemize}
 			\item 在软件开发过程中要紧紧围绕用户，在系统设计和测试过程中，要有用户的参与，以便及时获得用户的反馈信息;
@@ -242,18 +314,63 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{所谓“用户”}
-
+	\frametitle{用户体验}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 用户体验（User Experience，UX）通常是指用户在使用产品或系统时的全面体验和满意度。
+		\begin{itemize}
+			\item 品牌 Branding
+			\item 使用性 Usability
+			\item 功能性 Functionality
+			\item 内容 Content
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{用户体验}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 用户体验是一个迭代过程，影响用户体验的因素很多：
+		\begin{itemize}
+			\item 现有技术上的限制~{\tiny 设计人员必须优先在相对固定的UI框架内进行设计；}
+			\item 设计的创新~{\tiny 在用户的接受程度上也存在一定的风险；}
+			\item 开发进度表~{\tiny 也会给这样一种具有艺术性的工作带来压力；}
+			\item 设计人员很容易认为他们了解用户需要~{\tiny 但实际情况常常不是这样。}
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{用户的区别}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 用户的分类
+		\begin{enumerate}
+			\item 偶然型用户：{\tiny 既没有计算机应用领域的专业知识，也缺少计算机系统基本知识的用户。}
+			\item 生疏型用户：{\tiny 他们更常使用计算机系统，因而对计算机的性能及操作使用，已经有一定程度的理解和经验。但他们往往对新使用的计算机系统缺乏了解，不太熟悉，因此对新系统而言，他们仍旧是生疏用户。}
+			\item 熟练型用户：{\tiny 这类用户一般是专业技术人员，他们对需要计算机完成的工作任务有清楚地了解，对计算机系统也有相当多的知识和经验，并且能熟练地操作、使用。}
+			\item 专家型用户：{\tiny 对需要计算机完成的工作任务和计算机系统都很精通的，通常是计算机专业用户，称为专家型用户。}
+		\end{enumerate}
+	\end{itemize}
+\end{frame}
 
+\begin{frame}
+	\frametitle{用户的区别}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 计算机领域经验和问题领域经验的区别
+		\begin{enumerate}
+			\item 用户界面还必须至少从两个维度迎合潜在的广泛经验，这两个维度指的是计算机经验和领域经验。
+			\item 计算机经验不仅包括对计算机的一般性了解，还包括对尚待开发的系统的经验。
+			\begin{itemize}
+				\item 计算机领域和问题领域经验都不足的用户所需的用户界面与专家用户的界面将区别很大。
+			\end{itemize}
+		\end{enumerate}
+	\end{itemize}
+	\begin{center}
+	\includegraphics[width=.7\textwidth]{images/user-exp.png}
+	\end{center}
 \end{frame}
 
 \begin{frame}
@@ -264,10 +381,23 @@
 \subsection{设计流程}
 \begin{frame}
 	\frametitle{设计流程}
+	\tikzstyle{block} = [
+		rectangle,
+		rounded corners,
+		draw=black, very thick,
+		fill=blue!20,
+		text width=8em,
+		minimum height=2em,
+		text centered]
+	\tikzstyle{line} = [
+		draw, -latex',
+		draw=black, very thick,
+		text centered]
+
 	\begin{tikzpicture}[node distance=0.5cm, auto,]
-		\node[punkt] (a) {用户的观察和分析};
-		\node[punkt, right=of a] (b) {设计};
-		\node[punkt, right=of b] (c) {实施};
+		\node[block] (a) {用户的观察和分析};
+		\node[block, right of = a] (b) {设计};
+		\node[block, right of = b] (c) {实施};
 		\path[line]	(a)--(b);
 		\path[line]	(b)--(c);
 	\end{tikzpicture}
