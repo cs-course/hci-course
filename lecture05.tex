@@ -81,7 +81,7 @@
 		\begin{itemize}
 			\item 重点掌握：使用行为分析、顺序分析、协作关系分析。
 		\end{itemize}
-		\item 掌握以用户为中心的界面设计方法。
+%		\item 掌握以用户为中心的界面设计方法。
 	\end{itemize}
 \end{frame}
 
@@ -157,7 +157,7 @@
 	\end{itemize}
 \end{frame}
 
-\fullPageImage{images/redcons-fullpreview1-600x356.jpg}{\transwipe}
+\fullPageImage{images/redcons-fullpreview1-600x356.jpg}{}
 
 \begin{frame}
 	\frametitle{所见即所得}
@@ -184,7 +184,7 @@
 	\end{itemize}
 \end{frame}
 
-\fullPageImage{images/texmakertop_big.jpg}{\transwipe}
+\fullPageImage{images/texmakertop_big.jpg}{}
 
 \begin{frame}
 	\frametitle{直接操纵}
@@ -299,25 +299,35 @@
 	\begin{itemize}[<+->]
 		\item 用户是使用某种产品的人，其包含两层含义:
 		\begin{itemize}
-			\item 1）用户是人类的一部分；2）用户是产品的使用者。
+			\item 1) 用户是人类的一部分; 2) 用户是产品的使用者。
 		\end{itemize}
 		\item 衡量一个以用户为中心的设计的好坏，关键点是强调产品的最终使用者与产品之间的交互质量
 		\begin{itemize}
-			\item {\tiny 产品在特定使用环境下为特定用户用于特定用途时}所具有的有效性 Effectiveness、效率 Efficiency 和用户主观满意度 Satisfaction。
+			\item {\tiny 产品在特定使用环境下为特定用户用于特定用途时所具有的}有效性 Effectiveness、效率 Efficiency 和用户主观满意度 Satisfaction~\cite{iso19989241}。
 		\end{itemize}
 		\item 以用户为中心的设计，宗旨就是：
 		\begin{itemize}
-			\item 在软件开发过程中要紧紧围绕用户，在系统设计和测试过程中，要有用户的参与，以便及时获得用户的反馈信息;
-			\item 根据用户的需求和反馈信息，不断改进设计，直到满足了用户的需求，这个过程才终止。
+			\item {\tiny 在软件开发过程中要紧紧围绕用户，在系统设计和测试过程中，}要有用户的参与，{\tiny 以便及时获得用户的反馈信息;}
+			\item {\tiny 根据用户的需求和反馈信息，}不断改进设计——迭代，{\tiny 直到满足了用户的需求，这个过程才终止。}
 		\end{itemize}
 	\end{itemize}
 \end{frame}
 
+% http://www.neospot.se/usability-vs-user-experience/
+\fullPageImage{images/usability-vs-user-experience.jpg}{}
+% By this definition Usability is a subset of the overall User Experience. Usability answers the question, "Can the user accomplish their goal?" with effectiveness, efficiency, and satisfaction about the results (as per the ISO 9241-11 definition of usability). User Experience also answers the question, "Did the user have as delightful an experience as possible doing so?". User Experience takes far more effort to do well, but the results have far better impact.
+
+% A commonly used example of great User Experience is the Apple iPhone where Apple has spent efforts in all of the areas above and succeeded in doing so. The early iPhones did not include latest technologies (far from it) but was a success nevertheless due to being a great User Experience as per definition above. As the NeoSpot slogan states; IT’s all about the User Experience, not about the technology itself.
+
+% http://www.system-concepts.com/articles/usability-articles/2008/usability-or-user-experience-whats-the-difference.html
+
 \begin{frame}
 	\frametitle{用户体验}
 	\beamertemplatetransparentcovereddynamicmedium
+	\begin{columns}
+	\column{.5\textwidth}
 	\begin{itemize}[<+->]
-		\item 用户体验（User Experience，UX）通常是指用户在使用产品或系统时的全面体验和满意度。
+		\item 用户体验 User Experience, UX\\{\tiny 通常是指用户在使用产品或系统时的全面体验和满意度。~\cite{dis20109241}}
 		\begin{itemize}
 			\item 品牌 Branding
 			\item 使用性 Usability
@@ -325,6 +335,10 @@
 			\item 内容 Content
 		\end{itemize}
 	\end{itemize}
+	\column{.5\textwidth}
+	% http://www.tributemedia.com/sites/tributemedia.com/files/imce/Userexperience.png
+	\includegraphics[width=\textwidth]{images/user-experience.png}
+	\end{columns}
 \end{frame}
 
 \begin{frame}
@@ -333,10 +347,10 @@
 	\begin{itemize}[<+->]
 		\item 用户体验是一个迭代过程，影响用户体验的因素很多：
 		\begin{itemize}
-			\item 现有技术上的限制~{\tiny 设计人员必须优先在相对固定的UI框架内进行设计；}
-			\item 设计的创新~{\tiny 在用户的接受程度上也存在一定的风险；}
-			\item 开发进度表~{\tiny 也会给这样一种具有艺术性的工作带来压力；}
-			\item 设计人员很容易认为他们了解用户需要~{\tiny 但实际情况常常不是这样。}
+			\item 现有技术上的限制\\{\tiny 设计人员必须优先在相对固定的UI框架内进行设计；}
+			\item 设计的创新\\{\tiny 在用户的接受程度上也存在一定的风险；}
+			\item 开发进度表\\{\tiny 也会给这样一种具有艺术性的工作带来压力；}
+			\item 设计人员很容易认为他们了解用户需要\\{\tiny 但实际情况常常不是这样。}
 		\end{itemize}
 	\end{itemize}
 \end{frame}
@@ -347,10 +361,10 @@
 	\begin{itemize}[<+->]
 		\item 用户的分类
 		\begin{enumerate}
-			\item 偶然型用户：{\tiny 既没有计算机应用领域的专业知识，也缺少计算机系统基本知识的用户。}
-			\item 生疏型用户：{\tiny 他们更常使用计算机系统，因而对计算机的性能及操作使用，已经有一定程度的理解和经验。但他们往往对新使用的计算机系统缺乏了解，不太熟悉，因此对新系统而言，他们仍旧是生疏用户。}
-			\item 熟练型用户：{\tiny 这类用户一般是专业技术人员，他们对需要计算机完成的工作任务有清楚地了解，对计算机系统也有相当多的知识和经验，并且能熟练地操作、使用。}
-			\item 专家型用户：{\tiny 对需要计算机完成的工作任务和计算机系统都很精通的，通常是计算机专业用户，称为专家型用户。}
+			\item 偶然型用户\\{\tiny 既没有计算机应用领域的专业知识，也缺少计算机系统基本知识的用户。}
+			\item 生疏型用户\\{\tiny 他们更常使用计算机系统，因而对计算机的性能及操作使用，已经有一定程度的理解和经验。但他们往往对新使用的计算机系统缺乏了解，不太熟悉，因此对新系统而言，他们仍旧是生疏用户。}
+			\item 熟练型用户\\{\tiny 这类用户一般是专业技术人员，他们对需要计算机完成的工作任务有清楚地了解，对计算机系统也有相当多的知识和经验，并且能熟练地操作、使用。}
+			\item 专家型用户\\{\tiny 对需要计算机完成的工作任务和计算机系统都很精通的，通常是计算机专业用户，称为专家型用户。}
 		\end{enumerate}
 	\end{itemize}
 \end{frame}
@@ -363,24 +377,41 @@
 		\begin{enumerate}
 			\item 用户界面还必须至少从两个维度迎合潜在的广泛经验，这两个维度指的是计算机经验和领域经验。
 			\item 计算机经验不仅包括对计算机的一般性了解，还包括对尚待开发的系统的经验。
-			\begin{itemize}
-				\item 计算机领域和问题领域经验都不足的用户所需的用户界面与专家用户的界面将区别很大。
-			\end{itemize}
 		\end{enumerate}
+		\item 很明显：计算机领域和问题领域经验都不足的用户所需的用户界面与专家用户的界面将区别很大。
 	\end{itemize}
 	\begin{center}
-	\includegraphics[width=.7\textwidth]{images/user-exp.png}
+	\includegraphics[width=.7\textwidth]{images/user-experts.png}
 	\end{center}
 \end{frame}
 
 \begin{frame}
 	\frametitle{用户交互分析}
-
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 产品策略分析
+		\begin{itemize}
+			\item 确定产品的设计方向和预期目标\\{\tiny 了解用户对设计产品的期望是什么；}
+			\item 分析同类型产品的竞争特点\\{\tiny 用户使用同类型产品时的交互体验，包括正面的体验和负面的体验，从而得出产品交互设计的策略。}
+		\end{itemize}
+		\pause
+		\item 用户分析
+		\begin{itemize}
+			\item 深入而明确的了解产品的目标用户\\{\tiny 特定年龄区间、特殊的文化背景、职业特征、计算机使用经验、同类产品使用经验 \dots}
+			\item 找到典型用户。
+		\end{itemize}
+		\pause
+		\item 用户交互特性分析
+		\begin{itemize}
+			\item 交互挖掘目标用户群，得出准确、具体的用户特征，针对其开展设计。
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \subsection{设计流程}
 \begin{frame}
 	\frametitle{设计流程}
+	\beamertemplatetransparentcovereddynamicmedium
 	\tikzstyle{block} = [
 		rectangle,
 		rounded corners,
@@ -394,13 +425,28 @@
 		draw=black, very thick,
 		text centered]
 
-	\begin{tikzpicture}[node distance=0.5cm, auto,]
+	\begin{columns}
+	\column{.5\textwidth}
+	\begin{center}
+	\begin{tikzpicture}[node distance=1.5cm, auto,]
 		\node[block] (a) {用户的观察和分析};
-		\node[block, right of = a] (b) {设计};
-		\node[block, right of = b] (c) {实施};
-		\path[line]	(a)--(b);
-		\path[line]	(b)--(c);
+		\uncover<2->{
+			\node[block, below of = a] (b) {设计};
+			\path[line]	(a)--(b);
+		}
+		\uncover<3->{
+			\node[block, below of = b] (c) {实施};
+			\path[line]	(b)--(c);
+		}
 	\end{tikzpicture}
+	\end{center}
+	\column{.5\textwidth}
+	\begin{itemize}
+		\item 用户的观察和分析\\{\tiny 观察用户是如何理解内容和组织信息，指导更合理的设计。}
+		\uncover<2->{\item 设计\\{\tiny 将用户分析的结果按讨论对象分类整理，抽象化描述属性、行为、关系。}}
+		\uncover<3->{\item 实施\\{\tiny 调整高真 High-fidelity 设计原型，产品设计标准化。}}
+	\end{itemize}
+	\end{columns}
 \end{frame}
 
 \begin{frame}
@@ -415,7 +461,7 @@
 \begin{frame}
 	\frametitle{设计}
 	\begin{itemize}
-		\item 对象模型化: \\{\tiny 将用户分析的结果按照讨论的对象进行分类整理，并且以各种图示的方法描述其属性、行为和关系。}
+		\item 对象模型化\\{\tiny 将用户分析的结果按照讨论的对象进行分类整理，并且以各种图示的方法描述其属性、行为和关系。}
 		\item 低真视图 Low-fidelity Prototype\\{\tiny 比较抽象的视图有利于进行逻辑分析。}
 		\item 高真视图 High-fidelity Prototype\\{\tiny 比较具体的视图更接近于人机界面的最终表达。}
 	\end{itemize}
@@ -424,7 +470,7 @@
 \begin{frame}
 	\frametitle{实施}
 	\begin{itemize}
-		\item 设计师对高真设计原型进行最后的调整，并且撰写产品的设计风格标准（Style Guide），产品各个部分风格的一致性由该标准保证。
+		\item 设计师对高真设计原型进行最后的调整，并且撰写产品的设计风格标准 Style Guide ，产品各个部分风格的一致性由该标准保证。
 		\item 产品实施或投入市场后，面向用户的设计并没有结束，而是要进一步的搜集用户的评价和建议，以利于下一代产品的开发和研制。
 	\end{itemize}
 \end{frame}
@@ -432,14 +478,261 @@
 \subsection{任务分析}
 \begin{frame}
 	\frametitle{任务分析}
-
+	\begin{itemize}
+		\item 在以用户为中心的设计中，关心的是如何从用户那里理解和获取用户的思维模式，进行充分、直观的表达，并用于交互设计。
+		\item 描述用户行为的工具
+		\begin{itemize}
+			\item 如通用标识语言 Unified Markup Language, UML~\cite{bjerkander2003architecting}
+			\item UML 2.0共有10种图示\\{\tiny 组合结构图、用例图、类图、序列图、对象图、协作图、状态图、活动图、组件图和部署图}
+			\item 用以清晰表达一个交互任务诸多方面的内容\\{\tiny 包括交互中的使用行为、交互顺序、协作关系、工序约束 \dots} % 在任务分析中使用UML工具，可以
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
-\subsection{以用户为中心的界面设计}
 \begin{frame}
-	\frametitle{以用户为中心的界面设计}
-
+	\frametitle{任务分析~{\small UML的图示}}
+	\begin{tiny}
+	\begin{tabular}{|p{.2\textwidth}|p{.4\textwidth}|p{.2\textwidth}|}
+	\hline 
+	名称 & 视图 & 主要符号 \\ 
+	\hline 
+	组合结构图 composite-structure diagram & 结构(架构)性需求，主要包括Part、Port、接口和链接(Link) & Part、Port、接口、链接关系 \\ 
+	\hline 
+	用例图 use case diagram & 功能需求，主要包括用例和参与者 & 用例、参与者、关联关系 \\ 
+	\hline 
+	类图 class diagram & 静态结构，主要包括一群类及其间的静态关系 & 类、关联关系、泛化关系 \\ 
+	\hline 
+	序列图 sequence diagram & 一群对象依序传送消息的交互状况 & 对象、消息、活动期 \\ 
+	\hline 
+	对象图 object diagram & 某时刻下的数据结构，主要包括一群对象及其间拥有的数据数值 & 对象、链接、消息 \\ 
+	\hline 
+	协作图 collaboration diagram & 一群有链接的对象传送消息的交互状况 & 对象、链接 \\ 
+	\hline 
+	状态图 state chart diagram & 某种对象的行为，主要呈现一堆状态因事件而转换的状况 & 状态、事件、转换、动作 \\ 
+	\hline 
+	活动图 activity diagram & 一段自动转换的活动流程，主要包括一堆活动及其间的自动转换线 & 活动、转换、分叉、接合 \\ 
+	\hline 
+	组件图 component diagram & 一群组件及其间的依赖关系 & 组件、接口、依赖关系、实现关系 \\ 
+	\hline 
+	部署图 deployment diagram & 一堆设备及其间的依赖关系 & 节点、组件、依赖关系 \\ 
+	\hline 
+	\end{tabular} 
+	\end{tiny}
 \end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 图书馆管理系统}}
+	从读者提出想要借书开始，经过如下五个交互步骤：
+	\begin{enumerate}
+		\item 根据系统提供查询功能，读者可以在系统界面中输入关键字查询图书；
+		\item 系统通过交互界面列出可借用的图书供读者选择；
+		\item 如果读者选定了图书，系统提示读者输入借书证号和密码；
+		\item 如果最后读者确定借阅关系，系统处理并通知读者借书成功，并给读者一个确认；
+		\item 当确认信息出现时，整个图书借阅的交互过程就结束了。
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 任务分析内容}}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 使用行为分析~{\tiny 哪些人、哪些事？}
+		\item 顺序分析~{\tiny 什么流程？}
+		\item 协作关系分析~{\tiny 怎么配合？}
+		\item 工序约束分析~{\tiny 依赖关系？}
+		\item 用户任务总览
+		\item 任务层次关系~{\tiny 子任务划分}
+		\item 故事讲述和情节分析~{\tiny 应用场景重现}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 使用行为分析}}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 理解系统中每个参与者及其所需完成的任务，即
+		\begin{itemize}
+			\item 分析系统所涉及的问题领域和系统运行的主要任务
+			\item 分析使用该系统主要功能部分的是哪些人，谁将需要该系统的支持以完成其工作。
+		\end{itemize}
+		\pause
+		\item 一般使用用例图描述\\{\tiny 从参与者的角度出发来描述一个系统的功能，主要目的是帮助开发团队以一种可视化的方式理解系统的功能需求。}
+		\pause
+		\item 图书馆管理系统用户主要包括
+		\begin{itemize}
+			\item 读者（借阅者）
+			\item 图书管理员
+			\item 图书馆管理系统的系统管理员
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 读者请求服务用例}}
+	\includegraphics[width=\textwidth]{images/lib-reader-use-case.pdf} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 图书管理员处理借、还书用例}}
+	\includegraphics[width=\textwidth]{images/lib-manager-use-case.pdf} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 系统管理员维护系统用例}}
+	\includegraphics[width=\textwidth]{images/lib-admin-use-case.pdf} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 顺序分析}}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 每个使用行为都是由若干步骤组成的，这些步骤可以使用顺序图进行描述。
+		\begin{itemize}[<+->]
+			\item 顺序图描述了完成一个任务的典型步骤；
+			\item 可以按照交互任务发生的时间顺序，把用例表达的需求转化为进一步、更加正式层次的精细表达；
+			\item 用例常常被细化为一个或更多的顺序图。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 读者借书时序图}}
+	\includegraphics[width=\textwidth]{images/lib-reader-borrow-sequence.pdf} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 协作关系分析}}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 协作图
+		\begin{itemize}
+			\item 着重显示某个用户行为中各个系统元素之间的关系，不再重点强调各个步骤的时间顺序。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 协作关系分析图}}
+	\includegraphics[width=\textwidth]{images/lib-user-relationship.pdf} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 工序约束陈述}}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 用户完成任务的步骤又被称为工序
+		\begin{itemize}
+			\item 某些工序之间的顺序有逻辑关系
+			\item 工序约束陈述是工序分析的最直接的方法
+		\end{itemize}
+		\item 图书管理系统通常存在如下工序约束：
+		\begin{itemize}
+			\item 系统管理员必须先增加借阅者信息，读者才能登陆。
+			\item 系统管理员必须先增加书籍信息，读者才能查阅。
+			\item 读者借阅信息生成后，图书管理员图书管理员才能去书库取书。
+			\item 读者必须先在系统中办理借阅，才能取书。
+			\item 读者必须先借书才能还书。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 用户任务一览表}}
+	\begin{itemize}
+		\item 所有任务分析完毕后即可用一览表的形式描述系统中的所有用户及其可能需要完成的所有任务
+		\begin{itemize}
+			\item 一目了然的展示所有用户的交互任务信息，并且便于更改和调整。
+		\end{itemize}
+	\end{itemize}
+	\begin{center}
+	\begin{tiny}
+	\begin{tabular}{|l|c|c|c|}
+	\hline 
+	任务 & 读者 & 图书馆管理员 & 系统管理员 \\ 
+	\hline 
+	书籍信息查询、读者信息查询 & √ & √ & • \\ 
+	\hline 
+	借书 & √ & √ & • \\ 
+	\hline 
+	还书 & √ & √ & • \\ 
+	\hline 
+	书籍预定 & √ & √ & • \\ 
+	\hline 
+	增加、删除或更新书目 & • & • & √ \\ 
+	\hline 
+	增加、删除书籍 & • & • & √ \\ 
+	\hline 
+	增加、删除或更新读者帐户信息 & • & • & √ \\ 
+	\hline 
+	\end{tabular} 
+	\end{tiny}
+	\end{center}
+\end{frame}
+ 
+\begin{frame}
+	\frametitle{例~{\small 协作关系分析图}}
+	\includegraphics[width=\textwidth]{images/lib-user-relationship.pdf}
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 任务金字塔}}
+	\begin{itemize}
+		\item 描述不同层次任务之间的关系
+		\begin{itemize}
+			\item 任何一个任务都可能包括若干子任务，从而构成金字塔状的结构。
+			\item 本例中，读者查询图书：
+		\end{itemize}
+	\end{itemize}
+	\begin{center}
+	\includegraphics[width=.8\textwidth]{images/lib-reader-query.pdf}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{故事讲述和情节分析}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 描述实际的任务场景
+		\begin{itemize}
+			\item 直观说明任务，便于与用户交流
+			\item 帮助分析设计者和真正用户之间对任务的不同理解
+		\end{itemize}
+		\pause
+		\item 故事讲述 story telling 可真实或虚构
+		\begin{itemize}
+			\item 可为对理想场景或极端情况
+			\item 关键在于充分的代表性，可典型的反映交互任务。
+		\end{itemize}
+		\pause
+		\item 情节分析 scenario analysis 是对故事所反映的交互任务的理性分析
+		\begin{itemize}
+			\item 分离出故事中所描述的角色、目标、环境、步骤、策略、感情等诸方面的因素。
+		\end{itemize}
+		\pause
+		\item 作为任务分析的基础，系统设计的依据，系统评估的工具。 % 测试案例
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{例~{\small 图书馆典型交互}}
+	\begin{itemize}
+		\item 故事：学生借书过程中与图书馆系统交互
+		\begin{itemize}
+			\item 角色：刘凡，图书馆读者；图书管理员。
+			\item 目标：完成书籍的借阅或预定。
+			\item 环境：图书馆借阅大厅，有查询电脑可供查询使用；借书处，取到借阅的书籍。
+			\item 步骤：查询书籍，浏览图书信息，确定要借阅的书籍；然后在系统中办理借阅，并等待从借书处取书。
+			\item 策略：如果图书在馆，则借阅；否则，可以预定图书。
+			\item 情感：交互系统的交互过程简洁、顺畅，信息提示充分、清晰，用户对完成任务的过程感到满意。
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%\subsection{以用户为中心的界面设计}
+%\begin{frame}
+%	\frametitle{以用户为中心的界面设计}
+%
+%\end{frame}
 
 \section{小结}
 \begin{frame}
