@@ -189,11 +189,11 @@
 	\frametitle{人机交互界面表示模型~{\small GOMS}}
 	\beamertemplatetransparentcovereddynamicmedium
 	\begin{itemize}[<+->]
-		\item 是一种人机交互界面表示的理论模型，被称为最成熟的工程典范，该模型在计算机系统的评估方面也有广泛的应用。
-		\item 没有清楚的描述错误处理的过程，假设用户完全按一种正确的方式进行人机交互，因此只针对那些不犯任何错误的专家用户。
-		\item GOMS对于任务之间的关系描述过于简单，只有顺序和选择，事实上任务之间的关系还有很多种。
+		\item 是一种人机交互界面表示的理论模型，被称为最成熟的工程典范~{\tiny 该模型在计算机系统的评估方面也有广泛的应用。}
+		\item 没有清楚的描述错误处理的过程，{\tiny 假设用户完全按一种正确的方式进行人机交互，因此只针对那些不犯任何错误的专家用户。}
+		\item GOMS对于任务之间的关系描述过于简单，{\tiny 只有顺序和选择，事实上任务之间的关系还有很多种。}
 		\item 选择关系通过非形式化的附加规则描述，实现起来比较困难。
-		\item 把所有的任务都看作是面向操作目标的，而忽略了一些任务所要解决的问题本质以及用户间的个体差异，它的建立不是基于现有的认知心理学，无法代表真正的认知过程。
+		\item 把所有的任务都看作是面向操作目标的，而忽略了一些任务所要解决的问题本质以及用户间的个体差异，{\tiny 它的建立不是基于现有的认知心理学，无法代表真正的认知过程。}
 	\end{itemize}
 \end{frame}
 
@@ -220,12 +220,77 @@
 \end{frame}
 
 \begin{frame}
+	\frametitle{人机交互界面表示模型~{\small LOTOS}}
+	\begin{itemize}
+		\item LOTOS算符
+	\end{itemize}
+	\begin{center}
+	\begin{tabular}{|c|c|}
+	\hline $ T1 \mid\mid\mid T2 $ & 交替 Interleaving \\ 
+	\hline $ T1 [] T2 $ & 选择 Choice \\ 
+	\hline $ T1 \mid [a_1,\dots,a_n] \mid T2 $ & 同步 Synchronization \\ 
+	\hline $ T1 [> T2 $ & 禁止 Deactivation \\ 
+	\hline $ T1 \gg T2 $ & 允许 Enabling \\ 
+	\hline 
+	\end{tabular} 
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{人机交互界面表示模型~{\small LOTOS}}
+	\begin{itemize}
+		\item 例：中国象棋
+	\end{itemize}
+	\begin{center}
+	\includegraphics[width=0.5\textwidth]{images/chinese-chess.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{人机交互界面表示模型~{\small LOTOS}}
+	\begin{center}
+	\includegraphics[width=0.7\textwidth]{images/chinese-chess-lotos.png}\\
+	{\tiny 中国象棋的LOTOS任务分解实例}
+	\end{center}
+\end{frame}
+
+\begin{frame}
 	\frametitle{LOTOS与GOMS的结合}
 	\beamertemplatetransparentcovereddynamicmedium
 	\begin{itemize}[<+->]
 		\item LOTOS模型很好的描述了任务之间的时序约束关系，这些时序约束关系能更好的描述GOMS中子目标之间的关系。
 		\item 用GOMS模型描述任务的分解过程，而用LOTOS给出子任务之间的约束关系，这样就可以增加两种表示模型的表示能力。 
 	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{LOTOS与GOMS的结合}
+	\begin{columns}
+	\column{.5\textwidth}
+	GOAL:中国象棋\\
+	~~[>:\\
+	~~GOAL:运行\\
+	~~~~|||:\\
+	~~~~*GOAL:走棋\\
+	~~~~~~ACTION:自动记录棋谱\\
+	~~~~~~~>>:\\
+	~~~~~~GOAL:当前方走\\
+	~~~~~~~>>:\\
+	~~~~~~~OPRATOR:拾取棋子\\
+	~~~~~~~OPRATOR:放置棋子\\
+	~~~~~~GOAL:对弈方走\\
+	\column{.5\textwidth}
+	~~~~~~~>>\\
+	~~~~~~~OPRATOR:拾取棋子\\
+	~~~~~~~OPRATOR:放置棋子\\
+	~~~~*GOAL:打谱\\
+	~~~~~~~[]:\\
+	~~~~~~~OPRATOR:加速\\
+	~~~~~~~OPRATOR:减速\\
+	~~~~~~~OPRATOR:暂停\\
+	~~~~~~~OPRATOR:恢复\\
+	~~GOAL:退出\\
+	\end{columns}
 \end{frame}
 
 \begin{frame}
@@ -246,14 +311,24 @@
 		\item User Action Notation~\cite{hartson1990uan}
 		\item UAN是一种简单的符号语言，主要描述用户的行为序列以及在执行任务时所用的界面物理对象。 
 		\item 尽管UAN属于一种行为模型，但作为一种任务描述语言，它又涉及一定程度的系统行为的描述，因而它兼有行为模型和结构模型的一些特点。
+		\item \dots
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{人机交互界面表示模型~{\small 结构模型}}
 	\begin{itemize}
-		\item 产生式规则
-		\item 状态转换网络
+		\item 产生式规则 Production Rule
+		\begin{itemize}
+			\item 上下文无关文法，将人机交互对话看作是一种语言，运用基于语法的方法来描述交互对话。
+			\item 产生式集合定义了用户与计算机交互所运用的语言。
+		\end{itemize}
+		\item 状态转换网络 State Transition Network
+		\begin{itemize}
+			\item 定义一个具有一定数量状态的转换机，称之为有限状态机-Finite State Machine(FSM)。
+			\item FSM从外部世界中接收到事件，并能使FSM从一个状态转换到另一个状态。
+			\item 两种最基本的状态转换网络，状态转换网络（State Diagrams）和扩展状态转换网络(State Charts)，后者是前者的一个扩展。
+		\end{itemize}
 	\end{itemize}
 \end{frame}
 
@@ -264,8 +339,6 @@
 		\item 转换算法
 	\end{itemize}
 \end{frame}
-
-
 
 \begin{frame}
 	\frametitle{人机交互界面表示模型~{\small 表现模型}}
