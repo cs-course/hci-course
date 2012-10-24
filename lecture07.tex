@@ -76,7 +76,7 @@
 	\frametitle{第七讲 Web界面设计}
 	\begin{itemize}
 		\item 熟悉Web设计的原则及Web界面设计包含的元素。
-		\item 掌握Web界面设计语言和技术，并灵活应用。
+		\item 掌握主要Web界面设计语言和技术，并灵活应用。
 		% adjust to html5, introduce the most recent and promising techonology
 	\end{itemize}
 \end{frame}
@@ -103,28 +103,13 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Web的发展趋势}
-	\beamertemplatetransparentcovereddynamicmedium
-	\begin{itemize}
-		\item Web的爆炸性发展
-		\begin{itemize}
-			\item 各种媒体
-			\item 各类交互
-			\item 广泛渗透 
-		\end{itemize}
-		\pause
-		\item W3C标准: XML
-		\pause
-		\item Web 2.0 \& 云
-		\pause
-		\item Web 3.0 \& Semantic Web
-	\end{itemize}
-\end{frame}
-
-\begin{frame}
 	\frametitle{超文本与超媒体}
 	\beamertemplatetransparentcovereddynamicmedium
+	\begin{center}
+	\includegraphics[width=.4\textwidth]{images/html-specs.png}
+	\end{center}
 	\begin{itemize}
+		\pause
 		\item 超文本 Hypertext
 		\begin{itemize}
 			\item 是一种使用于文本、图形或其他信息的组织形式，非线性的信息组织。
@@ -139,18 +124,64 @@
 	\end{itemize}
 \end{frame}
 
+% http://edward.oconnor.cx/2009/05/what-the-web-platform-is-not
+\fullPageImage{images/w3-stack.png}{
+	\pause
+	\begin{beamerboxesrounded}[shadow=true]{W3C的展望}
+	The Web stack envisioned by the W3C in 2004
+	\end{beamerboxesrounded}
+}
+
+% http://www.concinnity.dk/wp-content/uploads/2010/09/Nova-Spivack1.jpg
+\fullPageImage{images/nova-spivack1.jpg}{
+	\pause
+	\begin{beamerboxesrounded}[shadow=true]{华丽的现实}
+	各种媒体内容、技术、语言林立 \dots
+	\end{beamerboxesrounded}
+}
+
+\begin{frame}
+	\frametitle{Web的发展趋势}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item Web的爆炸性发展
+		\begin{itemize}
+			\item 各种媒体
+			\item 各类交互
+			\item 广泛渗透 
+		\end{itemize}
+		\pause
+		\item 信息交换 \& W3C标准: XML
+		\pause
+		\item 交互方式 \& Web 2.0 \& 云 \& 对桌面应用的挑战
+		\pause
+		\item 知识与理解 \& Web 3.0 \& Semantic Web
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Web的发展趋势}
+	\begin{itemize}
+		\item 展望语义网 Semantic Web
+	\end{itemize}
+	\begin{center}
+	\includegraphics[width=.8\textwidth]{images/semantic-web-stack.png}
+	\end{center}
+\end{frame}
+
 \begin{frame}
 	\frametitle{Web界面设计问题的提出}
 	\beamertemplatetransparentcovereddynamicmedium
-	\begin{itemize}[<+->]
-		\item Web界面设计与站点外观直接相关
+	\begin{itemize}
+		\item 问题表现:
 		\begin{itemize}
-			\item 站点的界面外观是否友好直接关系到是否能吸引人的关注。
+			\item 外在原因: 外观是否友好直观，富有吸引力。
+			\item 内在原因: 响应是否及时准确，具备扩张力。
 		\end{itemize}
 		\pause
-		\item 人性化的设计是Web界面设计的核心
+		\item 问题核心: 
 		\begin{itemize}
-			\item 如何根据人的心理、生理特征，运用技术手段，创造简单、友好的界面，是Web界面设计的重点。
+			\item 人性化的设计: 如何根据人的心理、生理特征，运用技术手段，创造简单、友好的界面。
 		\end{itemize}
 	\end{itemize}
 \end{frame}
@@ -158,6 +189,7 @@
 \subsection{Web界面设计原则}
 \begin{frame}
 	\frametitle{Web界面设计原则}
+	% http://www.w3.org/DesignIssues/
 	\beamertemplatetransparentcovereddynamicmedium
 	\begin{enumerate}[<+->]
 		\item 以用户为中心
@@ -173,39 +205,80 @@
 	\frametitle{Web界面设计原则~{\small 以用户为中心}}
 	\beamertemplatetransparentcovereddynamicmedium
 	\begin{itemize}[<+->]
-		\item .
+		\item 网站是给什么人用的？
+		\item 关于腾讯QQ与TM、开心网和人人网
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Web界面设计原则~{\small 一致性}}
 	\beamertemplatetransparentcovereddynamicmedium
-	\begin{itemize}[<+->]
-		\item .
+	\begin{itemize}
+		\item 内容一致:
+		\begin{itemize}
+			\item Web网站显示的信息、数据整齐规范 \dots
+		\end{itemize}
+		\pause
+		\item 形式一致:
+		\begin{itemize}
+			\item Web界面设计的版式、构图、布局、色彩以及它们所呈现出的风格特点
+		\end{itemize}
+		\pause
+		\item www.hust.edu.cn
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Web界面设计原则~{\small 简洁与明确}}
+	% http://en.wikipedia.org/wiki/KISS_principle
 	\beamertemplatetransparentcovereddynamicmedium
+	\begin{center}
+	\includegraphics[width=.5\textwidth]{images/featuritis-2.jpg}
+	\end{center}
+	\pause
 	\begin{itemize}[<+->]
-		\item .
+		\item "Keep it simple, stupid!"\\
+		{\tiny The acronym was coined by Kelly Johnson, lead engineer at the Lockheed Skunk Works (creators of the Lockheed U-2 and SR-71 Blackbird spy planes, among many others).}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Web界面设计原则~{\small 简洁与明确}}
+	% http://www.zhangping.name/2010/08/14/pm-keep-it-simple-stupid/
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item 关于 Windows 自身的挑战 \dots
+		\pause
+		\item 关于Web应用
+		\begin{itemize}
+			\item Google： \uncover<3->{搜索你想要的}
+			\item Facebook： \uncover<4->{和你的朋友保持联系}
+			\item Twitter： \uncover<5->{说说你在做什么}
+			\item FourSquare： \uncover<6->{报告你现在的位置}
+		\end{itemize}
+		\uncover<7->{\item GMail 与 Labs 以及追随者们 \dots}
+		% Gmail在对Lab上的处理可能是个很好的例子，与其面向所有用户推出新功能，Gmail把Lab作为新功能的可选项，这样当用户不喜欢Lab的时候，可以轻易地关掉它。
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Web界面设计原则~{\small 体现特色}}
 	\beamertemplatetransparentcovereddynamicmedium
-	\begin{itemize}[<+->]
-		\item .
+	\begin{itemize}
+		\item 清楚地了解Web网站背景、体现主题和服务对象的基本情况，选择合适的表现手法，展示关键信息和特色内容，并形成独特、鲜明的风格。
+		\pause
+		\item http://mole.61.com/
+		% 专为中国7－12岁儿童设计的安全健康益智的虚拟互动社区，每个儿童化身可爱的小鼹鼠摩尔，成为这个虚拟世界的主人，社区融合虚拟形象 ...
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Web界面设计原则~{\small 兼顾不同的浏览器}}
 	\beamertemplatetransparentcovereddynamicmedium
-	\begin{itemize}[<+->]
-		\item .
+	\begin{itemize}
+		\item 不同浏览器类别和版本在功能支持上有所区别
+		\pause
+		\item 关于IE6的“老大难”
 	\end{itemize}
 \end{frame}
 
@@ -213,9 +286,13 @@
 	\frametitle{Web界面设计原则~{\small 明确的导航设计}}
 	\beamertemplatetransparentcovereddynamicmedium
 	\begin{itemize}[<+->]
-		\item .
+		\item F布局
 	\end{itemize}
 \end{frame}
+
+% http://webdesign.tutsplus.com/articles/design-theory/understanding-the-f-layout-in-web-design/
+\fullPageImage{images/heatmap.jpg}{}
+\fullPageImage{images/f-wireframe.jpg}{}
 
 \subsection{Web界面要素设计}
 \begin{frame}
@@ -271,6 +348,9 @@
 \end{frame}
 
 \subsection{Web界面基本技术}
+% http://sixrevisions.com/web-technology/web-languages-decoded/
+\fullPageImage{images/abbreviation-overload.png}{}
+
 \begin{frame}
 	\frametitle{Web界面基本设计技术}
 	\beamertemplatetransparentcovereddynamicmedium
@@ -279,7 +359,6 @@
 		\item 富英特网应用 Rich Internet Application 
 		\item 客户端脚本语言 JavaScript 
 		\item 服务器端脚本语言 Dynamic Web Page
-		\item 服务器端 JavaScript
 	\end{itemize}
 \end{frame}
 
@@ -296,6 +375,8 @@
 	\beamertemplatetransparentcovereddynamicmedium
 	\begin{itemize}[<+->]
 		\item JavaApplet, Flash, Silverlight
+		\item 平台兼容、平台锁定？
+		\item HTML 5 canvas \dots
 	\end{itemize}
 \end{frame}
 
@@ -303,7 +384,8 @@
 	\frametitle{Web界面基本技术~{\small JavaScript}}
 	\beamertemplatetransparentcovereddynamicmedium
 	\begin{itemize}[<+->]
-		\item .
+		\item 客户端
+		\item 服务器端
 	\end{itemize}
 \end{frame}
 
@@ -324,9 +406,20 @@
 				\item WSGI
 			\end{itemize}
 		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Web界面基本技术~{\small Dynamic Web Page}}
+	% http://en.wikipedia.org/wiki/Dynamic_web_page
+	\begin{center}
+	\includegraphics[width=.8\textwidth]{images/2000px-Scheme_dynamic_page_en.svg.png}
+	\end{center}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
 		\item 动态页面语言
 		\begin{itemize}
-			\item ASP/ASPX, JSP, PHP, Perl, Python
+			\item ASP/ASPX, JSP, PHP, Perl, Python, Ruby \dots
 			\begin{itemize}
 				\item 与数据库交互以更新页面内容
 				\item 处理HTML表单与URL参数
@@ -347,7 +440,23 @@
 \subsection{Web界面新进展}
 \begin{frame}
 	\frametitle{Web界面新进展——HTML5}
-	HTML5~\cite{hickson2007html}
+	% http://www.w3school.com.cn/html5/html_5_intro.asp
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}
+		\item HTML5 是 W3C 与 WHATWG 合作的结果。~\cite{hickson2007html}
+		\item WHATWG 致力于 web 表单和应用程序，而 W3C 专注于 XHTML 2.0。
+		\item 在 2006 年，双方决定进行合作，来创建一个新版本的 HTML。
+		\pause
+		\item 为 HTML5 建立的一些规则：
+		\begin{itemize}
+			\item 新特性应该基于 HTML、CSS、DOM 以及 JavaScript。
+			\item 减少对外部插件的需求（比如 Flash）
+			\item 更优秀的错误处理
+			\item 更多取代脚本的标记
+			\item HTML5 应该独立于设备
+			\item 开发进程应对公众透明
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -356,7 +465,14 @@
 	\begin{columns}
 	\column{.5\textwidth}
 	\begin{itemize}[<+->]
-		\item .
+		\item HTML5 中的一些有趣的新特性：
+		\begin{itemize}
+			\item 用于绘画的 canvas 元素
+			\item 用于媒介回放的 video 和 audio 元素
+			\item 对本地离线存储的更好的支持
+			\item 新的特殊内容元素，比如 article、footer、header、nav、section
+			\item 新的表单控件，比如 calendar、date、time、email、url、search
+		\end{itemize}
 	\end{itemize}
 	\column{.5\textwidth}
 	\includegraphics[width=0.9\textwidth]{images/html-5.png}
