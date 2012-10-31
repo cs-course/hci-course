@@ -367,11 +367,246 @@
 	\end{itemize}
 \end{frame}
 
+\begin{frame}[plain]
+	\begin{center}
+	一般的Web界面人机交互\\
+	\includegraphics[width=\textwidth]{images/web-browser-and-server-interaction.png}
+	\end{center}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{背后是这样的}
+	\begin{center}
+	% http://www.grahambrooks.com/blog/post-redirect-get-web-interaction-pattern/
+	\includegraphics[width=.6\textwidth]{images/Basic-Post-Redirect-Get.png}
+	\end{center}
+	\pause
+	表单交互\\
+	\begin{tiny}
+	\begin{verbatim}
+	<form method="POST">
+	  <input name="somefield" type="text" />
+	  <input name="submit" type="submit" />
+	</form>
+	\end{verbatim}
+	\end{tiny}
+\end{frame}
+
+\begin{frame}[plain]
+	\begin{center}
+	从世界上第一个Web服务器开始就已经是这样\\
+	% http://www.wired.com/geekdad/2011/08/world-wide-web-20-years/
+	\includegraphics[width=\textwidth]{images/the-first-web-site-in-the-world.jpeg}
+	\end{center}
+\end{frame}
+
+\begin{frame}[plain]
+	\begin{center}
+	内容越来越丰富\\
+	% http://www.grahambrooks.com/blog/post-redirect-get-web-interaction-pattern/
+	\includegraphics[width=\textwidth]{images/Post-Redirect-Get-and-model-view-presenter-command2.png}
+	\end{center}
+\end{frame}
+
+% 复杂一些的内容需要服务器端应用来提供 —— CGI
+\begin{frame}[fragile]
+	\frametitle{若内容在Web之外？需要 Common Gateway Interface}
+	\begin{center}
+	% http://docstore.mik.ua/orelly/perl3/perlnut/ch09_01.htm
+	\includegraphics[width=.5\textwidth]{images/typical-cgi-interaction.jpg}
+	\end{center}
+	\begin{tiny}
+	\begin{verbatim}
+	<html>
+	  <head>
+	    <title>Guestbook</title>
+	  </head>
+	  <body>
+	    <h1>Fill in my guestbook!</h1>
+	    <form method="GET" action="/cgi-bin/guestbook.pl">
+	      <pre>First name: 
+	      <input type="TEXT" name="firstname">Last name: 
+	      <input type="TEXT" name="lastname">
+	        <input type="SUBMIT">
+	          <input type="RESET"></input>
+	        </input>
+	      </input></input></pre>
+	    </form>
+	  </body>
+	</html>
+	\end{verbatim}
+	\end{tiny}
+\end{frame}
+
+\begin{frame}
+	\frametitle{表单 Form 与 Perl CGI}
+	\begin{center}
+	% http://oreilly.com/openbook/cgi/ch02_03.html
+	\includegraphics[width=.7\textwidth]{images/cgi-detail.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{表单 Form 与 Perl CGI}
+	% http://oreilly.com/openbook/cgi/ch02_03.html
+	\begin{small}
+	\begin{verbatim}
+	#!/usr/local/bin/perl
+	print "Content-type: text/plain", "\n\n";
+	$query_string = $ENV{'QUERY_STRING'};
+	if ($query_string eq "fortune") {
+		print `/usr/local/bin/fortune`;
+	} elsif ($query_string eq "finger") {
+		print `/usr/ucb/finger`;
+	} else {
+		print `/usr/local/bin/date`;
+	}
+	exit (0);
+	\end{verbatim}
+	\end{small}
+\end{frame}
+
+% 不仅仅是内容变化，连表现形式也要一起更新 —— 动态页面PHP/JSP/ASP
+\begin{frame}[fragile]
+	\frametitle{动态页面~{\small Perl \dots}}
+	如果用 Perl 动态生成 HTML 页面来响应 Web 请求 \dots \\
+	\begin{center}
+	% http://support.novell.com/techcenter/articles/nc1997_06b.html
+	\includegraphics[width=.7\textwidth]{images/nc1997_0606.jpg}
+	\end{center}
+	\begin{tiny}
+	\begin{columns}
+		\column{.5\textwidth}
+		\begin{verbatim}
+		<HTML>
+		  <HEAD>
+		    <TITLE>A Perl Script</TITLE>
+		  </HEAD>
+		  <BODY>Hello, Web clients!</BODY>
+		</HTML>
+		\end{verbatim}
+		\column{.5\textwidth}
+		\begin{verbatim}
+		require("cgilib.pl"); 
+		print &PrintHeader;
+		print "<HTML>\n"; 
+		print "<HEAD><TITLE>A Perl Script</TITLE></HEAD>\n";
+		print "<BODY>\n";
+		print "Hello, Web clients!\n"; 
+		print "</BODY></HTML>\n";	
+		\end{verbatim}
+	\end{columns}
+	\end{tiny}
+\end{frame}
+
+\begin{frame}
+	\frametitle{动态页面~{\smal 服务器端 PHP/JSP/ASP \dots}}
+	Perl 后继者 \dots \\
+	\begin{center}
+	% http://support.novell.com/techcenter/articles/nc1997_06b.html
+	\includegraphics[width=\textwidth]{images/2000px-Scheme_dynamic_page_en.svg.png}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{富英特网应用RIA~{\small Java Applet, Flash}}
+	最初单纯是浏览文档、提交表单，麻烦的交互界面浏览器难以实现，于是 \dots Java Applet, Flash\\
+	\begin{center}
+	% http://www.wut.de/e-5763w-1f-apus-000.php
+	\includegraphics[width=\textwidth]{images/java-applet.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{富英特网应用RIA}
+	\beamertemplatetransparentcovereddynamicmedium
+	\begin{itemize}[<+->]
+		\item 然而 \dots
+		\item 串行执行，效率低下
+		\item 如何同步改异步？
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{动态页面~{\small 浏览器端 ECMAScript \dots}}
+	于是 \\
+	\begin{center}
+	% http://www.x-smiles.org/demo/timesheets/slideshow/xforms_2006_02.xhtml
+	\includegraphics[width=\textwidth]{images/interaction-ajax.png}
+	\end{center}
+\end{frame}
+
+\begin{frame}[plain]
+	接下来 \\
+	\begin{center}
+	\includegraphics[width=.9\textwidth]{images/webpage-search-engine-user-interaction.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}[plain]
+	那么 Asynchronous JavaScript and XML\\
+	\begin{center}
+	\includegraphics[width=.6\textwidth]{images/ajax-javascript-scripts-10.jpg}\\
+	\includegraphics[width=.6\textwidth]{images/autocomplete-sequence.jpg}\\
+	\end{center}
+\end{frame}
+
+\fullPageImage{images/interaction-overview-example-online-shopping.jpg}{}
+\fullPageImage{images/interaction-overview-example-ajax-comments.jpg}{}
+
+% 更大规模、更复杂交互
+
+\begin{frame}[plain]
+	\begin{center}
+	% http://www.javalobby.org/articles/ajax/
+	\includegraphics[width=\textwidth]{images/ajax-fig1-small.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}[plain]
+	\begin{center}
+	% http://www.javalobby.org/articles/ajax/
+	\includegraphics[width=\textwidth]{images/ajax-fig2-small.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}[plain]
+	简单归纳一下:\\
+	\begin{center}
+	\includegraphics[width=.7\textwidth]{images/ajax-sequence-simplified.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}[plain]
+	现实！\\
+	\begin{center}
+	\includegraphics[width=\textwidth]{images/web-communication.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}[plain]
+	\begin{center}
+	\includegraphics[width=\textwidth]{images/real-web-interaction.png}
+	\end{center}
+\end{frame}
+
+%\begin{frame}[plain]
+%	\begin{center}
+%	\includegraphics[width=\textwidth]{images/interaction-dhtml.png}
+%	\end{center}
+%\end{frame}
+%
+%\begin{frame}[plain]
+%	\begin{center}
+%	\includegraphics[width=\textwidth]{images/interaction-html.png}
+%	\end{center}
+%\end{frame}
+
 \begin{frame}
 	\frametitle{Web界面基本技术~{\small HTML}}
 	\beamertemplatetransparentcovereddynamicmedium
 	\begin{itemize}[<+->]
-		\item .
+		\item 一切之基础
 	\end{itemize}
 \end{frame}
 

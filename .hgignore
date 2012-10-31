@@ -11,3 +11,4 @@ syntax: glob
 *.toc
 *.bbl
 *.blg
+*.vrb
